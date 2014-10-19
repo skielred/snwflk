@@ -134,6 +134,9 @@ body > div.js-modals-container > div > div > div > div > div > div.prf-actions >
 .txt-r-white {color: #55acee;}
 
 .compose-media-bar-holder {background-color: #404040;}
+
+body > div.js-app.application.is-condensed.hide-detail-view-inline > div.js-app-content.app-content > div > div > div > div > div.js-account-list.margin-bm.compose-accounts.cf.is-list > a.js-account-item.compose-account.margin-bl.is-actionable.is-selected.cf > div.pull-left.compose-account-names {color: #55acee;}
+body > div.js-app.application.is-condensed.hide-detail-view-inline > div.js-app-content.app-content > div > div > div > div > div.js-account-list.margin-bm.compose-accounts.cf.is-list > a > div.pull-left.compose-account-names {color: #55acee;}
   
 /* Legacy code */
 
@@ -769,7 +772,26 @@ body > div.js-app.application.is-condensed > header > div > nav > div {backgroun
 .non-selectable-item {color: #ccc;}
 .dropdown-menu [data-action] {color: #ccc;}
 .drp-h-divider {background-color: #ccc;}
+body > div.js-modals-container > div > div > div > div > div > div.prf-actions > div.prf-meta.cf > div > div > div > span > div {background-color: #404040; border-color: #404040;}
 
 /* Keyboard shortcut fix */
 .keyboard-shortcut-list-modal .mdl-content {background-color: #404040;}
 #open-modal > div > div > div {color: #aaa;}
+
+/* Profile tweaks */
+.prf-actions {background-color: #404040 !important;}
+.prf-meta.cf {background-color: #404040 !important;}
+.prf .lst-profile span {color: #ccc;}
+body > div.js-modals-container > div > div > div > div > div > div.prf-actions > div.js-social-proof.social-proof-container.txt-base-small.cf.padding-al {background-color: #404040 !important;}
+.is-inverted-dark .btn-alt {background-color: #404040 !important;}
+body > div.js-modals-container > div > div > div > div > div > div.prf-actions > div.js-social-proof.social-proof-container.txt-base-small.cf.padding-al > p.pull-left {color: #ccc;}
+body > div.js-modals-container > div > div > div > div > div > div.prf-actions > div.js-social-proof.social-proof-container.txt-base-small.cf.padding-al > p.social-proof-names.pull-right {color: #ccc;}
+body > div.js-modals-container > div > div > div > div > div > div.prf-actions > div.prf-meta.cf > ul  {color: #ccc;}
+body > div.js-modals-container > div > div > div > div > div > div.prf-actions > div.prf-meta.cf > ul > li > a > strong  {color: #ccc;}
+body > div.js-modals-container > div > div > div > div > div > div.prf-actions > div.prf-meta.cf > ul:hover {color: #55acee}
+body > div.js-modals-container > div > div > div > div > div > div.prf-actions > div.prf-meta.cf > div > div > div > span > button > i {color: #55acee;}
+body > div.js-modals-container > div > div > div > div > div > div.prf-actions > div.js-profile-columns > ul > li > a {border-color: #404040;}
+body > div.js-modals-container > div > div > div > div > div > div.prf-actions > div.prf-meta.cf > div > div > button > div.label.js-action-profile.action-text.thats-you-text {color: #55acee !important;}
+
+/* Selecting tweaks */
+::selection {background-color: #55acee; color: #fff;}
