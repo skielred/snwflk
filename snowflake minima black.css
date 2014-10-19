@@ -644,3 +644,9 @@ body > div.js-modals-container > div > div > div > div > div > div.prf-actions >
 .column-options {
 	top: 10px;
 }
+
+/* Selected tweet replybox color fix */
+.detail-view-inline-text {
+    background-color: #404040;
+    color: #ccc;
+  }
