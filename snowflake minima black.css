@@ -15,6 +15,10 @@ The creators of the themes used are Diamant (@diamantlefou), Berter (@BerterTheB
 	border-radius: 0px;
 }
 
+/* Fix TN color in Accounts */
+div.account-summary-text.nbfc.padding-tm.account-link {
+  color: #ccc;
+}
 
 /* Applying font */
 body {
