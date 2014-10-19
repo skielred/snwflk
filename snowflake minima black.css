@@ -110,8 +110,10 @@ body > div.js-modals-container > div > div > div > div > div > div.prf-actions >
   margin-top: 5px;
   border-color: #404040 !important;
   background-color: #404040 !important;}
+}
 
 .padding-al {padding: 5px !important;}
+}
 
 .compose-reply-tweet {
   margin-left: 0px !important;
@@ -767,3 +769,7 @@ body > div.js-app.application.is-condensed > header > div > nav > div {backgroun
 .non-selectable-item {color: #ccc;}
 .dropdown-menu [data-action] {color: #ccc;}
 .drp-h-divider {background-color: #ccc;}
+
+/* Keyboard shortcut fix */
+.keyboard-shortcut-list-modal .mdl-content {background-color: #404040;}
+#open-modal > div > div > div {color: #aaa;}
