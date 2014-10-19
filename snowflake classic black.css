@@ -351,7 +351,6 @@
   }
     .lst-group .selected .fullname { color:white } .lst-group .selected .username { color:white }
      .column-nav-flyout .column-nav-item {background-color:#404040} .column-nav-flyout .column-nav-item span {color:white}
-	.column-options {display:none}
 	.btn span, .mdl-header-title, .mdl-inner .column-head-title {color:white}
 	.compose-reply-tweet .fullname {color:#55acee} 
     .compose-reply-tweet .icon-close:before {color:white}
@@ -360,4 +359,5 @@
     .is-favorite .account-inline .fullname {color:#ffe100}
     .is-retweet.is-favorite .account-inline .fullname{color:#55acee} .is-retweet .account-inline .fullname {color:#71b332}
     #actions-modal .item-box .tweet-text {color:grey}
+    .column-options form {background-color:#404040}
 }
