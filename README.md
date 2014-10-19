@@ -27,6 +27,7 @@ Known issues on Snowflake Minima Black (SMB):
 - ~~The retweet window is also hard to read, like on this [screenshot](http://i.imgur.com/srcyrHj.png).~~
 - ~~The column options are unavailable.~~ Finally fixed!
 - "Fix" the Tweet button that does not appear when there is nothing to tweet, and looks rather [ugly](http://i.imgur.com/4Iz1n7S.png) in the theme.
+- Fix [this](http://i.imgur.com/6LAN0jy.png). It's fucking ugly, and I don't even know where to begin with *what exactly* is wrong, because **everything** is wrong.
 
 To-do list
 -------------
