@@ -31,3 +31,4 @@ To-do list
 - Commit a theme-wise version of Snowflake Classic Black
 - Commit a theme-wise version of Snowflake Classic White
 - Write and commit Snowflake Minima White
+- Change the scrollbar to make it less invasive.
