@@ -32,3 +32,15 @@ To-do list
 - Commit a theme-wise version of Snowflake Classic White
 - Write and commit Snowflake Minima White
 - Change the scrollbar to make it less invasive.
+- "Fix" the Tweet button that does not appear when there is nothing to tweet, and looks rather [ugly](http://i.imgur.com/4Iz1n7S.png) in the theme.
+- MOAR FLATTENING
+- #BringBackOurColumnOptions
+- Remove the [padding](http://i.imgur.com/nKjHJ8A.png) between the compose box text and the "Tweet" text.
+
+Credits
+-------------
+
+Berter (@BerterTheBoss); created Snowflake Classic White.
+Diamant (@diamantlefou); created Snowflake Classic Black.
+Scimitar (@AlmtyCwrd); created Snowflake Minima Black.
+Special thanks to pixeldesu (@pixeldesu / http://pixelde.su/) for Modern TweetDeck, which features were the main additions of Snowflake Minima.
