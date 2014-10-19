@@ -17,9 +17,17 @@ Installation
 Known issues
 -------------
 We're working on these issues, and doing what we can to fix these.
-Known issues on Snowflake Minima Dark (SMD):
+Known issues on Snowflake Minima Black (SMB):
 
 
 - ~~The "Follow" button has a white font, which makes it harder to read, such as on this [screenshot](http://i.imgur.com/IZfNAt9.png).~~
 - ~~The retweet window is also hard to read, like on this [screenshot](http://i.imgur.com/srcyrHj.png).~~
 - The column options are unavailable.
+
+To-do list
+-------------
+
+- Fix issues (nuff said)
+- Commit a theme-wise version of Snowflake Classic Black
+- Commit a theme-wise version of Snowflake Classic White
+- Write and commit Snowflake Minima White
