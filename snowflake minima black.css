@@ -15,11 +15,12 @@ The creators of the themes used are Diamant (@diamantlefou), Berter (@BerterTheB
 	border-radius: 0px;
 }
 
-/* Fix TN color in Accounts */
+/* Fix colors in Accounts */
 div.account-summary-text.nbfc.padding-tm.account-link {
   color: #ccc;
 }
-
+.is-inverted-dark .accordion .is-active { color: #ccc;}
+  
 /* Applying font */
 body {
    	font-family: 'Open Sans', sans-serif;
@@ -100,22 +101,20 @@ body > div.js-modals-container > div > div > div > div > div > div.prf-actions >
 {
   background-color: #404040;
   color: #ccc;
+  border-color: #404040;
 }
 .compose-text-container
 {
   margin-right: 0px !important;
   margin-left: 0px !important;
   margin-top: 5px;
+  border-color: #404040 !important;
+  background-color: #404040 !important;}
 }
-.padding-al
-{
-  padding: 0px !important;
+
+.padding-al {padding: 5px !important;}
 }
-.position-rel.compose-text-container
-{
-  border: 1px solid #404040;
-  background-color: #404040;
-}
+
 .compose-reply-tweet {
   margin-left: 0px !important;
   margin-right: 0px !important;
@@ -132,7 +131,11 @@ body > div.js-modals-container > div > div > div > div > div > div.prf-actions >
   color: #55acee !important;
     }
 
-/* Main code */
+.txt-r-white {color: #55acee;}
+
+.compose-media-bar-holder {background-color: #404040;}
+  
+/* Legacy code */
 
 .application, .app-content, .app-columns-container
 	  {
@@ -477,13 +480,14 @@ body > div.js-modals-container > div > div > div > div > div > div.prf-actions >
    background-image: url('http://i.imgur.com/oTExYcd.png'); 
   }
     .lst-group .selected .fullname { color:white } .lst-group .selected .username { color:white }
+.lst-group .selected { border-radius: 0px }
      .column-nav-flyout .column-nav-item {background-color:#404040} .column-nav-flyout .column-nav-item span {color:white}
 	.btn span, .mdl-header-title, .mdl-inner .column-head-title {color:white}
 	.compose-reply-tweet .fullname {color:#55acee} 
     .compose-reply-tweet .icon-close:before {color:white}
     .list-account {text-shadow: none;}
      
-    #open-modal li:hover:not(.selected) .fullname {color:black} #open-modal li .list-account {border-radius:6px}
+    #open-modal li:hover:not(.selected) .fullname {color:black} #open-modal li .list-account {border-radius:0px}
    #open-modal li:hover.selected .list-account {background:grey} #open-modal li:hover.selected .fullname {color:#55acee}
 
 .btn span, .mdl-header-title, .mdl-inner .column-head-title {color:white}
@@ -677,3 +681,91 @@ body > div.js-modals-container > div > div > div > div > div > div.prf-actions >
     background-color: #404040;
     color: #ccc;
   }
+/* Profile tweets fix */
+.js-detail-content {
+    padding-bottom: 0px !important;
+  }
+.scroll-conversation {
+    background: #404040 !important;
+  }
+.js-tweet.tweet-detail {
+    color: #ccc;
+    }
+.tweet-detail-wrapper {
+    background-color: #404040 !important;
+    border-color: #404040 !important;
+      }
+.mdl-dismiss {
+    color: #ccc !important;
+            }
+.mdl {
+    border-radius: 0px;
+  }
+#open-modal > div > div > div > div:nth-child(1) > div.js-left-pinned.pin-top > form > div > input {
+  background-color: #404040 !important; color: #ccc; }
+
+/* Settings fix */
+.lst-group .js-setting-list { color: #ccc;}
+.mdl-col-settings { background-color: #404040;}
+.frm { color: #ccc; }
+.is-inverted-dark .list-link, .is-inverted-dark .list-twitter-list, .is-inverted-dark .list-subtitle, .is-inverted-dark .list-account, .is-inverted-dark .list-listmember {color: #ccc;}
+.list-link, .list-twitter-list, .list-subtitle, .list-account, .list-listmember, .list-account, .list-listaccount, .list-subtitle, .list-filter { color: #ccc; }
+.btn {border-color: #404040 !important;}
+
+/* Squared Avatars
+Note: this is disabled because I don't like it, but if it's your kind of stuff, you can use it. Just remove the comment beacons */
+
+/* .tweet-avatar {
+	border-radius: 0px !important;
+}
+
+.avatar {
+	border-radius: 0px !important;
+}
+
+.size24 {
+	border-radius: 0px !important;
+}
+
+.size72 {
+	border-radius: 0px !important;
+}
+
+.prf-img {
+	border-radius: 0px !important;
+} */
+
+/* Rounded Avatars */
+
+ .tweet-avatar {
+	border-radius: 100px;
+}
+
+.avatar {
+	border-radius: 100px;
+}
+
+.size24 {
+	border-radius: 100px;
+}
+
+.size72 {
+	border-radius: 100px;
+}
+
+.prf-img {
+	border-radius: 100px;
+}
+
+.padding-al {padding: 5px !important}
+
+/* Dropdown menus tweaks */
+body > div.js-app.application.is-condensed > header > div > div.js-search.js-overlay.app-search > div > div {background-color: #404040;}
+.list-item {color: #ccc;}
+body > div.js-app.application.is-condensed > header > div > div.js-search.js-overlay.app-search > div > div > div.js-popover-content.scroll-none > form > div > input {background-color: #404040; color: #ccc;}
+body > div.js-app.application.is-condensed > header > div > div.js-search.js-overlay.app-search > div > div > div.js-popover-content.scroll-none > div.js-typeahead-dropdown.scroll-v.scroll-styled-v > div {background-color: #404040;}
+.caret-inner {border-bottom: 6px solid #404040;}
+body > div.js-app.application.is-condensed > header > div > nav > div {background-color: #404040; border-color:#404040;}
+.non-selectable-item {color: #ccc;}
+.dropdown-menu [data-action] {color: #ccc;}
+.drp-h-divider {background-color: #ccc;}
