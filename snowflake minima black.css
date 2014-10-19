@@ -79,33 +79,60 @@ body > div.js-modals-container > div > div > div > div > div > div.prf-actions >
 		display: none;
   	  }
 
-/* Compose box colors */
+/* Compose box colors and padding */
 
+.js-compose-title {
+  margin-left: 0px !important;
+  }
+.padding-bm {
+  padding-right: 22px;
+      }
+.drawer .tweet-text {
+  color: #55acee !important;
+    }
+.compose-remember-state, .character-count-compose:disabled, .txt-r-text-link {
+      color: #55acee !important;
+        }
+.compose-text-title {
+        color: #55acee;
+          }
 .compose-text
 {
   background-color: #404040;
   color: #ccc;
 }
-
 .compose-text-container
 {
-  margin-right: 0px;
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+  margin-top: 5px;
+}
+.padding-al
+{
+  padding: 0px !important;
 }
 .position-rel.compose-text-container
 {
   border: 1px solid #404040;
   background-color: #404040;
 }
+.compose-reply-tweet {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  margin-top: 5px;
+  }
+.compose-media-bar {
+      border: 1px solid #404040;
+      }
+.compose-accounts {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        }
+.compose-reply-tweet .tweet-body a {
+  color: #55acee !important;
+    }
 
-.compose-text-container
-{
-  margin-right: 0px;
-}
-.position-rel.compose-text-container
-{
-  border: 1px solid #404040;
-  background-color: #404040;
-}
+/* Main code */
 
 .application, .app-content, .app-columns-container
 	  {
