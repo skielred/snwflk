@@ -1,3 +1,6 @@
+
+
+
 Snowflake
 =========
 Installation
@@ -27,6 +30,7 @@ Known issues on Snowflake Minima Black (SMB):
 To-do list
 -------------
 
+- Reorganize the code, make it more *easy to read* and **add comments for other developers**.
 - Fix issues (nuff said)
 - Commit a theme-wise version of Snowflake Classic Black
 - Commit a theme-wise version of Snowflake Classic White
@@ -40,7 +44,7 @@ To-do list
 Credits
 -------------
 
-Berter (@BerterTheBoss); created Snowflake Classic White.
-Diamant (@diamantlefou); created Snowflake Classic Black.
-Scimitar (@AlmtyCwrd); created Snowflake Minima Black.
-Special thanks to pixeldesu (@pixeldesu / http://pixelde.su/) for Modern TweetDeck, which features were the main additions of Snowflake Minima.
+[Berter](http://twitter.com/BerterTheBoss); created Snowflake Classic White.
+[Diamant](http://twitter.com/diamantlefou); created Snowflake Classic Black.
+[Scimitar](http://twitter.com/AlmtyCwrd); created Snowflake Minima Black.
+Special thanks to [pixeldesu](http://twitter.com/pixeldesu) (http://pixelde.su/) for Modern TweetDeck, which features were the main additions of Snowflake Minima.
