@@ -28,7 +28,8 @@ Known issues on Snowflake Minima Black (SMB):
 - ~~The column options are unavailable.~~ Finally fixed!
 - ~~"Fix" the Tweet button that does not appear when there is nothing to tweet, and looks rather [ugly](http://i.imgur.com/4Iz1n7S.png) in the theme.~~
 - Even if the Tweet button is fixed, there are weird issues with it.
-- Fix [this](http://i.imgur.com/6LAN0jy.png). It's fucking ugly, and I don't even know where to begin with *what exactly* is wrong, because **everything** is wrong.
+- ~~Fix [this](http://i.imgur.com/6LAN0jy.png). It's fucking ugly, and I don't even know where to begin with *what exactly* is wrong, because **everything** is wrong.~~ FIXED!
+- Believe it or not, I had flattened the "Follow" and "Edit profile" button by removing the border, but something fucked it up (I don't know what) so I'm going to look further into fixing it.
 
 To-do list
 -------------
@@ -38,10 +39,13 @@ To-do list
 - ~~Commit a theme-wise version of Snowflake Classic Black~~
 - Commit a theme-wise version of Snowflake Classic White
 - Write and commit Snowflake Minima White
-- Change the scrollbar to make it less invasive.
-- MOAR FLATTENING
-- #BringBackOurColumnOptions
-- Remove the [padding](http://i.imgur.com/nKjHJ8A.png) between the compose box text and the "Tweet" text.
+- ~~Change the scrollbar to make it less invasive.~~ Hard to do, and honestly, could be worse.
+- ~~MOAR FLATTENING~~ I don't see how I can flatten it more.
+- ~~#BringBackOurColumnOptions~~ Fixed.
+- ~~Remove the [padding](http://i.imgur.com/nKjHJ8A.png) between the compose box text and the "Tweet" text.~~ Had managed to do it, but I'll have to give up on it, as Twitter fucked up their code, and other stuff will be affected.
+- Darkening a little bit the theme to make it more eyes-friendly and improving contrast for readability maybe?
+- Maybe blackening the profile options as well, to make them fit into the theme like the Options and dropdown menus.
+- Flattening stuff such as the closing cross or the drag'n'drop thingy on the profiles/windows.
 
 Credits
 -------------
