@@ -1,5 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600&subset=latin,cyrillic-ext,greek-ext,greek,vietnamese,latin-ext,cyrillic);
 
+/* Snowflake Minima Dark for TweetDeck.
+Snowflake Minima is a TweetDeck CSS modification that's designed to look the most minimalistic possible.
+It is based upon Snowflake Classic Dark by Diamant and implements some features of pixeldesu's Modern TweetDeck modification.
+You must use it with TweetDeck Dark Theme, and it is better used with Eramdam's Better TweetDeck Chrome extension.
+However, if you are to use it with Better TweetDeck, you must firstly disable the "Minimal" mode as it will conflict with the theme and look not so good.
+The creators of the themes used are Diamant (@diamantlefou), Berter (@BerterTheBoss) and pixeldesu (@pixeldesu) and was recompiled in a more fitting theme by me, Scimitar (@AlmtyCwrd)
+*/
+
 /* Scrollbar Changes */
 
 .scroll-styled-v::-webkit-scrollbar-thumb, .scroll-styled-h::-webkit-scrollbar-thumb {
