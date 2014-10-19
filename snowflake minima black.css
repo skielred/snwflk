@@ -447,7 +447,6 @@ body > div.js-modals-container > div > div > div > div > div > div.prf-actions >
   }
     .lst-group .selected .fullname { color:white } .lst-group .selected .username { color:white }
      .column-nav-flyout .column-nav-item {background-color:#404040} .column-nav-flyout .column-nav-item span {color:white}
-	.column-options {display:none}
 	.btn span, .mdl-header-title, .mdl-inner .column-head-title {color:white}
 	.compose-reply-tweet .fullname {color:#55acee} 
     .compose-reply-tweet .icon-close:before {color:white}
