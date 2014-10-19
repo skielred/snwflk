@@ -79,7 +79,7 @@
 	  {
 		border-bottom: none;
 		z-index: 2;
-		background: linear-gradient( to bottom, #fff, rgba(255,255,255,0.9));
+		background: #404040;
 	  }
 	  .drawer-header:after 
 	  {
@@ -359,6 +359,4 @@
     .is-favorite .account-inline .fullname {color:#ffe100}
     .is-retweet.is-favorite .account-inline .fullname{color:#55acee} .is-retweet .account-inline .fullname {color:#71b332}
     #actions-modal .item-box .tweet-text {color:grey}
-    .column-options form {background-color:#404040}
-    .compose-content .pull-right .btn.is-disabled {display:none}
 }
