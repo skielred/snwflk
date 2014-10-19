@@ -35,7 +35,7 @@ To-do list
 
 - Reorganize the code, make it more *easy to read* and **add comments for other developers**.
 - Fix issues (nuff said)
-- Commit a theme-wise version of Snowflake Classic Black
+- ~~Commit a theme-wise version of Snowflake Classic Black~~
 - Commit a theme-wise version of Snowflake Classic White
 - Write and commit Snowflake Minima White
 - Change the scrollbar to make it less invasive.
