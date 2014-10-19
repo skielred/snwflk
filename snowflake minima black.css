@@ -10,10 +10,11 @@ The creators of the themes used are Diamant (@diamantlefou), Berter (@BerterTheB
 
 /* Scrollbar Changes */
 
-.scroll-styled-v::-webkit-scrollbar-thumb, .scroll-styled-h::-webkit-scrollbar-thumb {
+.scroll-styled-v::-webkit-scrollbar-thumb, .scroll-styled-h::-webkit-scrollbar-thumb
+{
 	border-radius: 0px;
-    background: ;
 }
+
 
 /* Applying font */
 body {
@@ -71,11 +72,26 @@ body {
 body > div.js-modals-container > div > div > div > div > div > div.prf-actions > div.prf-meta.cf > div > div > button > div.action-text.follow-text > span
 	  {
 		color: #55acee;
-  	  }
-body > div.js-modals-container > div > div > div > div > div > div.prf-actions > div.prf-meta.cf > div > div > button > div.action-text.follow-text > i
-	  {
 		display: none;
   	  }
+
+/* Compose box colors */
+
+.compose-text
+{
+  background-color: #404040;
+  color: #fff;
+}
+
+.compose-text-container
+{
+  margin-right: 0px;
+}
+.position-rel.compose-text-container
+{
+  border: 1px solid #404040;
+  background-color: #404040;
+}
 
 .application, .app-content, .app-columns-container
 	  {
