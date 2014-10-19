@@ -22,3 +22,4 @@ Known issues on Snowflake Minima Dark (SMD):
 
 - ~~The "Follow" button has a white font, which makes it harder to read, such as on this [screenshot](http://i.imgur.com/IZfNAt9.png).~~
 - ~~The retweet window is also hard to read, like on this [screenshot](http://i.imgur.com/srcyrHj.png).~~
+- The column options are unavailable.
