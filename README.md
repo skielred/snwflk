@@ -43,8 +43,8 @@ To-do list
 - ~~MOAR FLATTENING~~ I don't see how I can flatten it more.
 - ~~#BringBackOurColumnOptions~~ Fixed.
 - ~~Remove the [padding](http://i.imgur.com/nKjHJ8A.png) between the compose box text and the "Tweet" text.~~ Had managed to do it, but I'll have to give up on it, as Twitter fucked up their code, and other stuff will be affected.
-- Darkening a little bit the theme to make it more eyes-friendly and improving contrast for readability maybe?
-- Maybe blackening the profile options as well, to make them fit into the theme like the Options and dropdown menus.
+- Darkening a little bit the theme to make it more eyes-friendly and improving contrast for readability maybe? (SMB)
+- ~~Maybe blackening the profile options as well, to make them fit into the theme like the Options and dropdown menus.~~ (SMB) Done.
 - Flattening stuff such as the closing cross or the drag'n'drop thingy on the profiles/windows.
 
 Credits
