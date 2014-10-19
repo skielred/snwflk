@@ -500,7 +500,7 @@ body {
 	width: 94%;
 }
 
-/* New Favorite/Retweet/FavRT behaviours for dogears */
+/* Changing dogears behaviours for Fav/RT/FavRT; code by pixeldesu */
 
 .tweet-dogear {
 	display: block;
@@ -515,8 +515,8 @@ body {
 }
 
 .is-retweet.is-favorite .tweet-dogear {
-	border-right: 3px solid #48b4e6;
-	box-shadow: 0px 0px 0px #48b4e6;
+	border-right: 3px solid #ffffff;
+	box-shadow: 0px 0px 0px #ffffff;
 }
 
 .is-retweet .tweet-dogear {
@@ -524,7 +524,7 @@ body {
 	box-shadow: 0px 0px 0px #71b332;
 }
 
-/* New Favorite/Retweet/FavRT behaviours for links */
+/* Changing link colours for Fav/RT/FavRT; code by pixeldesu */
 
 .is-retweet .tweet-text a {
 	color: #71b332;    
@@ -535,5 +535,5 @@ body {
 }
     
 .is-retweet.is-favorite .tweet-text a {
-	color: #48b4e6;    
+	color: #ffffff;    
 }
