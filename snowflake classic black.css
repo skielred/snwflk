@@ -360,4 +360,5 @@
     .is-retweet.is-favorite .account-inline .fullname{color:#55acee} .is-retweet .account-inline .fullname {color:#71b332}
     #actions-modal .item-box .tweet-text {color:grey}
     .column-options form {background-color:#404040}
+    .compose-content .pull-right .btn.is-disabled {display:none}
 }
