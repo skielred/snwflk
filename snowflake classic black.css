@@ -359,4 +359,11 @@
     .is-favorite .account-inline .fullname {color:#ffe100}
     .is-retweet.is-favorite .account-inline .fullname{color:#55acee} .is-retweet .account-inline .fullname {color:#71b332}
     #actions-modal .item-box .tweet-text {color:grey}
+    .list-account {text-shadow: none}
+    #open-modal li:hover:not(.selected) .fullname {color:black}
+    #open-modal li .list-account {border-radius:6px}
+    #open-modal li:hover .list-account {background:#3b94d9}
+    #open-modal li:hover.selected .list-account {background:grey}
+    #open-modal li:hover.selected .fullname {color:#55acee}
+    #open-modal .mdl-inner .column-options {display:none}
 }
