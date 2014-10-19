@@ -47,4 +47,5 @@ Credits
 [Berter](http://twitter.com/BerterTheBoss); created Snowflake Classic White.
 [Diamant](http://twitter.com/diamantlefou); created Snowflake Classic Black.
 [Scimitar](http://twitter.com/AlmtyCwrd); created Snowflake Minima Black.
+[Calv](http://twitter.com/calvcoll) who gave us useful advice and fixed a lot of issues.
 Special thanks to [pixeldesu](http://twitter.com/pixeldesu) (http://pixelde.su/) for Modern TweetDeck, which features were the main additions of Snowflake Minima.
