@@ -13,3 +13,11 @@ Installation
 - Paste the text from `style.css` into the textbox, below the `@moz-document...` line if you have one.
 - **Firefox only:** Scroll to the bottom of the textbox and add an extra line with a single `}` on it.
 - Click on save.
+
+Known issues
+-------------
+Known issues on Snowflake Minima Dark (SMD):
+We're working on these issues, and doing what we can to fix these.
+
+- The "Follow" button has a white font, which makes it harder to read, such as on this [screenshot](http://i.imgur.com/IZfNAt9.png).
+- The retweet window is also hard to read, like on this [screenshot](http://i.imgur.com/srcyrHj.png).
