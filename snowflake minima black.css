@@ -639,3 +639,8 @@ body > div.js-modals-container > div > div > div > div > div > div.prf-actions >
 .js-customtimeline-description {
 	display: none;
 }
+
+/* Displays the column options in the correct place. */
+.column-options {
+	top: 10px;
+}
