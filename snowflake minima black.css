@@ -55,16 +55,16 @@ body {
 
 .js-mdl-header, .mdl-header
 	  {
-		color: #ffffff;
+		color: #cccccc;
  	  }
 
 #actions-modal > div > div.js-inreply.cmp-replyto.item-box.is-inverted-dark > div > header > a > div.nbfc > span
 	  {
-		color: #ffffff;
+		color: #cccccc;
   	  }
 #actions-modal > div > div.js-inreply.cmp-replyto.item-box.is-inverted-dark > div > div > p
 	  {
-		color: #ffffff;
+		color: #cccccc;
   	  }
 
 /* Fixing "Follow" Button color */
@@ -80,7 +80,17 @@ body > div.js-modals-container > div > div > div > div > div > div.prf-actions >
 .compose-text
 {
   background-color: #404040;
-  color: #fff;
+  color: #ccc;
+}
+
+.compose-text-container
+{
+  margin-right: 0px;
+}
+.position-rel.compose-text-container
+{
+  border: 1px solid #404040;
+  background-color: #404040;
 }
 
 .compose-text-container
