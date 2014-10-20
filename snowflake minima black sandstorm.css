@@ -849,3 +849,6 @@ Note: this is disabled because I don't like it, but if it's your kind of stuff, 
 
 /* Dropdown menu fixes */
 .dropdown-menu {background-color: #141414; border-color: #141414;}
+
+/* Fix button compose shadow */
+.btn-compose {box-shadow: 1px 1px 0 rgba(255,255,255,0)
