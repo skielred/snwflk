@@ -19,7 +19,7 @@ Installation
 
 Releases
 -------------
-- Snowflake Classic White [SCW] (Needs re-releasing)
+- Snowflake Classic White [SCW]: Unavailable (Needs re-releasing)
 - Snowflake Classic Black [SCB]
 - Snowflake Minima Black Aqua [SMBW]: Black and Blue color scheme
 - Snowflake Minima Black Fire [SMBF]: Black and Red color scheme
