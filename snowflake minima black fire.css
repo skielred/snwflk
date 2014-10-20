@@ -185,7 +185,6 @@ body > div.js-modals-container > div > div > div > div > div > div.prf-actions >
 	display: none;
 }
 
-
 /* Selected tweet replybox color fix */
 .detail-view-inline-text {
     background-color: #171717;
@@ -847,5 +846,10 @@ Note: this is disabled because I don't like it, but if it's your kind of stuff, 
 .is-inverted-dark a, .is-inverted-dark a:hover, .is-inverted-dark a:focus, .is-inverted-dark a:active {color: #AB2C2C;}
 .lst-group .selected a:hover {background-color: #AB2C2C;}
 
+
+
 /* Dropdown menu fixes */
 .dropdown-menu {background-color: #141414; border-color: #141414;}
+
+/* Fix button compose shadow */
+.btn-compose {box-shadow: 1px 1px 0 rgba(255,255,255,0)
