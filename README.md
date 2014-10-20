@@ -6,15 +6,10 @@ Snowflake
 What is Snowflake?
 -------------
 Snowflake is a minimalistic theme modification suite for TweetDeck. It's like real flat. [Darker than flat](http://i.imgur.com/F8RAEcw.jpg). [Flatter-than-light](http://i.imgur.com/F8RAEcw.jpg). 
-
 Sorry, I got carried away. 
-
 Plus, there various are fancy color schemes! 
-
 Minima is a spiritual successor to pixeldesu's Modern TweetDeck, with easier-to-read columns and stuff. 
-
 Sorry, if you're a dev, our code is pretty messy. 
-
 [Which color scheme do you like the most?](http://strawpoll.me/2823721/)
 
 Installation
