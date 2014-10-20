@@ -185,11 +185,6 @@ body > div.js-modals-container > div > div > div > div > div > div.prf-actions >
 	display: none;
 }
 
-/* Displays the column options in the correct place. */
-.column-options {
-	top: 10px;
-}
-
 /* Selected tweet replybox color fix */
 .detail-view-inline-text {
     background-color: #171717;
@@ -227,7 +222,7 @@ body > div.js-modals-container > div > div > div > div > div > div.prf-actions >
 .btn {border-color: #171717 !important;}
 
   /* Column options hotfix */
-.column-options {top: 4px; background-color: #171717;}
+.column-options {top: 4px !important; background-color: #171717;}
 .is-options-open .column-settings-link {background-color: #171717;}
 .column-message {background-color: #171717;}
 
