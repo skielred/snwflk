@@ -219,6 +219,11 @@ body > div.js-modals-container > div > div > div > div > div > div.prf-actions >
 .list-link, .list-twitter-list, .list-subtitle, .list-account, .list-listmember, .list-account, .list-listaccount, .list-subtitle, .list-filter { color: #ccc; }
 .btn {border-color: #171717 !important;}
 
+ /* Column options hotfix */
+.column-options {top: 4px; background-color: #171717;}
+.is-options-open .column-settings-link {background-color: #171717;}
+.column-message {background-color: #171717;}
+
 /* Legacy code */
 
 .application, .app-content, .app-columns-container
@@ -793,4 +798,9 @@ Note: this is disabled because I don't like it, but if it's your kind of stuff, 
 	border-radius: 100px;
 }
 
+/* DO NOT TOUCH UNLESS YOU KNOW WHAT YOU ARE DOING */
+
 .padding-al {padding: 5px !important}
+
+.js-customtimeline-description {
+ 	display: none;}
