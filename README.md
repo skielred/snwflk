@@ -21,11 +21,11 @@ Releases
 -------------
 - Snowflake Classic White [SCW] (Needs re-releasing)
 - Snowflake Classic Black [SCB]
-- Snowflake Minima Black Aqua [SMBA] (Black and Blue)
-- Snowflake Minima Black Fire [SMBF] (Black and Red)
+- Snowflake Minima Black Aqua [SMBA]: Black and Blue color scheme
+- Snowflake Minima Black Fire [SMBF]: Black and Red color scheme
 - ~~Snowflake Minima Black Earth [SMBE]~~ (PLANNED) (Black and Green)
 - ~~Snowflake Minima Black Dust [SMBD]~~ (PLANNED) (Black and Orange)
-- ~~Snowflake Minima White [SMW]~~ (PLANNED)
+- ~~Snowflake Minima White [SMW]~~ (PLANNED) White color scheme
 
 Known issues
 -------------
