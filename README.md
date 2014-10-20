@@ -17,12 +17,20 @@ Installation
 - **Firefox only:** Scroll to the bottom of the textbox and add an extra line with a single `}` on it.
 - Click on save.
 
+Releases
+-------------
+- Snowflake Classic White [SCW] (Needs re-releasing)
+- Snowflake Classic Black [SCB]
+- Snowflake Minima Black Aqua [SMBA] (Black and Blue)
+- Snowflake Minima Black Fire [SMBF] (Black and Red)
+- ~~Snowflake Minima Black Earth [SMBE]~~ (PLANNED) (Black and Green)
+- ~~Snowflake Minima Black Dust [SMBD]~~ (PLANNED) (Black and Orange)
+- ~~Snowflake Minima White [SMW]~~ (PLANNED)
+
 Known issues
 -------------
 We're working on these issues, and doing what we can to fix these.
-Known issues on Snowflake Minima Black (SMB):
-
-
+Known issues on Snowflake Minima Black Aqua (SMBA):
 - ~~The "Follow" button has a white font, which makes it harder to read, such as on this [screenshot](http://i.imgur.com/IZfNAt9.png).~~
 - ~~The retweet window is also hard to read, like on this [screenshot](http://i.imgur.com/srcyrHj.png).~~
 - ~~The column options are unavailable.~~ Finally fixed!
@@ -30,6 +38,11 @@ Known issues on Snowflake Minima Black (SMB):
 - Even if the Tweet button is fixed, there are weird issues with it.
 - ~~Fix [this](http://i.imgur.com/6LAN0jy.png). It's fucking ugly, and I don't even know where to begin with *what exactly* is wrong, because **everything** is wrong.~~ FIXED!
 - ~~Believe it or not, I had flattened the "Follow" and "Edit profile" button by removing the border, but something fucked it up (I don't know what) so I'm going to look further into fixing it.~~ Nevermind, it fixed itself on its own. Somehow.
+- REfix the column options. Somehow it fucks itself up on its own all the time.
+
+Known issues on SMBF:
+- Column options.
+- Some things are still blue. Gotta change it.
 
 To-do list
 -------------
@@ -38,7 +51,6 @@ To-do list
 - Fix issues (nuff said)
 - ~~Commit a theme-wise version of Snowflake Classic Black~~
 - Commit a theme-wise version of Snowflake Classic White
-- Write and commit Snowflake Minima White
 - ~~Change the scrollbar to make it less invasive.~~ Hard to do, and honestly, could be worse.
 - ~~MOAR FLATTENING~~ I don't see how I can flatten it more.
 - ~~#BringBackOurColumnOptions~~ Fixed.
@@ -47,6 +59,7 @@ To-do list
 - ~~Maybe blackening the profile options as well, to make them fit into the theme like the Options and dropdown menus. (SMB)~~ Done.
 - Flattening stuff such as the closing cross or the drag'n'drop thingy on the profiles/windows.
 - ~~Adding the new loading screen.~~ Done.
+- ~~Commit Snowflake Minima Black Fire and rename Snowflake Minima Black to Aqua.~~ Done. Fire still needs fixes.
 
 Credits
 -------------
