@@ -847,6 +847,7 @@ Note: this is disabled because I don't like it, but if it's your kind of stuff, 
 .is-inverted-dark a, .is-inverted-dark a:hover, .is-inverted-dark a:focus, .is-inverted-dark a:active {color: #9E7DC9;}
 .lst-group .selected a:hover {background-color: #9E7DC9;}
 .column-nav-updates {color: #9E7DC9;}
+.column-nav-updates {color: #ffffff;}
 
 /* Dropdown menu fixes */
 .dropdown-menu {background-color: #141414; border-color: #141414;}

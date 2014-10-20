@@ -832,6 +832,8 @@ Note: this is disabled because I don't like it, but if it's your kind of stuff, 
 .js-customtimeline-description {
  	display: none;}
 
+.column-nav-updates {color: #ffffff;}
+
 /* Dropdown menu fixes */
 .dropdown-menu {background-color: #141414; border-color: #141414;}
 
