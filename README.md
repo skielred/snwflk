@@ -29,7 +29,7 @@ Known issues on Snowflake Minima Black (SMB):
 - ~~"Fix" the Tweet button that does not appear when there is nothing to tweet, and looks rather [ugly](http://i.imgur.com/4Iz1n7S.png) in the theme.~~
 - Even if the Tweet button is fixed, there are weird issues with it.
 - ~~Fix [this](http://i.imgur.com/6LAN0jy.png). It's fucking ugly, and I don't even know where to begin with *what exactly* is wrong, because **everything** is wrong.~~ FIXED!
-- Believe it or not, I had flattened the "Follow" and "Edit profile" button by removing the border, but something fucked it up (I don't know what) so I'm going to look further into fixing it.
+- ~~Believe it or not, I had flattened the "Follow" and "Edit profile" button by removing the border, but something fucked it up (I don't know what) so I'm going to look further into fixing it.~~ Nevermind, it fixed itself on its own. Somehow.
 
 To-do list
 -------------
@@ -46,7 +46,7 @@ To-do list
 - ~~Darkening a little bit the theme to make it more eyes-friendly and improving contrast for readability maybe? (SMB)~~ Done.
 - ~~Maybe blackening the profile options as well, to make them fit into the theme like the Options and dropdown menus. (SMB)~~ Done.
 - Flattening stuff such as the closing cross or the drag'n'drop thingy on the profiles/windows.
-- Adding the new loading screen.
+- ~~Adding the new loading screen.~~ Done.
 
 Credits
 -------------
