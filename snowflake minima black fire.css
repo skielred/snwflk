@@ -185,6 +185,7 @@ body > div.js-modals-container > div > div > div > div > div > div.prf-actions >
 	display: none;
 }
 
+
 /* Selected tweet replybox color fix */
 .detail-view-inline-text {
     background-color: #171717;
@@ -831,3 +832,17 @@ Note: this is disabled because I don't like it, but if it's your kind of stuff, 
 
 .js-customtimeline-description {
  	display: none;}
+
+/* Hotfixes of blue colors */
+
+.icon-unread-color {color: #AB2C2C !important;} /* Only useful to Better TweetDeck users */
+.icon-center-24 {color: #AB2C2C !important;}
+.txt-r-dark-gray {color: #AB2C2C !important;}
+.pull-right {color: #AB2C2C !important;}
+.link-complex.txt-medium.block.cf {color: #AB2C2C !important;}
+.dropdown-menu .is-selected {background-color: #AB2C2C !important;}
+.icon-sliders {color: #AB2C2C !important;}
+.facet-subtitle {color: #AB2C2C !important;}
+.toggle-item {color: #AB2C2C;}
+.is-inverted-dark a, .is-inverted-dark a:hover, .is-inverted-dark a:focus, .is-inverted-dark a:active {color: #AB2C2C;}
+.lst-group .selected a:hover {background-color: #AB2C2C;}
