@@ -8,6 +8,13 @@ However, if you are to use it with Better TweetDeck, you must firstly disable th
 The creators of the themes used are Diamant (@diamantlefou), Berter (@BerterTheBoss) and pixeldesu (@pixeldesu or http://pixelde.su/) and was recompiled in a more fitting theme by me, Scimitar (@AlmtyCwrd)
 */
 
+/* Loading Screen */
+
+body {
+	background-image: url(http://i.imgur.com/s8n1tbr.png);
+	background-size: cover;
+}
+
 /* Scrollbar Changes */
 
 .scroll-styled-v::-webkit-scrollbar-thumb, .scroll-styled-h::-webkit-scrollbar-thumb {border-radius: 0px; background-color: #333;}
@@ -219,7 +226,7 @@ body > div.js-modals-container > div > div > div > div > div > div.prf-actions >
 .list-link, .list-twitter-list, .list-subtitle, .list-account, .list-listmember, .list-account, .list-listaccount, .list-subtitle, .list-filter { color: #ccc; }
 .btn {border-color: #171717 !important;}
 
- /* Column options hotfix */
+  /* Column options hotfix */
 .column-options {top: 4px; background-color: #171717;}
 .is-options-open .column-settings-link {background-color: #171717;}
 .column-message {background-color: #171717;}
@@ -798,7 +805,7 @@ Note: this is disabled because I don't like it, but if it's your kind of stuff, 
 	border-radius: 100px;
 }
 
-/* DO NOT TOUCH UNLESS YOU KNOW WHAT YOU ARE DOING */
+/* DO NOT TOUCH THIS UNLESS YOU KNOW WHAT YOU ARE DOING */
 
 .padding-al {padding: 5px !important}
 
