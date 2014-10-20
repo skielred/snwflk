@@ -20,13 +20,13 @@ Installation
 Releases
 -------------
 - Snowflake Classic White [SCW]: Unavailable (Needs re-releasing)
-- Snowflake Classic Black [SCB]
-- Snowflake Minima Black Aqua [SMBW]: Black and Blue color scheme
-- Snowflake Minima Black Fire [SMBF]: Black and Red color scheme
-- Snowflake Minima Black Aero [SMBA]: Black and Purple color scheme
-- Snowflake Minima Black Earth [SMBE]: Black and Pale Green color scheme
-- Snowflake Minima Black Dust [SMBD]: Black and Orange color scheme
-- Snowflake Minima Black Sandstorm [SMBS]: Black and Pale Yellow color scheme
+- [Snowflake Classic Black](https://github.com/WinterReign/Snowflake/blob/master/snowflake%20classic%20black.css) [SCB]
+- [Snowflake Minima Black Aqua](https://github.com/WinterReign/Snowflake/blob/master/snowflake%20minima%20black%20aqua.css) [SMBW]: Black and Blue color scheme
+- [Snowflake Minima Black Fire](https://github.com/WinterReign/Snowflake/blob/master/snowflake%20minima%20black%20fire.css) [SMBF]: Black and Red color scheme
+- [Snowflake Minima Black Aero](https://github.com/WinterReign/Snowflake/blob/master/snowflake%20minima%20black%20aero.css) [SMBA]: Black and Purple color scheme
+- [Snowflake Minima Black Earth](https://github.com/WinterReign/Snowflake/blob/master/snowflake%20minima%20black%20earth.css) [SMBE]: Black and Pale Green color scheme
+- [Snowflake Minima Black Dust](https://github.com/WinterReign/Snowflake/blob/master/snowflake%20minima%20black%dust.css) [SMBD]: Black and Orange color scheme
+- [Snowflake Minima Black Sandstorm](https://github.com/WinterReign/Snowflake/blob/master/snowflake%20minima%20black%20sandstorm.css) [SMBS]: Black and Pale Yellow color scheme
 - Snowflake Minima White [SMW] [PLANNED]: White color scheme
 
 Known issues
