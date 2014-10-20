@@ -847,6 +847,9 @@ Note: this is disabled because I don't like it, but if it's your kind of stuff, 
 .is-inverted-dark a, .is-inverted-dark a:hover, .is-inverted-dark a:focus, .is-inverted-dark a:active {color: #FAAF0C;}
 .lst-group .selected a:hover {background-color: #FAAF0C;}
 .column-nav-updates {color: #ffffff;}
+.is-unread {background: rgba(211, 157, 40, 0.54);}
+#container > div > section.js-column.column.column-type-message.will-animate.is-moving > div > div > div.js-column-content.column-content > div.js-column-scroller.js-dropdown-container.column-scroller.scroll-v.scroll-styled-v > div > article.is-unread > div > div > div > div.tweet-body.l-cell > div > p > span > a {color: #bbb;}
+.numbered-badge {border-radius: 100px !important; background-color: #FAAF0C !important;}
 
 /* Dropdown menu fixes */
 .dropdown-menu {background-color: #141414; border-color: #141414;}
