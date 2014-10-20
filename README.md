@@ -3,6 +3,10 @@
 
 Snowflake
 =========
+What is Snowflake?
+-------------
+Snowflake is a minimalistic theme modification suite for TweetDeck. It's like real flat. [Darker than flat](http://i.imgur.com/F8RAEcw.jpg). [Flatter-than-light](http://i.imgur.com/F8RAEcw.jpg). Sorry, I got carried away. Plus, there various are fancy color schemes! Minima is a spiritual successor to pixeldesu's Modern TweetDeck. Sorry, if you're a dev, our code is pretty messy. [Which color scheme do you like the most?](http://strawpoll.me/2823721/)
+
 Installation
 -------------
 - Install Stylish for Chrome/Firefox.
@@ -61,6 +65,7 @@ To-do list
 - Flattening stuff such as the closing cross or the drag'n'drop thingy on the profiles/windows.
 - ~~Adding the new loading screen.~~ Done.
 - ~~Commit Snowflake Minima Black Fire and rename Snowflake Minima Black to Aqua.~~ Done. Fire still needs fixes.
+- [Would you like to see the font change?](http://strawpoll.me/2823751)
 
 Credits
 -------------
