@@ -27,7 +27,7 @@ Releases
 - [Snowflake Minima Black Earth](https://github.com/WinterReign/Snowflake/blob/master/snowflake%20minima%20black%20earth.css) [SMBE]: Black and Pale Green color scheme
 - [Snowflake Minima Black Dust](https://github.com/WinterReign/Snowflake/blob/master/snowflake%20minima%20black%dust.css) [SMBD]: Black and Orange color scheme
 - [Snowflake Minima Black Sandstorm](https://github.com/WinterReign/Snowflake/blob/master/snowflake%20minima%20black%20sandstorm.css) [SMBS]: Black and Pale Yellow color scheme
-- Snowflake Minima White [SMW] [PLANNED]: White color scheme
+- [Snowflake Minima White Aqua](https://github.com/WinterReign/Snowflake/blob/master/snowflake%20minima%20white%20aqua.css) [SMWW]: Blue and white color scheme
 
 Known issues
 -------------
