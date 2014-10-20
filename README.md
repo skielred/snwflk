@@ -24,13 +24,14 @@ Releases
 - Snowflake Minima Black Aqua [SMBW]: Black and Blue color scheme
 - Snowflake Minima Black Fire [SMBF]: Black and Red color scheme
 - Snowflake Minima Black Aero [SMBA]: Black and Purple color scheme
-- ~~Snowflake Minima Black Earth [SMBE]~~ (PLANNED) (Black and Green)
-- ~~Snowflake Minima Black Dust [SMBD]~~ (PLANNED) (Black and Orange)
-- ~~Snowflake Minima White [SMW]~~ (PLANNED) White color scheme
+- Snowflake Minima Black Earth [SMBE]: Black and Pale Green color scheme
+- Snowflake Minima Black Dust [SMBD]: Black and Orange color scheme
+- Snowflake Minima Black Sandstorm [SMBS]: Black and Pale Yellow color scheme
+- Snowflake Minima White [SMW] [PLANNED]: White color scheme
 
 Known issues
 -------------
-We're working on these issues, and doing what we can to fix these.
+~~We're working on these issues, and doing what we can to fix these.~~ I am proud to say, we have fixed all the issues we could fix!
 Known issues on Snowflake Minima Black Aqua (SMBA):
 - ~~The "Follow" button has a white font, which makes it harder to read, such as on this [screenshot](http://i.imgur.com/IZfNAt9.png).~~
 - ~~The retweet window is also hard to read, like on this [screenshot](http://i.imgur.com/srcyrHj.png).~~
@@ -41,15 +42,14 @@ Known issues on Snowflake Minima Black Aqua (SMBA):
 - ~~Believe it or not, I had flattened the "Follow" and "Edit profile" button by removing the border, but something fucked it up (I don't know what) so I'm going to look further into fixing it.~~ Nevermind, it fixed itself on its own. Somehow.
 - ~~REfix the column options. Somehow it fucks itself up on its own all the time.~~ Fixed. TweetDeck default CSS was overlapping the tweak, had to implement priority attribute.
 
-Known issues on SMBF:
-- ~~Column options.~~
-- Some things are still blue. Gotta change it.
+Known issues on color schemes variations:
+- ~~Some things are still blue. Gotta change it.~~
 
 To-do list
 -------------
 
 - Reorganize the code, make it more *easy to read* and **add comments for other developers**.
-- Fix issues (nuff said)
+- ~~Fix issues (nuff said)~~
 - ~~Commit a theme-wise version of Snowflake Classic Black~~
 - Commit a theme-wise version of Snowflake Classic White
 - ~~Change the scrollbar to make it less invasive.~~ Hard to do, and honestly, could be worse.
