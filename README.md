@@ -38,10 +38,10 @@ Known issues on Snowflake Minima Black Aqua (SMBA):
 - Even if the Tweet button is fixed, there are weird issues with it.
 - ~~Fix [this](http://i.imgur.com/6LAN0jy.png). It's fucking ugly, and I don't even know where to begin with *what exactly* is wrong, because **everything** is wrong.~~ FIXED!
 - ~~Believe it or not, I had flattened the "Follow" and "Edit profile" button by removing the border, but something fucked it up (I don't know what) so I'm going to look further into fixing it.~~ Nevermind, it fixed itself on its own. Somehow.
-- REfix the column options. Somehow it fucks itself up on its own all the time.
+- ~~REfix the column options. Somehow it fucks itself up on its own all the time.~~ Fixed. TweetDeck default CSS was overlapping the tweak, had to implement priority attribute.
 
 Known issues on SMBF:
-- Column options.
+- ~~Column options.~~
 - Some things are still blue. Gotta change it.
 
 To-do list
