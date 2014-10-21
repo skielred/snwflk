@@ -2,13 +2,13 @@ Snowflake
 =========
 What is Snowflake?
 -------------
-Snowflake is a minimalistic theme modification suite for TweetDeck. It's like real flat. [Darker than flat](http://i.imgur.com/F8RAEcw.jpg). [Flatter-than-light](http://i.imgur.com/F8RAEcw.jpg).  return
-Sorry, I got carried away.  return
-Plus, there various are fancy color schemes!  return
-Minima is a spiritual successor to pixeldesu's Modern TweetDeck, with easier-to-read columns and stuff.  return
-Also, we're sorry, if you're a dev, our code is pretty messy.  return
-We're looking for a JS dev and someone that's good with Firefox extensions too!  return
-[Which color scheme do you like the most?](http://strawpoll.me/2823721/)  return
+Snowflake is a minimalistic theme modification suite for TweetDeck. It's like real flat. [Darker than flat](http://i.imgur.com/F8RAEcw.jpg). [Flatter-than-light](http://i.imgur.com/F8RAEcw.jpg).  
+Sorry, I got carried away.  
+Plus, there various are fancy color schemes!  
+Minima is a spiritual successor to pixeldesu's Modern TweetDeck, with easier-to-read columns and stuff.  
+Also, we're sorry, if you're a dev, our code is pretty messy.  
+We're looking for a JS dev and someone that's good with Firefox extensions too!  
+[Which color scheme do you like the most?](http://strawpoll.me/2823721/)  
 
 Installation
 -------------
