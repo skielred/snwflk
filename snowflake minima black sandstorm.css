@@ -854,6 +854,8 @@ Note: this is disabled because I don't like it, but if it's your kind of stuff, 
 .is-unread {background: rgba(206, 206, 130, 0.67);}
 #container > div > section.js-column.column.column-type-message.will-animate.is-moving > div > div > div.js-column-content.column-content > div.js-column-scroller.js-dropdown-container.column-scroller.scroll-v.scroll-styled-v > div > article.is-unread > div > div > div > div.tweet-body.l-cell > div > p > span > a {color: #bbb;}
 .numbered-badge {border-radius: 100px !important; background-color: #E6E68E !important; color: #171717;}
+.is-selected-tweet .compose-text {background-color: rgba(206, 206, 130, 0.1);}
+.is-selected-tweet .compose-text-container {border-color: rgba(206, 206, 130, 0.1) !important;}
 
 /* Dropdown menu fixes */
 .dropdown-menu {background-color: #141414; border-color: #141414;}

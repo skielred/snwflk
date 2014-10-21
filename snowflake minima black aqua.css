@@ -588,7 +588,7 @@ select.js-mentioning {background-color: #171717; color: #ccc;}
 	  }
 	  .is-selected-tweet
 	  {
-		background-color: rgba(85,172,238,0.1)
+		background-color: rgba(123, 183, 227, 0.1);
 	  }
      #open-modal .tweet-body { color: white }
     #open-modal .fullname { color: white }
@@ -840,6 +840,9 @@ Note: this is disabled because I don't like it, but if it's your kind of stuff, 
 .is-unread {background: rgba(123, 183, 227, 0.67);}
 #container > div > section.js-column.column.column-type-message.will-animate.is-moving > div > div > div.js-column-content.column-content > div.js-column-scroller.js-dropdown-container.column-scroller.scroll-v.scroll-styled-v > div > article.is-unread > div > div > div > div.tweet-body.l-cell > div > p > span > a {color: #bbb;}
 .numbered-badge {border-radius: 100px !important; background-color: #55acee !important;}
+.is-selected-tweet .compose-text {background-color: rgba(123, 183, 227, 0.1);}
+.is-selected-tweet .compose-text-container {border-color: rgba(123, 183, 227, 0.1) !important;}
+
 
 /* Dropdown menu fixes */
 .dropdown-menu {background-color: #171717; border-color: #171717;}
