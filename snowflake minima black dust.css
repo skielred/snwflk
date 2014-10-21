@@ -856,6 +856,7 @@ Note: this is disabled because I don't like it, but if it's your kind of stuff, 
 .numbered-badge {border-radius: 100px !important; background-color: #FAAF0C !important;}
 .is-selected-tweet .compose-text {background-color: rgba(211, 157, 40, 0.1);}
 .is-selected-tweet .compose-text-container {border-color: rgba(211, 157, 40, 0.1) !important;}
+.follow-btn .icon {color: #FAAF0C;}
 
 /* Dropdown menu fixes */
 .dropdown-menu {background-color: #141414; border-color: #141414;}
