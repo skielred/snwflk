@@ -70,7 +70,8 @@ To-do list
 - Flattening stuff such as the closing cross or the drag'n'drop thingy on the profiles/windows.
 - ~~Adding the new loading screen.~~ Done.
 - ~~Commit Snowflake Minima Black Fire and rename Snowflake Minima Black to Aqua.~~ Done. Fire still needs fixes.
-- [Would you like to see the font change?](http://strawpoll.me/2823751)
+- ~~[Would you like to see the font change?](http://strawpoll.me/2823751)~~ Nevermind, fonts will be implemented as an option.
+- Create a Chrome extension! Automatic implementation of CSS (making Stylish unnecessary), easier choice of options and automatic updating! What's better? We're on it. Coming soon.
 
 Credits
 -------------
@@ -79,4 +80,5 @@ Credits
 - [Diamant](http://twitter.com/diamantlefou); created Snowflake Classic Black.
 - [Scimitar](http://twitter.com/AlmtyCwrd); created the Snowflake Minima suite.
 - [Calv](http://twitter.com/calvcoll) who gave us useful advice and fixed a lot of issues.
+- [Haruto](http://twitter.com/LordHaruto) who fixed a lot of issues, and is working on the Chrome extension.  
 - Special thanks to [pixeldesu](http://twitter.com/pixeldesu) (http://pixelde.su/) for Modern TweetDeck, which features were the main additions of Snowflake Minima.
