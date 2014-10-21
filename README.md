@@ -1,13 +1,16 @@
+
+
+
 Snowflake
 =========
 What is Snowflake?
 -------------
-Snowflake is a minimalistic theme modification suite for TweetDeck. It's like real flat. [Darker than flat](http://i.imgur.com/F8RAEcw.jpg). [Flatter-than-light](http://i.imgur.com/F8RAEcw.jpg).  return
-Sorry, I got carried away.  return
-Plus, there various are fancy color schemes!  return
-Minima is a spiritual successor to pixeldesu's Modern TweetDeck, with easier-to-read columns and stuff.  return
-Sorry, if you're a dev, our code is pretty messy.  return
-[Which color scheme do you like the most?](http://strawpoll.me/2823721/)  return
+Snowflake is a minimalistic theme modification suite for TweetDeck. It's like real flat. [Darker than flat](http://i.imgur.com/F8RAEcw.jpg). [Flatter-than-light](http://i.imgur.com/F8RAEcw.jpg). 
+Sorry, I got carried away. 
+Plus, there various are fancy color schemes! 
+Minima is a spiritual successor to pixeldesu's Modern TweetDeck, with easier-to-read columns and stuff. 
+Sorry, if you're a dev, our code is pretty messy. 
+[Which color scheme do you like the most?](http://strawpoll.me/2823721/)
 
 Installation
 -------------
@@ -68,7 +71,7 @@ To-do list
 - ~~Adding the new loading screen.~~ Done.
 - ~~Commit Snowflake Minima Black Fire and rename Snowflake Minima Black to Aqua.~~ Done. Fire still needs fixes.
 - ~~[Would you like to see the font change?](http://strawpoll.me/2823751)~~ Nevermind, fonts will be implemented as an option.
-- Create a Chrome extension! Automatic implementation of CSS (making Stylish unnecessary), easier choice of options and automatic updating! What's better? We're on it. Coming soon. What's more? We might overwrite JS, with cool features such as a new notification sound.
+- Create a Chrome extension! Automatic implementation of CSS (making Stylish unnecessary), easier choice of options and automatic updating! What's better? We're on it. Coming soon.
 
 Credits
 -------------
