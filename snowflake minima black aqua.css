@@ -825,6 +825,10 @@ Note: this is disabled because I don't like it, but if it's your kind of stuff, 
 	border-radius: 100px;
 }
 
+/* Implement rounded/squared avatars on retweet boxes */
+.accs .acc-avatar {border-radius: 100px;} /* This one is for rounded avatars, add comment brackets to disable */
+/* .accs .acc-avatar {border-radius: 0px;} This one is for squared avatars, remove brackets to enable */
+
 /* DO NOT TOUCH THIS UNLESS YOU KNOW WHAT YOU ARE DOING */
 
 .padding-al {padding: 5px !important}
