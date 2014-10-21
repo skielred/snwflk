@@ -6,7 +6,8 @@ Snowflake is a minimalistic theme modification suite for TweetDeck. It's like re
 Sorry, I got carried away.  return
 Plus, there various are fancy color schemes!  return
 Minima is a spiritual successor to pixeldesu's Modern TweetDeck, with easier-to-read columns and stuff.  return
-Sorry, if you're a dev, our code is pretty messy.  return
+Also, we're sorry, if you're a dev, our code is pretty messy.  return
+We're looking for a JS dev and someone that's good with Firefox extensions too!  return
 [Which color scheme do you like the most?](http://strawpoll.me/2823721/)  return
 
 Installation
