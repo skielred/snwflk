@@ -589,7 +589,7 @@ select.js-mentioning {background-color: #171717; color: #ccc;}
 	  }
 	  .is-selected-tweet
 	  {
-		background-color: rgba(85,172,238,0.1)
+		background-color: rgba(78, 163, 91, 0.1)
 	  }
      #open-modal .tweet-body { color: white }
     #open-modal .fullname { color: white }
