@@ -857,6 +857,13 @@ Note: this is disabled because I don't like it, but if it's your kind of stuff, 
 .is-selected-tweet .compose-text-container {border-color: rgba(157, 67, 67, 0.1) !important;}
 .follow-btn .icon {color: #AB2C2C;}
 
+/* Fixing tweet flash color. This only applies to Better TweetDeck users, other users should not mind. */
+
+@-webkit-keyframes tweet-enter { 
+	from { background-color: rgba(157, 67, 67, 1); }
+	to { background-color: rgba(157, 67, 67, 0); }
+}
+
 /* Dropdown menu fixes */
 .dropdown-menu {background-color: #141414; border-color: #141414;}
 
