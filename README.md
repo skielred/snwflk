@@ -1,5 +1,6 @@
 ![Snowflake for TweetDeck](https://lh4.googleusercontent.com/-BWhQgIxSK3o/VEfFgg1x-LI/AAAAAAAACAU/DmN1YmAhxCM/w1200-h500-no/Snowflake_banner_blue.png)
-=========
+
+
 What is Snowflake?
 -------------
 Snowflake is a minimalistic theme modification suite for TweetDeck. It's like real flat. [Darker than flat](http://i.imgur.com/F8RAEcw.jpg). [Flatter-than-light](http://i.imgur.com/F8RAEcw.jpg).  
