@@ -1,4 +1,4 @@
-Snowflake
+![Snowflake for TweetDeck](https://lh4.googleusercontent.com/-BWhQgIxSK3o/VEfFgg1x-LI/AAAAAAAACAU/DmN1YmAhxCM/w1200-h500-no/Snowflake_banner_blue.png)
 =========
 What is Snowflake?
 -------------
@@ -78,5 +78,6 @@ Credits
 - [Diamant](http://twitter.com/diamantlefou); created Snowflake Classic Black.
 - [Scimitar](http://twitter.com/AlmtyCwrd); created the Snowflake Minima suite.
 - [Calv](http://twitter.com/calvcoll) who gave us useful advice and fixed a lot of issues.
-- [Haruto](http://twitter.com/LordHaruto) who fixed a lot of issues, and is working on the Chrome extension.  
+- [Haruto](http://twitter.com/LordHaruto) who fixed a lot of issues, and is working on the Chrome extension.
+- [Yukito](http://twitter.com) who made a fancy logo!
 - Special thanks to [pixeldesu](http://twitter.com/pixeldesu) (http://pixelde.su/) for Modern TweetDeck, which features were the main additions of Snowflake Minima.
