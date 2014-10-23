@@ -369,18 +369,18 @@
     
     /* Fixing the 'User' column so the colors are all pretty and stuff. */
     .js-detail-content {
-	    background-color: #404040
-	}
-	#open-modal .mdl-inner .txt-large {
-	    color: white
-	}
-	#open-modal .scroll-conversation {
-	  	background: #404040
-	}
-	#open-modal .column-temp .column-header, .column-header-temp {
-	    background: #404040
-	}
-	#open-modal .tweet-detail-wrapper {
-	  	border: none
-	}
+        background-color: #404040
+    }
+    #open-modal .mdl-inner .txt-large {
+        color: white
+    }
+    #open-modal .scroll-conversation {
+      	background: #404040
+    }
+    #open-modal .column-temp .column-header, .column-header-temp {
+        background: #404040
+    }
+    #open-modal .tweet-detail-wrapper {
+        border: none
+    }
 }
