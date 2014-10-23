@@ -211,7 +211,7 @@ body > div.js-modals-container > div > div > div > div > div > div.prf-actions >
 .mdl {
     border-radius: 0px;
   }
-#open-modal > div > div > div > div:nth-child(1) > div.js-left-pinned.pin-top > form > div > input {
+#open-modal > div > div > div > div > div.js-left-pinned.pin-top > form > div > input {
   background-color: #171717 !important; color: #ccc; }
 
 /* Settings fix */
@@ -864,8 +864,12 @@ Note: this is disabled because I don't like it, but if it's your kind of stuff, 
 	to { background-color: rgba(8, 163, 91, 0); }
 }
 
+/* Fixes to DM compose box */
+.rpl textarea {background: #171717; border-color: #171717; color: #ddd}
+input, textarea, select {background-color: #171717 !important; color: #ddd !important; border-color: #171717; !important}
+
 /* Dropdown menu fixes */
-.dropdown-menu {background-color: #141414; border-color: #141414;}
+.dropdown-menu {background-color: #171717; border-color: #171717;}
 
 /* Fix button compose shadow */
 .btn-compose {box-shadow: 1px 1px 0 rgba(255,255,255,0)
