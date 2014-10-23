@@ -383,4 +383,9 @@
     #open-modal .tweet-detail-wrapper {
         border: none
     }
+    
+    /* Makes the column messages for options flatter. */
+    .is-actionable.column-message {
+	background: #404040
+    }
 }
