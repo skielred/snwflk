@@ -419,4 +419,43 @@
         border-color: none
     }
 
+    /* Major overhaul of the image view mode. Transparency, and some backgrounds for text w/ opacity changes */
+    #open-modal .med-fullpanel {
+        max-width: 50%;
+    }
+
+    #open-modal .med-fullpanel > .med-tweet {
+        left: 0;
+        right: 0;
+    }
+
+    #open-modal .js-mediatable .mdl {
+        background: transparent;
+    }
+
+    #open-modal .js-mediatable .mdl .med-tweet {
+        background: rgba(60,60,60,0.6);
+    }
+
+    #open-modal .med-fullpanel .mdl-dismiss .icon {
+        background: rgba(60,60,60,0.6)
+    }
+
+    #open-modal .js-mediatable .med-tray {
+        padding-bottom: 0px;
+    }
+
+    #open-modal .js-mediatable .med-tray > .js-media-preview-container.margin-vm {
+        margin-top: 0px !important; 
+        margin-bottom: 0px !important;
+    }
+
+    #open-modal .js-mediatable .med-tray > a {
+	background: rgba(60,60,60,0.6);
+        bottom: 0px;
+    }
+
+    .mdl.s-full { /* Potentially not needed. */
+        width: 60%;
+    }
 }
