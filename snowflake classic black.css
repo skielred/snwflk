@@ -406,4 +406,9 @@
     .prf-meta > .prf-stats > li > a {
         color: grey
     }
+    
+    /* Makes the follow button more appealing. And flat. */
+    .prf-actions .s-not-following > button {
+        background: transparent !important;
+    }
 }
