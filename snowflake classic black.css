@@ -411,4 +411,12 @@
     .prf-actions .s-not-following > button {
         background: transparent !important;
     }
+    
+    /* Makes the follow button's friend more appealing. */
+    .prf-actions .js-action-follow .follow-combo button {
+        color: white;
+        background: transparent;
+        border-color: none
+    }
+
 }
