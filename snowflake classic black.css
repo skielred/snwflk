@@ -388,4 +388,22 @@
     .is-actionable.column-message {
 	background: #404040
     }
+    
+    /* Fixes profile view */
+    .prf-actions, .prf-actions > .prf-meta, .prf-actions > .social-proof-container {
+	background-color:#404040;   
+        border: none
+    }
+
+    .prf-actions .lst-profile a {
+        border:none
+    }
+
+    .social-proof-container > p, .prf-meta > .prf-stats > li > a > strong {
+  	color: white
+    }
+  
+    .prf-meta > .prf-stats > li > a {
+        color: grey
+    }
 }
