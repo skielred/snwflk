@@ -458,4 +458,9 @@
     .mdl.s-full { /* Potentially not needed. */
         width: 60%;
     }
+    
+    /* Fixed spinner gif */
+    .spinner-button-icon-spinner {
+       background-image: url('http://i.imgur.com/8HC6epP.gif') 
+    }
 }
