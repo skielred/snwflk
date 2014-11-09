@@ -21,18 +21,6 @@
 		z-index: 2;
 		border-bottom-color: transparent;
 	  }
-	  .column-content
-	  {
-		top: 0px;
-	  }
-	  .column-scroller
-	  {
-		padding-top: 50px
-	  }
-	  .column-options
-	  {
-		top: 50px;
-	  }
 	  .scroll-conversation, .column-nav-item, .app-navigator, .app-title, .compose-reply-tweet, .compose-account, .facet-type.is-expanded, .column-options .button-tray, .compose .antiscroll-scrollbar, .account-row-separator-b:after
 	  {
 		background-color: transparent;
