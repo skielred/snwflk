@@ -452,7 +452,7 @@
        background-image: url('http://i.imgur.com/8HC6epP.gif') 
     }
     /* Should fix random horizontal scrollbar on users modal when selecting a tweet */
-    .js-column-social-proof.column-detail-level-2.column-panel {
+    #open-modal .js-column-social-proof.column-detail-level-2.column-panel {
        display: none;        
     }
     
