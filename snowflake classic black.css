@@ -452,12 +452,18 @@
        background-image: url('http://i.imgur.com/8HC6epP.gif') 
     }
     /* Should fix random horizontal scrollbar on users modal when selecting a tweet */
-    #open-modal .js-column-social-proof.column-detail-level-2.column-panel {
-       display: none;        
+    #open-modal .js-modal-panel .mdl-inner .mdl-content .mdl-column.mdl-column-rhs .js-right-column {
+       overflow-x: hidden;
     }
     
     /* Fixes the scrollbar issue in user modal where it shows a white line.*/
     .scroll-styled-v::-webkit-scrollbar-track, .scroll-styled-h::-webkit-scrollbar-track {
        border-left: none;
     }
+    
+    /* Fixes tweet favourite users header colour */
+    .is-inverted-dark .social-proof-for-tweet-title {
+       background:none;
+    }
+    
 }
