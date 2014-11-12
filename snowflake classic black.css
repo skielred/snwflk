@@ -438,9 +438,10 @@
         margin-bottom: 0px !important;
     }
 
+    /* Background is translucent and buttons aren't in way */
     #open-modal .js-mediatable .med-tray > a {
 	background: rgba(60,60,60,0.6);
-        bottom: 0px;
+        bottom: -1.1rem;
     }
 
     .mdl.s-full { /* Potentially not needed. */
