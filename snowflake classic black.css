@@ -467,4 +467,9 @@
        background:none;
     }
     
+    /* Fixes the update where non-convo's got borders */
+    .stream-item:not(.conversation-event) {
+        border:none;
+    }
+    
 }
