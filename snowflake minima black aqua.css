@@ -177,7 +177,7 @@ body > div.js-modals-container > div > div > div > div > div > div.prf-actions >
 
 /* Fixes the bug that makes the tweet button appear when it shouldn't. */
 .compose-content .pull-right .btn.is-disabled {
-	display:none
+  color: rgba(87, 87, 87, 0.73);
 }
 
 /* Hides the 1px bar showing in profiles. */
@@ -912,3 +912,6 @@ background: rgba(23, 23, 23, 0.6);
 .stream-item:not(.conversation-event) {
       border:none !important;
 }
+
+/* Selected accounts fixes */
+.compose-account-selected {background-color: #55acee; border-radius: 100px; box-shadow: 0px 0px 0 rgba(17,17,17,0.2)}
