@@ -335,7 +335,7 @@
      #open-modal .tweet-body { color: white }
     #open-modal .fullname { color: white }
     .sprite {
-   background-image: url('http://i.imgur.com/fuHRSHI.png'); 
+   background-image: url('https://i.imgur.com/fuHRSHI.png'); 
   }
     .lst-group .selected .fullname { color:white } .lst-group .selected .username { color:white }
      .column-nav-flyout .column-nav-item {background-color:#404040} .column-nav-flyout .column-nav-item span {color:white}
@@ -450,7 +450,7 @@
     
     /* Fixed spinner gif */
     .spinner-button-icon-spinner {
-       background-image: url('http://i.imgur.com/8HC6epP.gif') 
+       background-image: url('https://i.imgur.com/8HC6epP.gif') 
     }
     /* Should fix random horizontal scrollbar on users modal when selecting a tweet */
     #open-modal .js-modal-panel .mdl-inner .mdl-content .mdl-column.mdl-column-rhs .js-right-column {
@@ -472,4 +472,8 @@
         border:none;
     }
     
+    /* Scrollbar background removed */
+    .column-background-fill.column-scroller {
+      background:none;
+    }
 }
