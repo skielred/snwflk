@@ -872,14 +872,15 @@ input, textarea, select {background-color: #171717 !important; color: #ddd !impo
 .dropdown-menu {background-color: #171717; border-color: #171717;}
 
 /* Fix button compose shadow */
-.btn-compose {box-shadow: 1px 1px 0 rgba(255,255,255,0)
+.btn-compose {box-shadow: 1px 1px 0 rgba(255,255,255,0)}
 
-    /* Recovered from Snowflake Classic; Spinner color fix */
-    .spinner-button-icon-spinner {
+/* Recovered from Snowflake Classic; Spinner color fix */
+.spinner-button-icon-spinner {
         background-image: url('http://i.imgur.com/8HC6epP.gif') 
     }
     
 /* Snowflake Classic code; Major overhaul of the image view mode. Transparency, and some backgrounds for text w/ opacity changes */
+
 #open-modal .med-fullpanel {
      max-width: 50%;
 }
@@ -894,11 +895,11 @@ input, textarea, select {background-color: #171717 !important; color: #ddd !impo
 }
 
 #open-modal .js-mediatable .mdl .med-tweet {
-    background: rgba(60,60,60,0.6);
+    background: rgba(23, 23, 23, 0.6);
 }
 
 #open-modal .med-fullpanel .mdl-dismiss .icon {
-    background: rgba(60,60,60,0.6)
+    background: rgba(23, 23, 23, 0.6);
 }
 
 #open-modal .js-mediatable .med-tray {
@@ -911,10 +912,16 @@ input, textarea, select {background-color: #171717 !important; color: #ddd !impo
 }
 
 #open-modal .js-mediatable .med-tray > a {
-background: rgba(60,60,60,0.6);
+background: rgba(23, 23, 23, 0.6);
     bottom: 0px;
 }
 
 .mdl.s-full { /* Potentially not needed. */
     width: 60%;
+}
+
+/* Border hotfix */
+
+.stream-item:not(.conversation-event) {
+      border:none !important;
 }
