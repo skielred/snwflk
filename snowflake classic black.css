@@ -472,4 +472,8 @@
         border:none;
     }
     
+    /* Scrollbar background removed */
+    .column-background-fill.column-scroller {
+      background:none;
+    }
 }
