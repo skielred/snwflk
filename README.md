@@ -66,7 +66,7 @@ To-do list
 - ~~Remove the [padding](http://i.imgur.com/nKjHJ8A.png) between the compose box text and the "Tweet" text.~~ Had managed to do it, but I'll have to give up on it, as Twitter fucked up their code, and other stuff will be affected.
 - ~~Darkening a little bit the theme to make it more eyes-friendly and improving contrast for readability maybe? (SMB)~~ Done.
 - ~~Maybe blackening the profile options as well, to make them fit into the theme like the Options and dropdown menus. (SMB)~~ Done.
-- Flattening stuff such as the closing cross or the drag'n'drop thingy on the profiles/windows.
+- Flattening stuff such as the closing cross or the drag'n'drop thingy on the profiles/windows. Update: On it. Just gotta work out everything before comitting the changes.
 - ~~Adding the new loading screen.~~ Done.
 - ~~Commit Snowflake Minima Black Fire and rename Snowflake Minima Black to Aqua.~~ Done. Fire still needs fixes.
 - ~~[Would you like to see the font change?](http://strawpoll.me/2823751)~~ Nevermind, fonts will be implemented as an option.
