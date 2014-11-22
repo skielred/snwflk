@@ -81,5 +81,5 @@ Credits
 - [Scimitar](http://twitter.com/AlmtyCwrd); created the Snowflake Minima suite.
 - [Calv](http://twitter.com/calvcoll) who gave us useful advice and fixed a lot of issues.
 - [Haruto](http://twitter.com/LordHaruto) who fixed a lot of issues, and is working on the Chrome extension.
-- [Yukito](http://twitter.com/Yukito_kun) who made a fancy logo!
+- [Yukito](http://twitter.com/Yukito_kun_) who made a fancy logo!
 - Special thanks to [pixeldesu](http://twitter.com/pixeldesu) (http://pixelde.su/) for Modern TweetDeck, which features were the main additions of Snowflake Minima.
