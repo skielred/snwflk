@@ -476,4 +476,9 @@
     .column-background-fill.column-scroller {
       background:none;
     }
+    
+    /* Clear loading gif */
+    .med-embeditem {
+	background: transparent url("https://i.imgur.com/hvLaZyv.gif") no-repeat 50% 50%  
+    }
 }
