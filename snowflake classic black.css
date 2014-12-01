@@ -481,4 +481,19 @@
     .med-embeditem {
 	background: transparent url("https://i.imgur.com/hvLaZyv.gif") no-repeat 50% 50%  
     }
+    
+    /* More random white line fixing */
+    .is-inverted-dark .stream-item:not(.conversation-event), .is-inverted-dark .conversation-event+.stream-item:not(.conversation-event) {
+	background: none;
+    }
+
+    .is-inverted-dark .tweet-detail-reply .stream-item {
+        border-bottom-color: transparent;
+    }
+    
+    /* White box fixing */
+    .is-inverted-dark .tweet-detail-wrapper {
+        border-color: transparent;
+        background: transparent;
+    }
 }
