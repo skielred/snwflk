@@ -6,18 +6,18 @@
 {
     .application, .app-content, .app-columns-container
     {
-        background-color: #404040;
+        background-color: #fffcf2;
     }
     .column
     {
-        background: #404040;
+        background: #fffcf2;
         border-radius: 6px;
         border: none;
     }
     .column-header, .column-header-temp
     {
-        background: #404040;
-        background-color: #404040;
+        background: #fffcf2;
+        background-color: #fffcf2;
         z-index: 2;
         border-bottom-color: transparent;
     }
@@ -40,7 +40,7 @@
     }
     .app-header
     {
-        background-color: #404040;
+        background-color: #fffcf2;
     }
     .with-nav-border-t:before, .facet-type-thumb-size, .accordion-divider-t
     {
@@ -52,12 +52,12 @@
     }
     .compose, .bg-r-light-gray
     {
-        background: linear-gradient( to right, #404040, #404040);
+        background: linear-gradient( to right, #fffcf2, #fffcf2);
         color: #55acee;
     }
     .compose-remember-state, .character-count-compose:disabled, .txt-r-text-link
     {
-        color: white;
+        color: black;
     }
     .is-selected.compose-account, .compose-account-selected
     {
@@ -67,7 +67,7 @@
     {
         border-bottom: none;
         z-index: 2;
-        background: #404040;
+        background: #fffcf2;
     }
     .drawer-header:after
     {
@@ -83,7 +83,7 @@
         z-index: 1;
         padding-top: 55px;
     }
-    .drawer .tweet-text { color:white }
+    .drawer .tweet-text { color:black }
     .btn-positive-on-blue[disabled], .btn-positive-on-blue[disabled]:hover, .btn-positive-on-blue[disabled]:active, .btn-positive-on-blue.is-disabled, .btn-positive-on-blue.is-disabled:hover, .btn-positive-on-blue.is-disabled:focus, .btn-positive-on-blue.is-disabled:active, .btn-on-blue[disabled], .btn-on-blue[disabled]:hover, .btn-on-blue[disabled]:active, .btn-on-blue.is-disabled, .btn-on-blue.is-disabled:hover, .btn-on-blue.is-disabled:focus, .btn-on-blue.is-disabled:active, .btn[disabled], .btn[disabled]:hover, .btn[disabled]:active, .btn.is-disabled, .btn.is-disabled:hover, .btn.is-disabled:focus, .btn.is-disabled:active
     {
         border-color: transparent;
@@ -134,7 +134,7 @@
     .app-search-input
     {
         border-radius: 6px;
-        background-color: white;
+        background-color: black;
         box-shadow: none;
     }
     .inline-reply
@@ -152,14 +152,14 @@
     .mdl
     {
         box-shadow: none;
-        background-color: #404040;
+        background-color: #fffcf2;
         border-radius: 6px;
     }
     .mdl-content
     {
         border: none;
-        background: #404040;
-        color: white
+        background: #fffcf2;
+        color: black
     }
     .mdl-column-med
     {
@@ -168,10 +168,10 @@
     .mdl-column-rhs
     {
         border-left: transparent;
-        background-color: #404040
+        background-color: #fffcf2
     }
     .mdl-column-rhs .stream-item {
-        background-color: #404040
+        background-color: #fffcf2
     }
     .mdl-dismiss-media, .is-inverted-light .mdl-dismiss-media
     {
@@ -186,7 +186,7 @@
         background: #55acee;
         border-radius: 6px;
     }
-    .lst-group .selected .fullname { color:white } .lst-group .selected .username { color:white }
+    .lst-group .selected .fullname { color:black } .lst-group .selected .username { color:black }
     .is-inverted-light, .is-inverted-light .account-link
     {
         color: #292F33;
@@ -332,19 +332,19 @@
     {
         background-color: rgba(85,172,238,0.1)
     }
-    #open-modal .tweet-body { color: white }
-    #open-modal .fullname { color: white }
+    #open-modal .tweet-body { color: black }
+    #open-modal .fullname { color: black }
     .sprite {
         background-image: url('https://i.imgur.com/fuHRSHI.png');
     }
-    .lst-group .selected .fullname { color:white } .lst-group .selected .username { color:white }
-    .column-nav-flyout .column-nav-item {background-color:#404040} .column-nav-flyout .column-nav-item span {color:white}
-    .btn span, .mdl-header-title, .mdl-inner .column-head-title {color:white}
+    .lst-group .selected .fullname { color:black } .lst-group .selected .username { color:black }
+    .column-nav-flyout .column-nav-item {background-color:#fffcf2} .column-nav-flyout .column-nav-item span {color:black}
+    .btn span, .mdl-header-title, .mdl-inner .column-head-title {color:black}
     .compose-reply-tweet .fullname {color:#55acee}
-    .compose-reply-tweet .icon-close:before {color:white}
-    .is-favorite .tweet-text a {color:#ffe100} .is-retweet.is-favorite .tweet-text a {color:#55acee}
+    .compose-reply-tweet .icon-close:before {color:black}
+    .is-favorite .tweet-text a {color:lemon} .is-retweet.is-favorite .tweet-text a {color:#55acee}
     .is-retweet .tweet-text a {color:#71b332}
-    .is-favorite .account-inline .fullname {color:#ffe100}
+    .is-favorite .account-inline .fullname {color:lemon}
     .is-retweet.is-favorite .account-inline .fullname{color:#55acee} .is-retweet .account-inline .fullname {color:#71b332}
     #actions-modal .item-box .tweet-text {color:grey}
     .list-account {text-shadow: none}
@@ -357,16 +357,16 @@
 
     /* Fixing the 'User' column so the colors are all pretty and stuff. */
     .js-detail-content {
-        background-color: #404040
+        background-color: #fffcf2
     }
     #open-modal .mdl-inner .txt-large {
-        color: white
+        color: black
     }
     #open-modal .scroll-conversation {
-        background: #404040
+        background: #fffcf2
     }
     #open-modal .column-temp .column-header, .column-header-temp {
-        background: #404040
+        background: #fffcf2
     }
     #open-modal .tweet-detail-wrapper {
         border: none
@@ -374,12 +374,12 @@
 
     /* Makes the column messages for options flatter. */
     .is-actionable.column-message {
-        background: #404040
+        background: #fffcf2
     }
 
     /* Fixes profile view */
     .prf-actions, .prf-actions > .prf-meta, .prf-actions > .social-proof-container {
-        background-color:#404040;
+        background-color:#fffcf2;
         border: none
     }
 
@@ -388,7 +388,7 @@
     }
 
     .social-proof-container > p, .prf-meta > .prf-stats > li > a > strong {
-        color: white
+        color: black
     }
 
     .prf-meta > .prf-stats > li > a {
@@ -402,7 +402,7 @@
 
     /* Makes the follow button's friend more appealing. */
     .prf-actions .js-action-follow .follow-combo button {
-        color: white;
+        color: black;
         background: transparent;
         border-color: none
     }
@@ -450,7 +450,6 @@
 
     /* Fixed spinner gif */
     .spinner-button-icon-spinner {
-        background-image: url('https://i.imgur.com/8HC6epP.gif')
     }
     /* Should fix random horizontal scrollbar on users modal when selecting a tweet */
     #open-modal .js-modal-panel .mdl-inner .mdl-content .mdl-column.mdl-column-rhs .js-right-column {
