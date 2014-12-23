@@ -935,7 +935,6 @@ background: rgba(23, 23, 23, 0.6);
 /* Compose drawer shadow fix */
 .drawer {
 z-index: 2;
-box-shadow: 1px 1px 1px rgba(0,0,0,0) !important;
-}
+box-shadow: 1px 1px 1px rgba(0,0,0,0) !important;}
 /* Loading spinner fix */
 .med-embeditem {backgrounsd: transparent url("https://i.imgur.com/hvLaZyv.gif") no-repeat 50% 50%}
