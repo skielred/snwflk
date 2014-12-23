@@ -1,0 +1,135 @@
+$background_color: #404040;
+
+$font_blue: #55acee
+
+$rounded_radius: 6px;
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+.application,
+.app-content,
+.app-columns-container {
+    background-color: $background_color;
+}
+
+.column {
+    background-color: $background_color;
+    @include border-radius($rounded_radius);
+    border: none;
+}
+
+.column-header,
+.column-header-temp {
+    background-color: $background_color;
+    z-index: 2;
+    border-bottom-color: transparent;
+}
+
+.stream-item,
+.compose-header,
+.facet-type,
+.with-column-divider-bottom {
+    border-bottom: none;
+}
+
+.tweet-detail-wrapper {
+    background: transparent;
+    border-color: transparent;
+}
+
+.detail-view-inline {
+    border-top: none;
+}
+
+.app-header {
+    background-color: $background_color;
+}
+
+.with-nav-border-t:before,
+.facet-type-thumb-size,
+.accordion-divider-t {
+    border-top: none;
+}
+
+.numbered-badge-onnav {
+    border: none;
+}
+
+.compose,
+.bg-r-light-gray {
+    background: $background_color;
+    color: $font_blue;
+}
+
+.compose-remember-state,
+.character-count-compose:disabled,
+.txt-r-text-link {
+    color: white;
+}
+
+.is-selected {
+    .compose-account {
+        box-shadow: none;
+    }
+}
+
+.compose-account-selected {
+    box-shadow: none;
+}
+
+.drawer-header {
+    border-bottom: none;
+    z-index: 2;
+    background: $background_color;
+
+    ::after {
+        height: 0px;
+    }
+}
+
+.txt-r-dark-grey {
+    color: $font_blue;
+}
+
+.drawer-content {
+    top: 0px;
+    z-index: 1;
+    padding-top: 55px;
+}
+
+.drawer {
+    .tweet-text {
+        color: white;
+    }
+}
+
+.btn-positive-on-blue[disabled]/*,
+.btn-positive-on-blue[disabled]:hover,
+.btn-positive-on-blue[disabled]:active,
+.btn-positive-on-blue.is-disabled,
+.btn-positive-on-blue.is-disabled:hover,
+.btn-positive-on-blue.is-disabled:focus,
+.btn-positive-on-blue.is-disabled:active,
+.btn-on-blue[disabled],
+.btn-on-blue[disabled]:hover,
+.btn-on-blue[disabled]:active,
+.btn-on-blue.is-disabled,
+.btn-on-blue.is-disabled:hover,
+.btn-on-blue.is-disabled:focus,
+.btn-on-blue.is-disabled:active,
+.btn[disabled],
+.btn[disabled]:hover,
+.btn[disabled]:active,
+.btn.is-disabled,
+.btn.is-disabled:hover,
+.btn.is-disabled:focus,
+.btn.is-disabled:active*/ {
+    border-color: transparent;
+    background-color: transparent;
+    color: transparent;
+}
