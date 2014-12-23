@@ -1,0 +1,141 @@
+/* Snowflake Material Midnight v1 BETA
+Color Scheme: AERO
+Credits: Scimitar (@AlmtyCwrd); Diamant (@diamantlefou); Calv (@calvcoll); pixeldesu (@pixeldesu); ryandolan123 (@ryandolan123);
+Designed to be used with ryandolan123's TweetDeck Enhancer 4.0 Extension, which adds the Material Design touch to TweetDeck.
+https://ryandolan123.com/TweetDeckEnhancer
+It is possible to use it without TDE, but it was specifically designed for it, and will be completely useless and ugly otherwise. We highly discommend doing so. */
+
+
+/* Scrollbar Changes */
+.scroll-styled-v::-webkit-scrollbar-thumb, .scroll-styled-h::-webkit-scrollbar-thumb {border-radius: 0px; background-color: #605075; border-left: 0px; box-shadow: 0 1px 10px rgbargba(0,0,0,0.35);}
+
+.scroll-styled-v::-webkit-scrollbar-track, .scroll-styled-h::-webkit-scrollbar-track {border-left: 0px; border-radius: 0px;}
+
+/* Column update borders sprite */
+                
+.column-header, .column-header-temp {border-bottom: 0px;}
+
+.sprite-column-update {
+	width: 100%;
+	height: 1px;
+	border-bottom: 3px solid #fff;
+	margin-top: -1px;
+}
+
+.column-updates {
+	margin-left: 0px;
+	left: 0%;
+}
+
+.column-type-icon {
+	display: none;
+}
+
+.tweet-dogear {
+	display: block;
+}
+
+/* Display colored bar on the side instead of orange and green Fav/RT corners */
+
+.tweet-dogear {
+	display: block;
+	width: 0.1px;
+	height: 100%;
+  	background-image: none;
+}
+
+.is-favorite .tweet-dogear {
+	border-right: 3px solid #ff9b00;
+	box-shadow: 0px 0px 0px #ff9b00;
+}
+
+.is-retweet.is-favorite .tweet-dogear {
+	border-right: 3px solid #fff;
+	box-shadow: 0px 0px 0px #fff;
+}
+
+.is-retweet .tweet-dogear {
+	border-right: 3px solid #71b332;
+	box-shadow: 0px 0px 0px #71b332;
+}
+
+/* Changing colors of link if the tweet is fav/RT/favRT */
+
+.is-retweet .tweet-text a {
+	color: #71b332;    
+}
+  
+.is-favorite .tweet-text a {
+	color: #ff9b00;    
+}
+    
+.is-retweet.is-favorite .tweet-text a {
+	color: #fff;    
+}
+
+/* THE FUN ENDS HERE */
+
+.js-column-content .column-content {padding-right: 0px !important; border-right: 1px transparent;}
+.stream-item.is-actionable {border-bottom: transparent;}
+.app-header {background-color: #9E7DC9;}
+.btn-compose {background-color: #5A3B82;}
+.btn-compose:focus {background-color: #5A3B82;}
+.btn-compose:hover {background-color: #5A3B82;}
+.compose {background-color: #5A3B82;}
+.compose-text {background-color: rgba(21, 21, 21, 0.95);}
+.btn:hover {color: #9E7DC9;}
+.btn {color: #FFF;}
+.btn-positive[disabled], [disabled].btn-positive-alt, [disabled].btn-fav.s-favorited, .s-following [disabled].follow-btn, .btn-positive[disabled]:hover, [disabled].btn-positive-alt:hover, [disabled].btn-fav.s-favorited:hover, .s-following [disabled].follow-btn:hover, .btn-positive[disabled]:active, [disabled].btn-positive-alt:active, [disabled].btn-fav.s-favorited:active, .s-following [disabled].follow-btn:active, .btn-positive.is-disabled, .is-disabled.btn-positive-alt, .is-disabled.btn-fav.s-favorited, .s-following .is-disabled.follow-btn, .btn-positive.is-disabled:hover, .is-disabled.btn-positive-alt:hover, .is-disabled.btn-fav.s-favorited:hover, .s-following .is-disabled.follow-btn:hover, .btn-positive.is-disabled:focus, .is-disabled.btn-positive-alt:focus, .is-disabled.btn-fav.s-favorited:focus, .s-following .is-disabled.follow-btn:focus, .btn-positive.is-disabled:active, .is-disabled.btn-positive-alt:active, .is-disabled.btn-fav.s-favorited:active, .s-following .is-disabled.follow-btn:active {color: #5A3B82;}
+.column-header, .column-header-temp {background: linear-gradient(#605075,#605075)}
+.column-message {background-color: #605075;}
+.column {background-color: #171717;}
+.is-new .column-header, .is-new .column-header-temp {background: linear-gradient(#9E7DC9,#9E7DC9); border-bottom: 1px #fff;}
+a {color: #9E7DC9;}
+.compose-message-recipient-list {background-color: #5A3B82;}
+.btn-compose {color: #fff !important;}
+.js-account-manager-container header.drawer-header.padding-lxl {background-color: #5A3B82;}
+.js-account-manager-container.column-panel.border-box.bg-r-light-gray {background-color: #5A3B82;}
+.column-options {background-color: #9E7DC9;}
+.is-options-open .column-settings-link {background-color: #9E7DC9;}
+.facet-type {background-color: #9E7DC9;}
+.column-options .button-tray {background-color: #9E7DC9;}
+.is-options-open .column-settings-link:hover {background-color: #9E7DC9;}
+.is-unread {background-color: #9E7DC9;}
+.is-unread:hover {background-color: #9E7DC9;}
+.is-unread:focus {background-color: #9E7DC9;}
+.is-unread:active {background-color: #9E7DC9;}
+.js-schedule-datepicker-holder>.popover {box-shadow: 0 2px 5px rgba(0,0,0,0.8)!important;}
+.popover {background-color: rgba(21, 21, 21, 0.95);}
+#calcurrent {background-color: #5A3B82 !important;}
+.btn-negative[disabled], .btn-negative[disabled]:hover, .btn-negative[disabled]:active, .btn-negative.is-disabled, .btn-negative.is-disabled:hover, .btn-negative.is-disabled:focus, .btn-negative.is-disabled:active {color: rgba(255, 0, 0, 0.65);}
+.media-sensitive {background-color: #171717;}
+.dropdown-menu {background-color: #5A3B82;}
+.link-complex.txt-medium.block.cf {color: #fff;}
+.link-complex.txt-medium.block.cf:hover {color: #9E7DC9;}
+.app-navigator .dropdown-menu {box-shadow: 0 2px 5px rgba(0,0,0,0.5)}
+.mdl-column {background-color: #9E7DC9;}
+.mdl-col-settings {background-color: #5A3B82;}
+.mdl:before {background-color: #605075;}
+.lst-group.js-setting-list .selected {background-color: #5A3B82;}
+.lst-group.js-setting-list:hover {background-color: #5A3B82;}
+.tweet-detail-wrapper {background-color: rgba(64, 50, 82, 0.55); box-shadow: 0 1px 10px rgba(0, 0, 0, 0.38);}
+.bg-r-light-gray {background-color: #5A3B82;}
+.is-inverted-dark a, .is-inverted-dark a:hover, .is-inverted-dark a:focus, .is-inverted-dark a:active {color: #9E7DC9;}
+.is-selected-tweet {background-color: #605075;}
+.column-background-fill {background-color: #171717;}
+.popover {box-shadow: 0 2px 5px rgba(0,0,0,0.8) !important}
+.js-add-column {background-color: #9E7DC9;}
+button.js-toggle-button.btn.js-toggle-tweets.is-selected {border-radius: 0px 0 0 0px;}
+button.js-toggle-button.btn.js-toggle-users.is-selected {border-radius: 0px 0 0 0px;}
+.btn:hover {color: #9E7DC9;}
+.compose-account-selected {background-color: #9E7DC9;}
+a:hover {color: #9E7DC9;}
+.inline-reply {background-color: #171717 !important;}
+.tweet-actions .tweet-action.is-selected, .tweet-detail-actions .tweet-action.is-selected, .tweet-detail-actions .js-reply-action.is-selected {color: #9E7DC9 !important;}
+.prf-meta {background: #171717;}
+.social-proof-container {background: #242424;}
+.mdl {background-color: rgba(40, 40, 40, 1) !important;}
+.btn-positive, .btn-positive-alt, .btn-fav.s-favorited, .s-following .follow-btn {color: #9E7DC9 !important;}
+.detail-view-inline-text {border-bottom: 3px solid #9E7DC9;}
+
+/* LOL COMMENTED CODE XDDDDDDDDD */
