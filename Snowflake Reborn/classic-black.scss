@@ -108,7 +108,7 @@ $rounded_radius: 6px;
     }
 }
 
-.btn-positive-on-blue[disabled]/*,
+.btn-positive-on-blue[disabled],
 .btn-positive-on-blue[disabled]:hover,
 .btn-positive-on-blue[disabled]:active,
 .btn-positive-on-blue.is-disabled,
@@ -128,7 +128,7 @@ $rounded_radius: 6px;
 .btn.is-disabled,
 .btn.is-disabled:hover,
 .btn.is-disabled:focus,
-.btn.is-disabled:active*/ {
+.btn.is-disabled:active {
     border-color: transparent;
     background-color: transparent;
     color: transparent;

@@ -1,0 +1,406 @@
+.btn-positive-on-blue , .btn:active, .btn.is-selected
+{
+    color: #55acee;
+    background-color: transparent;
+    box-shadow: none;
+    font-weight: bold;
+}
+.btn-on-blue, .btn-positive, .btn-positive-alt, .btn-fav.s-favorited, .s-following .follow-btn, .attach-compose-buttons .tweet-button
+{
+    color: #55acee;
+    background-color: transparent;
+    border-color: transparent;
+    box-shadow: none;
+}
+.btn-positive-on-blue:hover, .btn-positive-on-blue:focus, .btn-positive:hover, .btn-positive-alt:hover, .btn-fav.s-favorited:hover, .s-following .follow-btn:hover, .btn-positive:focus, .btn-positive-alt:focus, .btn-fav.s-favorited:focus, .s-following .follow-btn:focus, .btn-on-blue:focus, .btn-on-blue:hover, .btn-on-blue:focus, .btn-on-blue:hover, .btn:hover, .btn:focus
+{
+    color: grey;
+    background-color: transparent;
+    border-color: transparent;
+}
+.compose-text-container
+{
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+.btn
+{
+    background-color: transparent;
+    color: #55acee;
+    border: none;
+}
+.btn-negative
+{
+    color: #A00;
+}
+.app-search-fake
+{
+    color: #55acee;
+    background-color: transparent;
+    box-shadow: none;
+}
+.app-search-input
+{
+    border-radius: 6px;
+    background-color: white;
+    box-shadow: none;
+}
+.inline-reply
+{
+    background-color: transparent;
+}
+.inline-reply .icon
+{
+    color: #55acee;
+}
+.med-fullpanel
+{
+    background-color: transparent;
+}
+.mdl
+{
+    box-shadow: none;
+    background-color: #404040;
+    border-radius: 6px;
+}
+.mdl-content
+{
+    border: none;
+    background: #404040;
+    color: white
+}
+.mdl-column-med
+{
+    background: transparent;
+}
+.mdl-column-rhs
+{
+    border-left: transparent;
+    background-color: #404040
+}
+.mdl-column-rhs .stream-item {
+    background-color: #404040
+}
+.mdl-dismiss-media, .is-inverted-light .mdl-dismiss-media
+{
+    color: #55acee
+}
+.mdl-dismiss-media:hover, .is-inverted-light .mdl-dismiss-media:hover, .mdl-dismiss-media:focus, .is-inverted-light .mdl-dismiss-media:focus
+{
+    color: grey;
+}
+.lst-group .selected, .lst-group .selected:hover
+{
+    background: #55acee;
+    border-radius: 6px;
+}
+.lst-group .selected .fullname { color:white } .lst-group .selected .username { color:white }
+.is-inverted-light, .is-inverted-light .account-link
+{
+    color: #292F33;
+}
+.tweet-stats
+{
+    border-top: none;
+}
+.tweet-detail-actions
+{
+    border-top: none;
+}
+.detail-view-inline-text, .input-group-button
+{
+    border: none;
+}
+.cmp-replyto
+{
+    background-color: transparent;
+    border-top: none;
+}
+.accs li, .accs .acc-selected, .accs .acc-selected:hover
+{
+    border: none;
+    background: none;
+}
+.accs li:hover
+{
+    background: transparent;
+}
+.accs .icon
+{
+    color: grey;
+}
+.accs .acc-selected i
+{
+    color: #55acee;
+}
+.is-inverted-light a
+{
+    color: #55acee;
+}
+.is-inverted-light a:hover, .is-inverted-light a:focus, .is-inverted-light a:active
+{
+    color: grey;
+    text-decoration: none;
+}
+a
+{
+    color: #55acee;
+    text-decoration: none;
+}
+a:hover, a:focus, a:active
+{
+    color: grey;
+    text-decoration: none;
+}
+.is-selected .reply-triangle
+{
+    visibility: hidden;
+}
+.prf-header
+{
+    background-image: none;
+}
+input, textarea, select, .uneditable-input
+{
+    border: none;
+}
+.btn-neutral-negative
+{
+    color: #dd2e44;
+}
+.prf-stats li + li a
+{
+    border-left: none;
+}
+.prf-actions, .social-proof-container
+{
+    background-color: #fff;
+}
+.is-options-open .column-settings-link
+{
+    border-color: transparent;
+}
+.app-search-tweet-results .column-header-temp
+{
+    background: linear-gradient( to bottom, #fff, rgba(255,255,255,0.9));
+    height: 50px;
+}
+.avatar, .prf-img
+{
+    border-radius: 20%;
+}
+
+.social-proof-for-tweet-title
+{
+    background-color: transparent;
+    border-bottom: none;
+}
+.column-nav-link:hover, .app-nav-link:hover
+{
+    color: #55acee;
+}
+.is-inverted-light .tweet-action, .is-inverted-light .tweet-detail-action
+{
+    color: #55acee;
+}
+.is-inverted-light .tweet-action:hover, .is-inverted-light .tweet-detail-action:hover, .is-inverted-light .tweet-action:focus, .is-inverted-light .tweet-detail-action:focus
+{
+    color: grey;
+}
+.column-content
+{
+    padding-top: 50px;
+}
+.column-temp .column-header, .column-header-temp
+{
+    border-bottom: none;
+}
+.is-new .column-type-icon
+{
+    color: #55acee;
+}
+.txt-mute a:hover, .txt-mute a:focus
+{
+    color: #55acee;
+}
+.link-complex:hover .link-complex-target, .link-complex:focus .link-complex-target, .link-complex:active .link-complex-target
+{
+    text-decoration: none;
+}
+.icon-user-switch:hover
+{
+    color: #55acee;
+}
+.list-item:hover, .list-item:active, .list-item.is-selected, .list-item:hover .list-icon, .list-item:active .list-icon, .list-item.is-selected .list-icon
+{
+    color: #55acee;
+    background-color: transparent;
+}
+.is-selected-tweet
+{
+    background-color: rgba(85,172,238,0.1)
+}
+#open-modal .tweet-body { color: white }
+#open-modal .fullname { color: white }
+.sprite {
+    background-image: url('https://i.imgur.com/fuHRSHI.png');
+}
+.lst-group .selected .fullname { color:white } .lst-group .selected .username { color:white }
+.column-nav-flyout .column-nav-item {background-color:#404040} .column-nav-flyout .column-nav-item span {color:white}
+.btn span, .mdl-header-title, .mdl-inner .column-head-title {color:white}
+.compose-reply-tweet .fullname {color:#55acee}
+.compose-reply-tweet .icon-close:before {color:white}
+.is-favorite .tweet-text a {color:#ffe100} .is-retweet.is-favorite .tweet-text a {color:#55acee}
+.is-retweet .tweet-text a {color:#71b332}
+.is-favorite .account-inline .fullname {color:#ffe100}
+.is-retweet.is-favorite .account-inline .fullname{color:#55acee} .is-retweet .account-inline .fullname {color:#71b332}
+#actions-modal .item-box .tweet-text {color:grey}
+.list-account {text-shadow: none}
+#open-modal li:hover:not(.selected) .fullname {color:black}
+#open-modal li .list-account {border-radius:6px}
+#open-modal li:hover .list-account {background:#3b94d9}
+#open-modal li:hover.selected .list-account {background:grey}
+#open-modal li:hover.selected .fullname {color:#55acee}
+#open-modal .mdl-inner .column-options {display:none}
+
+/* Fixing the 'User' column so the colors are all pretty and stuff. */
+.js-detail-content {
+    background-color: #404040
+}
+#open-modal .mdl-inner .txt-large {
+    color: white
+}
+#open-modal .scroll-conversation {
+    background: #404040
+}
+#open-modal .column-temp .column-header, .column-header-temp {
+    background: #404040
+}
+#open-modal .tweet-detail-wrapper {
+    border: none
+}
+
+/* Makes the column messages for options flatter. */
+.is-actionable.column-message {
+    background: #404040
+}
+
+/* Fixes profile view */
+.prf-actions, .prf-actions > .prf-meta, .prf-actions > .social-proof-container {
+    background-color:#404040;
+    border: none
+}
+
+.prf-actions .lst-profile a {
+    border:none
+}
+
+.social-proof-container > p, .prf-meta > .prf-stats > li > a > strong {
+    color: white
+}
+
+.prf-meta > .prf-stats > li > a {
+    color: grey
+}
+
+/* Makes the follow button more appealing. And flat. */
+.prf-actions .s-not-following > button {
+    background: transparent !important;
+}
+
+/* Makes the follow button's friend more appealing. */
+.prf-actions .js-action-follow .follow-combo button {
+    color: white;
+    background: transparent;
+    border-color: none
+}
+
+/* Major overhaul of the image view mode. Transparency, and some backgrounds for text w/ opacity changes */
+#open-modal .med-fullpanel {
+    max-width: 50%;
+}
+
+#open-modal .med-fullpanel > .med-tweet {
+    left: 0;
+    right: 0;
+}
+
+#open-modal .js-mediatable .mdl {
+    background: transparent;
+}
+
+#open-modal .js-mediatable .mdl .med-tweet {
+    background: rgba(60,60,60,0.6);
+}
+
+#open-modal .med-fullpanel .mdl-dismiss .icon {
+    background: rgba(60,60,60,0.6)
+}
+
+#open-modal .js-mediatable .med-tray {
+    padding-bottom: 0px;
+}
+
+#open-modal .js-mediatable .med-tray > .js-media-preview-container.margin-vm {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+/* Background is translucent and buttons aren't in way */
+#open-modal .js-mediatable .med-tray > a {
+    background: rgba(60,60,60,0.6);
+    bottom: -1.1rem;
+}
+
+.mdl.s-full { /* Potentially not needed. */
+    width: 60%;
+}
+
+/* Fixed spinner gif */
+.spinner-button-icon-spinner {
+    background-image: url('https://i.imgur.com/8HC6epP.gif')
+}
+/* Should fix random horizontal scrollbar on users modal when selecting a tweet */
+#open-modal .js-modal-panel .mdl-inner .mdl-content .mdl-column.mdl-column-rhs .js-right-column {
+    overflow-x: hidden;
+}
+
+/* Fixes the scrollbar issue in user modal where it shows a white line.*/
+.scroll-styled-v::-webkit-scrollbar-track, .scroll-styled-h::-webkit-scrollbar-track {
+    border-left: none;
+}
+
+/* Fixes tweet favourite users header colour */
+.is-inverted-dark .social-proof-for-tweet-title {
+    background:none;
+}
+
+/* Fixes the update where non-convo's got borders */
+.stream-item:not(.conversation-event) {
+    border:none;
+}
+
+/* Scrollbar background removed */
+.column-background-fill.column-scroller {
+    background:none;
+}
+
+/* Clear loading gif */
+.med-embeditem {
+    background: transparent url("https://i.imgur.com/hvLaZyv.gif") no-repeat 50% 50%
+}
+
+/* More random white line fixing */
+.is-inverted-dark .stream-item:not(.conversation-event), .is-inverted-dark .conversation-event+.stream-item:not(.conversation-event) {
+    background: none;
+}
+
+.is-inverted-dark .tweet-detail-reply .stream-item {
+    border-bottom-color: transparent;
+}
+
+/* White box fixing */
+.is-inverted-dark .tweet-detail-wrapper {
+    border-color: transparent;
+    background: transparent;
+}
