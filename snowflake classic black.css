@@ -496,4 +496,9 @@
         border-color: transparent;
         background: transparent;
     }
+
+    /* Compose container fix. -> Tweetdeck Enhancer */
+    .compose-text-container {
+        border: none;
+    }
 }
