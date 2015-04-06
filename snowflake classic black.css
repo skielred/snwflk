@@ -506,4 +506,28 @@
     .column-content {
         padding-top: 0;
     }
+    
+    .is-inverted-dark .txt-normal {
+        color: white;
+    }
+
+    .scroll-styled-v::-webkit-scrollbar-thumb, .scroll-styled-h::-webkit-scrollbar-thumb{
+        border-radius:0px;
+    }
+
+    /* Retweet fix */
+    .accs-header {
+        color:white;
+    }
+
+    /* User's name colour change */
+    #actions-modal .nbfc .account-inline .fullname {
+        color:white;
+    }
+
+
+    /* Fixes the strange line */
+    .card-holder {
+        border-top:none;
+    }
 }
