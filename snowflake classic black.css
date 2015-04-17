@@ -530,4 +530,9 @@
     .card-holder {
         border-top:none;
     }
+    
+    /* Gets rid of stupid triangle */
+    .media-caret {
+      display:none;
+    }
 }
