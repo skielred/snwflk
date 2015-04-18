@@ -535,4 +535,9 @@
     .media-caret {
       display:none;
     }
+    
+    /* Fixed translation text */
+    .tweet-detail .tweet-translation-text {
+      color: white;
+    }
 }
