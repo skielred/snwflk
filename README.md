@@ -74,6 +74,7 @@ Known issues on Snowflake Minima Black Aqua (SMBA):
 - ~~Fix [this](http://i.imgur.com/6LAN0jy.png). It's fucking ugly, and I don't even know where to begin with *what exactly* is wrong, because **everything** is wrong.~~ FIXED!
 - ~~Believe it or not, I had flattened the "Follow" and "Edit profile" button by removing the border, but something fucked it up (I don't know what) so I'm going to look further into fixing it.~~ Nevermind, it fixed itself on its own. Somehow.
 - ~~REfix the column options. Somehow it fucks itself up on its own all the time.~~ Fixed. TweetDeck default CSS was overlapping the tweak, had to implement priority attribute.
+- [This](https://a.pomf.se/ywkrxb.png) looks like shit. Needs fixing badly.
 
 Known issues on color schemes variations:
 - ~~Some things are still blue. Gotta change it.~~
