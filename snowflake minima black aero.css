@@ -3,29 +3,26 @@ snowflake minima is a tweetdeck css modification that's designed to look the mos
 it is based upon snowflake classic black by diamant and implements some features of pixeldesu's modern tweetdeck modification (@pixeldesu or http://pixelde.su/).
 you must use it with tweetdeck dark theme, and it is better used with eramdam's better tweetdeck chrome extension (@eramdam).
 however, if you are to use it with better tweetdeck, you must firstly disable the "minimal" mode as it will conflict with the theme and look not so good.
-the creators of the themes used are diamant (@diamantlefou), berter (@bertertheboss) and scimitar (@almtycwrd)
+the creators of the themes used are diamant (@diamantlefou), berter (@bertertheboss) and scimitar (@wplanetary)
 */
 
 /* implement fonts */
 
 @font-face {
-    font-family: 'robotodraft';
+    font-family: 'RobotoDraft';
     font-style: normal;
     font-weight: 400;
-    src: local('robotodraft'), local('robotodraft-regular'), url(https://fonts.gstatic.com/s/robotodraft/v3/0xes5sl_v6oyt7dakuoni6e8km4xwr1_1byurrojrgc.woff2) format('woff2');
-    unicode-range: u+0100-024f, u+1e00-1eff, u+20a0-20ab, u+20ad-20cf, u+2c60-2c7f, u+a720-a7ff;
+    src: local('RobotoDraft'), local('RobotoDraft-Regular'), url(https://fonts.gstatic.com/s/robotodraft/v3/0xES5Sl_v6oyT7dAKuoni6E8kM4xWR1_1bYURRojRGc.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
 }
 
 @font-face {
-    font-family: 'robotodraft';
+    font-family: 'RobotoDraft';
     font-style: normal;
     font-weight: 400;
-    src: local('robotodraft'), local('robotodraft-regular'), url(https://fonts.gstatic.com/s/robotodraft/v3/0xes5sl_v6oyt7dakuoni5qv2lvl5ba9fjayk6lx0qk.woff2) format('woff2');
-    unicode-range: u+0000-00ff, u+0131, u+0152-0153, u+02c6, u+02da, u+02dc, u+2000-206f, u+2074, u+20ac, u+2212, u+2215, u+e0ff, u+effd, u+f000;
+    src: local('RobotoDraft'), local('RobotoDraft-Regular'), url(https://fonts.gstatic.com/s/robotodraft/v3/0xES5Sl_v6oyT7dAKuoni5QV2lvL5Ba9FjAYK6Lx0Qk.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
-
-
-body {font-family: 'robotodraft' !important;}
 
 /* loading screen */
 
