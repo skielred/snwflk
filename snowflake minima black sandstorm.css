@@ -1209,16 +1209,22 @@ select {
 .bg-r-faded-gray {
     background-color: #171717;
 }
-/* Quoted tweet border */
+/* quoted tweet border */
+.quoted-tweet {background: transparent; border: transparent;}
 
-.quoted-tweet {
-    background: transparent;
-}
-/* Username in column fix */
+/* username in column fix */
 
 .btd-ready .column-title .attribution {
     font-size: 10px;
 }
+
 .column-message {
     background: transparent;
 }
+
+/* fixing the new tweets button */
+.js-more-tweets-btn-text {display: none;}
+.more-tweets-btn .icon {font-size: 1.8em; color: #fff !important; background-color: #E6E68E; border-radius: 100px;}
+
+/* neato header tweaks */
+span.column-head-title {color: #E6E68E;}
