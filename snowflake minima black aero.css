@@ -1206,10 +1206,8 @@ select {
     background-color: #171717;
 }
 /* Quoted tweet border */
+.quoted-tweet {background: transparent; border: transparent;}
 
-.quoted-tweet {
-    background: transparent;
-}
 /* Username in column fix */
 
 .btd-ready .column-title .attribution {
@@ -1219,3 +1217,10 @@ select {
 .column-message {
     background: transparent;
 }
+
+/* Fixing the new tweets button */
+.js-more-tweets-btn-text {display: none;}
+.more-tweets-btn .icon {font-size: 1.8em; color: #fff !important; background-color: #9E7DC9; border-radius: 100px;}
+
+/* neato header tweaks */
+span.column-head-title {color: #9E7DC9;}
