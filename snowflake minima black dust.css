@@ -1228,3 +1228,6 @@ select {
 
 /* neato header tweaks */
 span.column-head-title {color: #FAAF0C;}
+
+/* DISABLE THIS IF YOU DISLIKE THE LOWERCASE AESTHETIC */
+body {text-transform: lowercase;}
