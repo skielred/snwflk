@@ -96,9 +96,9 @@ To-do list
 - ~~Adding the new loading screen.~~ Done.
 - ~~Commit Snowflake Minima Black Fire and rename Snowflake Minima Black to Aqua.~~ Done. Fire still needs fixes.
 - ~~[Would you like to see the font change?](http://strawpoll.me/2823751)~~ Nevermind, fonts will be implemented as an option.
-- Instead of darkening the background when you open a profile, make it blurry. This seems a little bit tricky to do. Might need an extension to do the work.
-- Create a Chrome extension! Automatic implementation of CSS (making Stylish unnecessary), easier choice of options and automatic updating! What's better? We're on it. Coming soon. What's more? We might overwrite JS, with cool features such as a new notification sound.
-- Some of our users have been using this with [TweetDeck Enhancer](https://github.com/ryandolan123/TweetDeck-Enhancer), and obviously, the two CSS are conflicting. Working on it.
+- Instead of darkening the background when you open a profile, make it blurry. This seems a little bit tricky to do. Might need JS injection to do the work.
+- Create a Chrome extension! Automatic implementation of CSS (making Stylish unnecessary), easier choice of options and automatic updating! What's better? We're on it. Coming soon. What's more? We might overwrite JS, with cool features such as a new notification sound. MAYBE SOMEDAY. RIP.
+- ~~Some of our users have been using this with [TweetDeck Enhancer](https://github.com/ryandolan123/TweetDeck-Enhancer), and obviously, the two CSS are conflicting. Working on it.~~ This isn't needed. People who use TDE don't need Snowflake, since it makes its own changes.
 
 Credits
 -------------
