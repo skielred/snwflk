@@ -1,5 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600&subset=latin,cyrillic-ext,greek-ext,greek,vietnamese,latin-ext,cyrillic);
-
 /* Snowflake Minima Black for TweetDeck.
 Snowflake Minima is a TweetDeck CSS modification that's designed to look the most minimalistic possible.
 It is based upon Snowflake Classic Black by Diamant and implements some features of pixeldesu's Modern TweetDeck modification.
@@ -116,7 +115,6 @@ body > div.js-modals-container > div > div > div > div > div > div.prf-actions >
   margin-top: 5px;
   border-color: #ffffff !important;
   background-color: #ffffff !important;}
-}
 
 .compose-reply-tweet {
   margin-left: 0px !important;
@@ -212,7 +210,6 @@ body > div.js-modals-container > div > div > div > div > div > div.prf-actions >
   }
 #open-modal > div > div > div > div:nth-child(1) > div.js-left-pinned.pin-top > form > div > input {
   background-color: #ffffff !important; color: #626262; }
-#
 /* Settings fix */
 .lst-group .js-setting-list { color: #626262;}
 .mdl-col-settings { background-color: #ffffff;}
@@ -838,9 +835,6 @@ Note: this is disabled because I don't like it, but if it's your kind of stuff, 
 /* White theme fixes */
 .btn span, .mdl-header-title, .mdl-inner .column-head-title{color: #111}
 
-/* Remove button shadow */
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600&subset=latin,cyrillic-ext,greek-ext,greek,vietnamese,latin-ext,cyrillic);
-
 /* Snowflake Minima Black for TweetDeck.
 Snowflake Minima is a TweetDeck CSS modification that's designed to look the most minimalistic possible.
 It is based upon Snowflake Classic Black by Diamant and implements some features of pixeldesu's Modern TweetDeck modification.
@@ -957,7 +951,6 @@ body > div.js-modals-container > div > div > div > div > div > div.prf-actions >
   margin-top: 5px;
   border-color: #ffffff !important;
   background-color: #ffffff !important;}
-}
 
 .compose-reply-tweet {
   margin-left: 0px !important;
@@ -1053,7 +1046,6 @@ body > div.js-modals-container > div > div > div > div > div > div.prf-actions >
   }
 #open-modal > div > div > div > div:nth-child(1) > div.js-left-pinned.pin-top > form > div > input {
   background-color: #ffffff !important; color: #626262; }
-#
 /* Settings fix */
 .lst-group .js-setting-list { color: #626262;}
 .mdl-col-settings { background-color: #ffffff;}
@@ -1686,4 +1678,4 @@ Note: this is disabled because I don't like it, but if it's your kind of stuff, 
 .btn span, .mdl-header-title, .mdl-inner .column-head-title{color: #111}
 
 /* Fix button compose shadow */
-.btn-compose {box-shadow: 1px 1px 0 rgba(255,255,255,0)
+.btn-compose {box-shadow: 1px 1px 0 rgba(255,255,255,0)}
