@@ -105,9 +105,10 @@ Credits
 
 - [Berter](http://twitter.com/BerterTheBoss); created Snowflake Classic White.
 - [Diamant](http://twitter.com/diamantlefou); created Snowflake Classic Black.
-- [Scimitar](http://twitter.com/AlmtyCwrd); created the Snowflake Minima suite.
+- [Scimitar](http://twitter.com/wplanetary); created the Snowflake Minima suite.
 - [Calv](http://twitter.com/calvcoll) who gave us useful advice and fixed a lot of issues.
 - [Haruto](http://twitter.com/LordHaruto) who fixed a lot of issues, and is working on the Chrome extension.
 - [Yukito](http://twitter.com/Yukito_kun_) who made a fancy logo!
 - [Knowzen](http://twitter.com/Knowzen) who made fixes on his own and helped quite a lot!
+- [Shookaite](http://twitter.com/Shookaite) who fixed some ugly shit on Minima White. 
 - Special thanks to [pixeldesu](http://twitter.com/pixeldesu) (http://pixelde.su/) for Modern TweetDeck, which features were the main additions of Snowflake Minima.
