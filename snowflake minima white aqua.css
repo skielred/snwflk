@@ -7,6 +7,14 @@ However, if you are to use it with Better TweetDeck, you must firstly disable th
 The creators of the themes used are Diamant (@diamantlefou), Berter (@BerterTheBoss) and pixeldesu (@pixeldesu or http://pixelde.su/) and was recompiled in a more fitting theme by me, Scimitar (@AlmtyCwrd)
 */
 
+/* @Shookaite's Fix */
+
+.mdl .tweet-text, .mdl .fullname {color:black!important;}
+.column-head-title {color:blue!important;}
+.column-head-title + .txt-sub-antialiased {color:darkblue!important;}
+.prf-card-inner strong.fullname {color:white!important;}
+/* End of @Shookaite's fix */
+
 /* Loading Screen */
 
 body {
