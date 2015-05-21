@@ -1,5 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600&subset=latin,cyrillic-ext,greek-ext,greek,vietnamese,latin-ext,cyrillic);
-
 /* Snowflake Minima Black for TweetDeck.
 Snowflake Minima is a TweetDeck CSS modification that's designed to look the most minimalistic possible.
 It is based upon Snowflake Classic Black by Diamant and implements some features of pixeldesu's Modern TweetDeck modification.
@@ -7,6 +6,14 @@ You must use it with TweetDeck Dark Theme, and it is better used with Eramdam's 
 However, if you are to use it with Better TweetDeck, you must firstly disable the "Minimal" mode as it will conflict with the theme and look not so good.
 The creators of the themes used are Diamant (@diamantlefou), Berter (@BerterTheBoss) and pixeldesu (@pixeldesu or http://pixelde.su/) and was recompiled in a more fitting theme by me, Scimitar (@AlmtyCwrd)
 */
+
+/* @Shookaite's Fix */
+
+.mdl .tweet-text, .mdl .fullname {color:black!important;}
+.column-head-title {color:blue!important;}
+.column-head-title + .txt-sub-antialiased {color:darkblue!important;}
+.prf-card-inner strong.fullname {color:white!important;}
+/* End of @Shookaite's fix */
 
 /* Loading Screen */
 
@@ -116,7 +123,6 @@ body > div.js-modals-container > div > div > div > div > div > div.prf-actions >
   margin-top: 5px;
   border-color: #ffffff !important;
   background-color: #ffffff !important;}
-}
 
 .compose-reply-tweet {
   margin-left: 0px !important;
@@ -212,7 +218,6 @@ body > div.js-modals-container > div > div > div > div > div > div.prf-actions >
   }
 #open-modal > div > div > div > div:nth-child(1) > div.js-left-pinned.pin-top > form > div > input {
   background-color: #ffffff !important; color: #626262; }
-#
 /* Settings fix */
 .lst-group .js-setting-list { color: #626262;}
 .mdl-col-settings { background-color: #ffffff;}
@@ -838,9 +843,6 @@ Note: this is disabled because I don't like it, but if it's your kind of stuff, 
 /* White theme fixes */
 .btn span, .mdl-header-title, .mdl-inner .column-head-title{color: #111}
 
-/* Remove button shadow */
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600&subset=latin,cyrillic-ext,greek-ext,greek,vietnamese,latin-ext,cyrillic);
-
 /* Snowflake Minima Black for TweetDeck.
 Snowflake Minima is a TweetDeck CSS modification that's designed to look the most minimalistic possible.
 It is based upon Snowflake Classic Black by Diamant and implements some features of pixeldesu's Modern TweetDeck modification.
@@ -957,7 +959,6 @@ body > div.js-modals-container > div > div > div > div > div > div.prf-actions >
   margin-top: 5px;
   border-color: #ffffff !important;
   background-color: #ffffff !important;}
-}
 
 .compose-reply-tweet {
   margin-left: 0px !important;
@@ -1053,7 +1054,6 @@ body > div.js-modals-container > div > div > div > div > div > div.prf-actions >
   }
 #open-modal > div > div > div > div:nth-child(1) > div.js-left-pinned.pin-top > form > div > input {
   background-color: #ffffff !important; color: #626262; }
-#
 /* Settings fix */
 .lst-group .js-setting-list { color: #626262;}
 .mdl-col-settings { background-color: #ffffff;}
@@ -1686,4 +1686,4 @@ Note: this is disabled because I don't like it, but if it's your kind of stuff, 
 .btn span, .mdl-header-title, .mdl-inner .column-head-title{color: #111}
 
 /* Fix button compose shadow */
-.btn-compose {box-shadow: 1px 1px 0 rgba(255,255,255,0)
+.btn-compose {box-shadow: 1px 1px 0 rgba(255,255,255,0)}
