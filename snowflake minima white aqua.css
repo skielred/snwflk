@@ -13,6 +13,7 @@ The creators of the themes used are Diamant (@diamantlefou), Berter (@BerterTheB
 .column-head-title {color:blue!important;}
 .column-head-title + .txt-sub-antialiased {color:darkblue!important;}
 .prf-card-inner strong.fullname {color:white!important;}
+.tweet-action + .dropdown-menu {background-color: white;}
 /* End of @Shookaite's fix */
 
 /* Loading Screen */
