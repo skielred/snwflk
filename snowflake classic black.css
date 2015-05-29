@@ -540,4 +540,8 @@
     .tweet-detail .tweet-translation-text {
       color: white;
     }
+    /* Fixed toggle switch color */
+    .toggle-switch-input:checked+.toggle-switch-label:before {
+    background-color: #404040;
+    }
 }
