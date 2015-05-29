@@ -495,8 +495,4 @@
         border-color: transparent;
         background: transparent;
     }
-    /* Fixed toggle switch color */
-    .toggle-switch-input:checked+.toggle-switch-label:before {
-    background-color: #fffcf2;
-    }
 }
