@@ -1234,5 +1234,5 @@ body {text-transform: lowercase;}
 
 /* Fixed toggle switch color */
 .toggle-switch-input:checked+.toggle-switch-label:before {
-background-color: #FAAF0C;
+background-color:#FAAF0C;
 }
