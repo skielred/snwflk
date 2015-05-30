@@ -1189,3 +1189,8 @@ span.column-head-title {color: #55acee;}
 
 /* DISABLE THIS IF YOU DISLIKE THE LOWERCASE AESTHETIC */
 body {text-transform: lowercase;}
+
+/* Fixed toggle switch color */
+.toggle-switch-input:checked+.toggle-switch-label:before {
+background-color: #55acee;
+}
