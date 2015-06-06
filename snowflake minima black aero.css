@@ -24,6 +24,14 @@ the creators of the themes used are diamant (@diamantlefou), berter (@bertertheb
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 
+body, .fullname, .username, .prf-follow-status .s-follows, .prf-bio, .location .txt-ellipsis, .label .action-text .following-text {
+    font-family: 'RobotoDraft';
+}
+
+.label .action-text .following-text, .js-social-proof .social-proof-container .txt-base-small .cf .padding-al, .prf-meta .cf, .txt-ellipsis, .pull-left, .social-proof-names .pull-right {
+    font-family: 'RobotoDraft';
+}
+
 /* loading screen */
 
 body {
@@ -1233,15 +1241,43 @@ span.column-head-title {
 }
 /* disable this if you dislike the lowercase aesthetic */
 
-body {
-    text-transform: lowercase;
-}
+/* body {
+    text-transform: lowercase !important;
+} */
 
 button {
     text-transform: lowercase;
 }
+.prf-stats {
+    text-transform: lowercase;
+}
+.prf .lst-profile span {
+    text-transform: lowercase;
+}
+.prf-follow-status {
+    text-transform: lowercase;
+}
 
-/* Fixed toggle switch color */
+
+/* fixed toggle switch color */
 .toggle-switch-input:checked+.toggle-switch-label:before {
 background-color: #9370db;
+}
+.toggle-switch-label:after {border-radius: 0px; border: none;}
+.toggle-switch-label:after {border-radius: 0px; border: none; box-shadow: inset 0px 2px 8px -3px rgba(0, 0, 0, 0.51)}
+
+
+/* changing avatar borders */
+
+.is-retweet .tweet-avatar {
+    border: 1px outset #71b332;
+    box-shadow: 1px 1px 5px #71b332;
+}
+.is-favorite .tweet-avatar {
+	border: 1px outset #ff9b00;
+    box-shadow: 1px 1px 5px #ff9b00;
+}
+.is-retweet.is-favorite .tweet-avatar {
+	border: 1px outset #fff;
+    box-shadow: 1px 1px 5px #fff;
 }
