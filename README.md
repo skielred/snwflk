@@ -110,5 +110,6 @@ Credits
 - [Haruto](http://twitter.com/LordHaruto) who fixed a lot of issues, and is working on the Chrome extension.
 - [Yukito](http://twitter.com/Yukito_kun_) who made a fancy logo!
 - [Knowzen](http://twitter.com/Knowzen) who made fixes on his own and helped quite a lot!
-- [Shookaite](http://twitter.com/Shookaite) who fixed some ugly shit on Minima White. 
+- [Shookaite](http://twitter.com/Shookaite) who fixed some ugly shit on Minima White.
+- [Mathicha](https://github.com/Mathicha) who changed the switches colors.
 - Special thanks to [pixeldesu](http://twitter.com/pixeldesu) (http://pixelde.su/) for Modern TweetDeck, which features were the main additions of Snowflake Minima.
