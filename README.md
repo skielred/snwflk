@@ -1,4 +1,4 @@
-![Snowflake for TweetDeck](https://lh4.googleusercontent.com/-BWhQgIxSK3o/VEfFgg1x-LI/AAAAAAAACAU/DmN1YmAhxCM/w1200-h500-no/Snowflake_banner_blue.png)
+[![Snowflake for TweetDeck](https://lh4.googleusercontent.com/-BWhQgIxSK3o/VEfFgg1x-LI/AAAAAAAACAU/DmN1YmAhxCM/w1200-h500-no/Snowflake_banner_blue.png)](http://fractalhexagon.net/dev/snowflake)
 
 
 What is Snowflake?
