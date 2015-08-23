@@ -601,11 +601,11 @@ select.js-mentioning {background-color: #ffffff; color: #626262;}
 	  {
 		background-color: rgba(85,172,238,0.1)
 	  }
-     #open-modal .tweet-body { color: white }
-    #open-modal .fullname { color: white }
-    .sprite {
+#open-modal .tweet-body { color: black }
+#open-modal .fullname { color: black }
+.sprite {
    background-image: url('http://i.imgur.com/oTExYcd.png');
-  }
+}
     .lst-group .selected .fullname { color:white } .lst-group .selected .username { color:white }
 .lst-group .selected { border-radius: 0px }
      .column-nav-flyout .column-nav-item {background-color:#ffffff} .column-nav-flyout .column-nav-item span {color:white}
@@ -851,8 +851,3 @@ Note: this is disabled because I don't like it, but if it's your kind of stuff, 
 
 /* Fix button compose shadow */
 .btn-compose {box-shadow: 1px 1px 0 rgba(255,255,255,0)}
-
-/* Fix text not being white in modals */
-.tweet-text {
-	color: black;
-}
