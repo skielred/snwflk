@@ -851,3 +851,8 @@ Note: this is disabled because I don't like it, but if it's your kind of stuff, 
 
 /* Fix button compose shadow */
 .btn-compose {box-shadow: 1px 1px 0 rgba(255,255,255,0)}
+
+/* Fix text not being white in modals */
+.tweet-text {
+	color: black;
+}
