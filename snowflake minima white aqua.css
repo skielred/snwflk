@@ -7,849 +7,13 @@ However, if you are to use it with Better TweetDeck, you must firstly disable th
 The creators of the themes used are Diamant (@diamantlefou), Berter (@BerterTheBoss) and pixeldesu (@pixeldesu or http://pixelde.su/) and was recompiled in a more fitting theme by me, Scimitar (@AlmtyCwrd)
 */
 
-/* @Shookaite's Fix */
-
+/* @Shookaite's Fix --Might be needed?
 .mdl .tweet-text, .mdl .fullname {color:black!important;}
 .column-head-title {color:blue!important;}
 .column-head-title + .txt-sub-antialiased {color:darkblue!important;}
 .prf-card-inner strong.fullname {color:white!important;}
 .tweet-action + .dropdown-menu {background-color: white;}
 /* End of @Shookaite's fix */
-
-/* Loading Screen */
-
-body {
-	background-image: url(http://i.imgur.com/s8n1tbr.png);
-	background-size: cover;
-}
-
-/* Scrollbar Changes */
-
-.scroll-styled-v::-webkit-scrollbar-thumb, .scroll-styled-h::-webkit-scrollbar-thumb {border-radius: 0px; background-color: #eee;}
-
-.scroll-styled-v::-webkit-scrollbar-track, .scroll-styled-h::-webkit-scrollbar-track {border-left: 0px;}
-
-/* Fix colors in Accounts */
-div.account-summary-text.nbfc.padding-tm.account-link {
-  color: #626262;
-}
-.is-inverted-dark .accordion .is-active { color: #626262;}
-  
-/* Applying font */
-body {
-   	font-family: 'Open Sans', sans-serif;
-}
-
-.is-inverted-dark {
-  	font-family: 'Open Sans', sans-serif;
-}
-
-/* Column-Update Sprite */
-                
-.column-header, .column-header-temp {
-	border-bottom: 0px;
-}
-
-.sprite-column-update {
-	width: 100%;
-	height: 1px;
-	border-bottom: 3px solid #000;
-	margin-top: -1px;
-}
-
-.column-updates {
-	margin-left: 0px;
-	left: 0%;
-}
-
-.column-type-icon {
-	display: none;
-}
-
-.tweet-dogear {
-	display: block;
-}
-
-/* Fixing RT blocks font color */
-
-.js-mdl-header, .mdl-header
-	  {
-		color: #626262;
- 	  }
-
-#actions-modal > div > div.js-inreply.cmp-replyto.item-box.is-inverted-dark > div > header > a > div.nbfc > span
-	  {
-		color: #626262;
-  	  }
-#actions-modal > div > div.js-inreply.cmp-replyto.item-box.is-inverted-dark > div > div > p
-	  {
-		color: #626262;
-  	  }
-
-/* Fixing "Follow" Button color */
-
-body > div.js-modals-container > div > div > div > div > div > div.prf-actions > div.prf-meta.cf > div > div > button > div.action-text.follow-text > span
-	  {
-		color: #55acee;
-		display: none;
-  	  }
-
-/* Compose box colors and padding */
-
-.js-compose-title {
-  margin-left: 0px !important;
-  }
-.padding-bm {
-  padding-right: 22px;
-      }
-.drawer .tweet-text {
-  color: #55acee !important;
-    }
-.compose-remember-state, .character-count-compose:disabled, .txt-r-text-link {
-      color: #55acee !important;
-        }
-.compose-text-title {
-        color: #55acee;
-          }
-.compose-text
-{
-  background-color: #ffffff;
-  color: #626262;
-  border-color: #ffffff;
-}
-.compose-text-container
-{
-  margin-right: 0px !important;
-  margin-left: 0px !important;
-  margin-top: 5px;
-  border-color: #ffffff !important;
-  background-color: #ffffff !important;}
-
-.compose-reply-tweet {
-  margin-left: 0px !important;
-  margin-right: 0px !important;
-  margin-top: 5px;
-  }
-.compose-media-bar {
-      border: 1px solid #ffffff;
-      }
-.compose-accounts {
-        padding-left: 0px !important;
-        padding-right: 0px !important;
-        }
-.compose-reply-tweet .tweet-body a {
-  color: #55acee !important;
-    }
-
-.txt-r-white {color: #55acee;}
-
-.compose-media-bar-holder {background-color: #ffffff;}
-
-body > div.js-app.application.is-condensed.hide-detail-view-inline > div.js-app-content.app-content > div > div > div > div > div.js-account-list.margin-bm.compose-accounts.cf.is-list > a.js-account-item.compose-account.margin-bl.is-actionable.is-selected.cf > div.pull-left.compose-account-names {color: #55acee;}
-body > div.js-app.application.is-condensed.hide-detail-view-inline > div.js-app-content.app-content > div > div > div > div > div.js-account-list.margin-bm.compose-accounts.cf.is-list > a > div.pull-left.compose-account-names {color: #55acee;}
-
-/* Dropdown menus tweaks */
-body > div.js-app.application.is-condensed > header > div > div.js-search.js-overlay.app-search > div > div {background-color: #ffffff;}
-.list-item {color: #626262;}
-body > div.js-app.application.is-condensed > header > div > div.js-search.js-overlay.app-search > div > div > div.js-popover-content.scroll-none > form > div > input {background-color: #ffffff; color: #626262;}
-body > div.js-app.application.is-condensed > header > div > div.js-search.js-overlay.app-search > div > div > div.js-popover-content.scroll-none > div.js-typeahead-dropdown.scroll-v.scroll-styled-v > div {background-color: #ffffff;}
-.caret-inner {border-bottom: 6px solid #ffffff;}
-body > div.js-app.application.is-condensed > header > div > nav > div {background-color: #ffffff; border-color:#ffffff;}
-.non-selectable-item {color: #626262;}
-.dropdown-menu [data-action] {color: #626262;}
-.drp-h-divider {background-color: #626262;}
-body > div.js-modals-container > div > div > div > div > div > div.prf-actions > div.prf-meta.cf > div > div > div > span > div {background-color: #ffffff; border-color: #ffffff;}
-
-/* Keyboard shortcut fix */
-.keyboard-shortcut-list-modal .mdl-content {background-color: #ffffff;}
-#open-modal > div > div > div {color: #aaa;}
-
-/* Profile tweaks */
-.prf-actions {background-color: #ffffff !important;}
-.prf-meta.cf {background-color: #ffffff !important;}
-.prf .lst-profile span {color: #626262;}
-body > div.js-modals-container > div > div > div > div > div > div.prf-actions > div.js-social-proof.social-proof-container.txt-base-small.cf.padding-al {background-color: #ffffff !important;}
-.is-inverted-dark .btn-alt {background-color: #ffffff !important;}
-body > div.js-modals-container > div > div > div > div > div > div.prf-actions > div.js-social-proof.social-proof-container.txt-base-small.cf.padding-al > p.pull-left {color: #626262;}
-body > div.js-modals-container > div > div > div > div > div > div.prf-actions > div.js-social-proof.social-proof-container.txt-base-small.cf.padding-al > p.social-proof-names.pull-right {color: #626262;}
-body > div.js-modals-container > div > div > div > div > div > div.prf-actions > div.prf-meta.cf > ul  {color: #626262;}
-body > div.js-modals-container > div > div > div > div > div > div.prf-actions > div.prf-meta.cf > ul > li > a > strong  {color: #626262;}
-body > div.js-modals-container > div > div > div > div > div > div.prf-actions > div.prf-meta.cf > ul:hover {color: #55acee}
-body > div.js-modals-container > div > div > div > div > div > div.prf-actions > div.prf-meta.cf > div > div > div > span > button > i {color: #55acee;}
-body > div.js-modals-container > div > div > div > div > div > div.prf-actions > div.js-profile-columns > ul > li > a {border-color: #ffffff;}
-body > div.js-modals-container > div > div > div > div > div > div.prf-actions > div.prf-meta.cf > div > div > button > div.label.js-action-profile.action-text.thats-you-text {color: #55acee !important;}
-
-/* Selecting tweaks */
-::selection {background-color: #55acee; color: #000;}
-
-/* Fixes the bug that makes the tweet button appear when it shouldn't. */
-.compose-content .pull-right .btn.is-disabled {
-	display:none
-}
-
-/* Hides the 1px bar showing in profiles. */
-.js-customtimeline-description {
-	display: none;
-}
-
-/* Selected tweet replybox color fix */
-.detail-view-inline-text {
-    background-color: #ffffff;
-    color: #626262;
-  }
-/* Profile tweets fix */
-.js-detail-content {
-    padding-bottom: 0px !important;
-  }
-.scroll-conversation {
-    background: #ffffff !important;
-  }
-.js-tweet.tweet-detail {
-    color: #626262;
-    }
-.tweet-detail-wrapper {
-    background-color: #ffffff !important;
-    border-color: #ffffff !important;
-      }
-.mdl-dismiss {
-    color: #626262 !important;
-            }
-.mdl {
-    border-radius: 0px;
-  }
-#open-modal > div > div > div > div:nth-child(1) > div.js-left-pinned.pin-top > form > div > input {
-  background-color: #ffffff !important; color: #626262; }
-/* Settings fix */
-.lst-group .js-setting-list { color: #626262;}
-.mdl-col-settings { background-color: #ffffff;}
-.frm { color: #626262; }
-.is-inverted-dark .list-link, .is-inverted-dark .list-twitter-list, .is-inverted-dark .list-subtitle, .is-inverted-dark .list-account, .is-inverted-dark .list-listmember {color: #626262;}
-.list-link, .list-twitter-list, .list-subtitle, .list-account, .list-listmember, .list-account, .list-listaccount, .list-subtitle, .list-filter { color: #626262; }
-.btn {border-color: #ffffff !important;}
-
-  /* Column options hotfix */
-.column-options {top: 4px !important; background-color: #ffffff;}
-.is-options-open .column-settings-link {background-color: #ffffff;}
-.column-message {background-color: #ffffff;}
-
-/* Search results hotfix */
-body > div.js-app.application.is-condensed > header > div > div.js-search.js-overlay.app-search.has-overlay > div > div > div.js-popover-content.scroll-none > div.js-search-results-container > div > div.js-fhf-header.position-rel > div > div.js-search-filter.js-accordion.accordion.accordion-divider-t > div.js-accordion-item.facet-type.facet-type-content.is-expanded.is-active > div.js-accordion-toggle-view.accordion-header.is-actionable.link-clean.block.cf.txt-base-medium > div.obj-left.facet-title {color: #626262;}
-body > div.js-app.application.is-condensed > header > div > div.js-search.js-overlay.app-search.has-overlay > div > div > div.js-popover-content.scroll-none > div.js-search-results-container > div > div.js-fhf-header.position-rel > div > div.js-search-filter.js-accordion.accordion.accordion-divider-t > div.js-accordion-item.facet-type.facet-type-content > div.js-accordion-toggle-view.accordion-header.is-actionable.link-clean.block.cf.txt-base-medium > div.obj-left.facet-title > span {color: #626262;}
-body > div.js-app.application.is-condensed > header > div > div.js-search.js-overlay.app-search.has-overlay > div > div > div.js-popover-content.scroll-none > div.js-search-results-container > div > div.js-fhf-header.position-rel > div > div.js-search-filter.js-accordion.accordion.accordion-divider-t > div.js-accordion-item.facet-type.facet-type-content > div.js-accordion-toggle-view.accordion-header.is-actionable.link-clean.block.cf.txt-base-medium > div.obj-left.facet-title > i {color: #626262;}
-body > div.js-app.application.is-condensed > header > div > div.js-search.js-overlay.app-search.has-overlay > div > div > div.js-popover-content.scroll-none > div.js-search-results-container > div > div.js-fhf-header.position-rel > div > div.js-search-filter.js-accordion.accordion.accordion-divider-t > div.js-accordion-item.facet-type.facet-type-user > div.js-accordion-toggle-view.accordion-header.is-actionable.link-clean.block.cf.txt-base-medium > div.obj-left.facet-title > i {color: #626262;}
-body > div.js-app.application.is-condensed > header > div > div.js-search.js-overlay.app-search.has-overlay > div > div > div.js-popover-content.scroll-none > div.js-search-results-container > div > div.js-fhf-header.position-rel > div > div.js-search-filter.js-accordion.accordion.accordion-divider-t > div.js-accordion-item.facet-type.facet-type-user > div.js-accordion-toggle-view.accordion-header.is-actionable.link-clean.block.cf.txt-base-medium > div.obj-left.facet-title > span {color: #626262;}
-body > div.js-app.application.is-condensed > header > div > div.js-search.js-overlay.app-search.has-overlay > div > div > div.js-popover-content.scroll-none > div.js-search-results-container > div > div.js-fhf-header.position-rel > div > div.js-search-filter.js-accordion.accordion.accordion-divider-t > div.js-accordion-item.facet-type.facet-type-engagement > div.js-accordion-toggle-view.accordion-header.is-actionable.link-clean.block.cf.txt-base-medium > div.obj-left.facet-title > span {color: #626262;}
-body > div.js-app.application.is-condensed > header > div > div.js-search.js-overlay.app-search.has-overlay > div > div > div.js-popover-content.scroll-none > div.js-search-results-container > div > div.js-fhf-header.position-rel > div > div.js-search-filter.js-accordion.accordion.accordion-divider-t > div.js-accordion-item.facet-type.facet-type-engagement > div.js-accordion-toggle-view.accordion-header.is-actionable.link-clean.block.cf.txt-base-medium > div.obj-left.facet-title > i {color: #626262;}
-.app-search-tweet-results .column-header-temp {background: linear-gradient( to bottom, #ffffff, rgba(255,255,255,0.9)) !important; height: 30px !important;}
-.column-background-fill {background-color: #ffffff}
-span.column-head-title {color: #626262;}
-body > div.js-app.application.is-condensed > header > div > div.js-search.js-overlay.app-search.has-overlay > div > div > div.js-popover-content.scroll-none > div.js-search-results-container > div > div.js-fhf-body.pin-all.is-inverted-dark > div.js-tweet-results.app-search-tweet-results > section > div > div > div.js-column-content.column-content > div.js-column-scroller.js-dropdown-container.column-scroller.scroll-v.scroll-styled-v.column-background-fill.scroll-alt > div > article > div > div > div {color: #626262;}
-body > div.js-app.application.is-condensed > header > div > div.js-search.js-overlay.app-search.has-overlay > div > div > div.js-popover-content.scroll-none > div.js-search-results-container > div > div.js-fhf-body.pin-all.is-inverted-dark > div.js-tweet-results.app-search-tweet-results > section > div > div > div.js-column-content.column-content > div.js-column-scroller.js-dropdown-container.column-scroller.scroll-v.scroll-styled-v.column-background-fill.scroll-alt > div > article > div > div > header > a > div.nbfc > span > b {color: #626262;}
-body > div.js-app.application.is-condensed > header > div > div.js-search.js-overlay.app-search.has-overlay > div > div > div.js-popover-content.scroll-none > div.js-search-results-container > div > div.js-fhf-body.pin-all.is-inverted-dark > div.js-tweet-results.app-search-tweet-results > section > div > div:nth-child(1) > div.js-column-content.column-content > div.js-column-scroller.js-dropdown-container.column-scroller.scroll-v.scroll-styled-v.column-background-fill.scroll-alt > div > article:nth-child(1) > div {padding-top: 33px;}
-.is-inverted-dark .facet-type-content.is-active {background-color: rgba(255,255,255,0);}
-.is-inverted-dark .facet-type-user.is-active {background-color: rgba(255,255,255,0);}
-.is-inverted-dark .facet-type-engagement.is-active {background-color: #ffffff;}
-.is-inverted-dark .txt-mute {background-color: #ffffff; color: #626262;}
-select.js-containing {background-color: #ffffff; color: #626262;}
-input.js-excluding.search-input {background-color: #ffffff; color: #626262;}
-select.js-written-in {background-color: #ffffff; color: #626262;}
-select.js-retweets {background-color: #ffffff; color: #626262;}
-select.js-tweets-from {background-color: #ffffff; color: #626262;}
-select.js-mentioning {background-color: #ffffff; color: #626262;}
-  
-/* Legacy code */
-
-.application, .app-content, .app-columns-container
-	  {
-		background-color: #ffffff;
-	  }
-	  .column
-	  {
-		background: #ffffff;
-		border-radius: 6px;
-		border: none;
-	  }
-	  .column-header, .column-header-temp
-	  {
-		background: #ffffff;
-        background-color: #ffffff;
-		z-index: 2;
-		border-bottom-color: transparent;
-	  }
-	  .column-content
-	  {
-		top: 0px;
-      }
-	  .column-options
-	  {
-		top: 50px;
-	  }
-	  .scroll-conversation, .column-nav-item, .app-navigator, .app-title, .compose-reply-tweet, .compose-account, .facet-type.is-expanded, .column-options .button-tray, .compose .antiscroll-scrollbar, .account-row-separator-b:after
-	  {
-		background-color: transparent;
-	  }
-	  .stream-item, .compose-header, .facet-type, .with-column-divider-bottom
-	  {
-		border-bottom: none;
-	  }
-	  .tweet-detail-wrapper
-	  {
-		background: transparent;
-		border-color: transparent;
-	  }
-	  .detail-view-inline
-	  {
-		border-top: none;
-	  }
-	  .app-header
-	  {
-		background-color: #ffffff;
-	  }
-	  .with-nav-border-t:before, .facet-type-thumb-size, .accordion-divider-t
-	  {
-		border-top: none;
-	  }
-	  .numbered-badge-onnav
-	  {
-		border: none;
-	  }
-	  .compose, .bg-r-light-gray
-	  {
-		background: linear-gradient( to right, #ffffff, #ffffff);
-		color: #55acee;
-	  }
-	  .compose-remember-state, .character-count-compose:disabled, .txt-r-text-link 
-	  {
-		color: white;
-	  }
-	  .is-selected.compose-account, .compose-account-selected
-	  {
-		box-shadow: none;
-	  }
-	  .drawer-header
-	  {
-		border-bottom: none;
-		z-index: 2;
-		background-color: #ffffff;
-	  }
-	  .drawer-header:after 
-	  {
-		height: 0px;
-	  }
-	  .txt-r-dark-gray
-	  {
-		color: #55acee;
-	  }
-	  .drawer-content
-	  {
-		top: 0px;
-		z-index: 1;
-		padding-top: 55px;
-	  }
-    .drawer .tweet-text { color:white }
-	  .btn-positive-on-blue[disabled], .btn-positive-on-blue[disabled]:hover, .btn-positive-on-blue[disabled]:active, .btn-positive-on-blue.is-disabled, .btn-positive-on-blue.is-disabled:hover, .btn-positive-on-blue.is-disabled:focus, .btn-positive-on-blue.is-disabled:active, .btn-on-blue[disabled], .btn-on-blue[disabled]:hover, .btn-on-blue[disabled]:active, .btn-on-blue.is-disabled, .btn-on-blue.is-disabled:hover, .btn-on-blue.is-disabled:focus, .btn-on-blue.is-disabled:active, .btn[disabled], .btn[disabled]:hover, .btn[disabled]:active, .btn.is-disabled, .btn.is-disabled:hover, .btn.is-disabled:focus, .btn.is-disabled:active
-	  {
-		border-color: transparent;
-		background-color: transparent;
-		color: transparent;
-	  }
-	  .btn-positive-on-blue , .btn:active, .btn.is-selected
-	  {
-		color: #55acee;
-		background-color: transparent;
-		box-shadow: none;
-		font-weight: bold;
-	  }
-	  .btn-on-blue, .btn-positive, .btn-positive-alt, .btn-fav.s-favorited, .s-following .follow-btn, .attach-compose-buttons .tweet-button
-	  {
-		color: #55acee;
-		background-color: transparent;
-		border-color: transparent;
-		box-shadow: none;
-	  }
-	  .btn-positive-on-blue:hover, .btn-positive-on-blue:focus, .btn-positive:hover, .btn-positive-alt:hover, .btn-fav.s-favorited:hover, .s-following .follow-btn:hover, .btn-positive:focus, .btn-positive-alt:focus, .btn-fav.s-favorited:focus, .s-following .follow-btn:focus, .btn-on-blue:focus, .btn-on-blue:hover, .btn-on-blue:focus, .btn-on-blue:hover, .btn:hover, .btn:focus
-	  {
-		color: grey;
-		background-color: transparent;
-		border-color: transparent;
-	  }
-	  .compose-text-container
-	  {
-        margin-left: 0px;
-        margin-right: 0px;
-		border: 1px solid #ddd;
-	  }
-	  .btn
-	  {
-		background-color: transparent;
-		color: #55acee;
-		border: none;
-	  }
-	  .btn-negative
-	  {
-		color: #A00;
-	  }
-	  .app-search-fake
-	  {
-		color: #55acee;
-		background-color: transparent;
-		box-shadow: none;
-	  }
-	  .app-search-input
-	  {
-		border-radius: 6px;
-		background-color: white;
-		box-shadow: none;
-	  }
-	  .inline-reply
-	  {
-		background-color: transparent;
-	  }
-	  .inline-reply .icon
-	  {
-		color: #55acee;
-	  }
-	  .med-fullpanel
-	  {
-		background-color: transparent;
-	  }
-	  .mdl
-	  {
-		box-shadow: none;
-		background-color: #ffffff;
-		border-radius: 6px;
-	  }
-	  .mdl-content
-	  {
-		border: none;
-		background: #ffffff;
-		color: white
-	  }
-	  .mdl-column-med
-	  {
-		background: transparent;
-	  }
-	  .mdl-column-rhs
-	  {
-		border-left: transparent;
-        background-color: #ffffff
-	  }
-    .mdl-column-rhs .stream-item {
-        background-color: #ffffff 
-    }
-	  .mdl-dismiss-media, .is-inverted-light .mdl-dismiss-media
-	  {
-		color: #55acee
-	  }
-	  .mdl-dismiss-media:hover, .is-inverted-light .mdl-dismiss-media:hover, .mdl-dismiss-media:focus, .is-inverted-light .mdl-dismiss-media:focus
-	  {
-		color: grey;
-	  }
-	  .lst-group .selected, .lst-group .selected:hover
-	  {
-		background: #55acee;
-		border-radius: 6px;
-	  }
-    .lst-group .selected .fullname { color:white } .lst-group .selected .username { color:white }
-	  .is-inverted-light, .is-inverted-light .account-link
-	  {
-		color: #292F33;
-	  }
-	  .tweet-stats
-	  {
-		border-top: none;
-	  }
-	  .tweet-detail-actions
-	  {
-		border-top: none;
-	  }
-	  .detail-view-inline-text, .input-group-button 
-	  {
-		border: none;
-	  }
-	  .cmp-replyto 
-	  {
-		background-color: transparent;
-		border-top: none;
-	  }
-	  .accs li, .accs .acc-selected, .accs .acc-selected:hover
-	  {
-		border: none;
-		background: none;
-	  }
-	  .accs li:hover
-	  {
-		background: transparent;
-	  }
-	  .accs .icon
-	  {
-		color: grey;
-	  }
-	  .accs .acc-selected i
-	  {
-		color: #55acee;
-	  }
-	  .is-inverted-light a
-		{
-		  color: #55acee;
-		}
-	  .is-inverted-light a:hover, .is-inverted-light a:focus, .is-inverted-light a:active
-		{
-		  color: grey;
-		  text-decoration: none;
-		}
-	  a
-	  {
-		color: #55acee;
-		text-decoration: none;
-	  }
-	  a:hover, a:focus, a:active
-		{
-		  color: grey;
-		  text-decoration: none;
-		}
-	  .is-selected .reply-triangle
-	  {
-		visibility: hidden;
-	  }
-	  .prf-header
-	  {
-		background-image: none;
-	  }
-	  input, textarea, select, .uneditable-input
-	  {
-		border: none;
-	  }
-	  .btn-neutral-negative
-	  {
-		color: #dd2e44;
-	  }
-	  .prf-stats li + li a
-	  {
-		border-left: none;
-	  }
-	  .prf-actions, .social-proof-container
-	  {
-		background-color: #000;
-	  }
-	  .is-options-open .column-settings-link
-	  {
-		border-color: transparent;
-	  }
-	  .app-search-tweet-results .column-header-temp
-	  {
-		background: linear-gradient( to bottom, #000, rgba(255,255,255,0.9));
-		height: 50px;
-	  }
-	  .avatar, .prf-img
-	  {
-		border-radius: 20%;
-	  }
-	  
-	  .social-proof-for-tweet-title
-	  {
-		background-color: transparent;
-		border-bottom: none;
-	  }
-	  .column-nav-link:hover, .app-nav-link:hover
-	  {
-		color: #55acee;
-	  }
-	  .is-inverted-light .tweet-action, .is-inverted-light .tweet-detail-action
-	  {
-		color: #55acee;
-	  }
-	  .is-inverted-light .tweet-action:hover, .is-inverted-light .tweet-detail-action:hover, .is-inverted-light .tweet-action:focus, .is-inverted-light .tweet-detail-action:focus
-	  {
-		color: grey;
-	  }
-	  .column-content 
-	  {
-		padding-top: 50px;
-	  }
-	  .column-temp .column-header, .column-header-temp
-	  {
-		border-bottom: none;
-	  }
-	  .is-new .column-type-icon
-	  {
-		color: #55acee;
-	  }
-	  .txt-mute a:hover, .txt-mute a:focus
-	  {
-		color: #55acee;
-	  }
-	  .link-complex:hover .link-complex-target, .link-complex:focus .link-complex-target, .link-complex:active .link-complex-target 
-	  {
-		text-decoration: none;
-	  }
-	  .icon-user-switch:hover
-	  {
-		color: #55acee;
-	  }
-	  .list-item:hover, .list-item:active, .list-item.is-selected, .list-item:hover .list-icon, .list-item:active .list-icon, .list-item.is-selected .list-icon
-	  {
-		color: #55acee;
-		background-color: transparent;
-	  }
-	  .is-selected-tweet
-	  {
-		background-color: rgba(85,172,238,0.1)
-	  }
-     #open-modal .tweet-body { color: white }
-    #open-modal .fullname { color: white }
-    .sprite {
-   background-image: url('http://i.imgur.com/oTExYcd.png'); 
-  }
-    .lst-group .selected .fullname { color:white } .lst-group .selected .username { color:white }
-.lst-group .selected { border-radius: 0px }
-     .column-nav-flyout .column-nav-item {background-color:#ffffff} .column-nav-flyout .column-nav-item span {color:white}
-	.btn span, .mdl-header-title, .mdl-inner .column-head-title {color:white}
-	.compose-reply-tweet .fullname {color:#55acee} 
-    .compose-reply-tweet .icon-close:before {color:white}
-    .list-account {text-shadow: none;}
-     
-    #open-modal li:hover:not(.selected) .fullname {color:black} #open-modal li .list-account {border-radius:0px}
-   #open-modal li:hover.selected .list-account {background:grey} #open-modal li:hover.selected .fullname {color:#55acee}
-
-.btn span, .mdl-header-title, .mdl-inner .column-head-title {color:white}
-
-/* Column Header Condensing; this was originally written by pixeldesu */
-
-.js-column-header {
-	height: 30px;
-	line-height: 30px;
-}
-
-.column-header {
-	height: 30px;
-	line-height: 30px;
-}
-
-.js-tweet-results .column-header {
-	height: 50px;
-	line-height: 50px;
-}
-
-.column-drag-handle {
-	height: 15px;
-}
-
-.column-content {
-	top: 30px;
-}
-  
-.column-title-back .icon {
-	top: 50%;
-}
-
-/* Column Width/Spacing; this was also written by pixeldesu */
-
-.is-wide-columns .column {
-	width: 350px;
-	margin-right: 1px;
-}
-
-.is-wide-columns .app-columns {
-	padding-top: 1px;
-	padding-left: 1px;
-}
-
-.is-narrow-columns .app-columns {
-	padding-top: 1px;
-	padding-left: 1px;
-}
-
-.app-columns {
-  	padding: 1px 0 1px 1px;
-}
-  
-.js-column {
-  	margin: 0 1px 0 0;
-}
-    
-.is-narrow-columns .column {
-	margin-right: 1px;
-}
-
-.antiscroll-inner {
-	padding-left: 0px !important;
-	padding-right: 0px !important;
-}
-
-.compose-accounts {
-	padding-left: 10px;
-	padding-right: 10px;    
-}
-  
-.compose-text-container {
-	margin-left: 10px;
-	margin-right: 10px;    
-}
-
-.js-compose-hint {
-	margin-left: 10px;
-	margin-right: 10px;    
-}
-
-.js-compose-title {
-	margin-left: 10px;    
-}
-
-.js-media-added {
-  	padding-left: 10px;
-	padding-right: 10px;
-}
-    
-.compose-reply-tweet {
-	margin-left: 10px;
-	margin-right: 10px;    
-}
-      
-.js-send-tweet-button {
-	margin-right: 10px;    
-}
-        
-.js-add-image-button {
-	width: 92%;
-	margin-left: 10px;
-	margin-right: 10px;    
-}
-
-.js-schedule-button {
-	width: 92%;
-	margin-left: 10px;
-	margin-right: 10px;    
-}
-  
-.js-dm-button {
-	width: 92%;
-	margin-left: 10px;
-	margin-right: 10px;    
-}
-
-.js-tweet-button {
-	width: 92%;
-	margin-left: 10px;
-	margin-right: 10px;
-}
-  
-.js-compose-message-recipient > p {
-	width: 92%;
-	margin-left: 10px;
-	margin-right: 10px;
-}
-
-.inline-reply .compose-text-container {
-	display: inline-block;
-	width: 94%;
-}
-
-/* ==OPTIONAL==
-Just add the slashes and asterisk at the two extremities of the code to deactivate and option */
-
-/* Display colored bar on the side instead of orange and green Fav/RT corners */
-
-.tweet-dogear {
-	display: block;
-	width: 0.1px;
-	height: 100%;
-  	background-image: none;
-}
-
-.is-favorite .tweet-dogear {
-	border-right: 4px solid #ff9b00;
-	box-shadow: 0px 0px 0px #ff9b00;
-}
-
-.is-retweet.is-favorite .tweet-dogear {
-	border-right: 4px solid #000000;
-	box-shadow: 0px 0px 0px #000000;
-}
-
-.is-retweet .tweet-dogear {
-	border-right: 4px solid #71b332;
-	box-shadow: 0px 0px 0px #71b332;
-}
-
-/* Changing colors of link if the tweet is fav/RT/favRT */
-
-.is-retweet .tweet-text a {
-	color: #71b332;    
-}
-  
-.is-favorite .tweet-text a {
-	color: #ff9b00;    
-}
-    
-.is-retweet.is-favorite .tweet-text a {
-	color: #000;    
-}
-
-/* Squared Avatars
-Note: this is disabled because I don't like it, but if it's your kind of stuff, you can use it. Just remove the comment beacons. NOTE: IF YOU ARE USING BETTER TWEETDECK'S ROUNDED AVATARS, THIS THEME WILL OVERRIDE THESE. */
-
-/* .tweet-avatar {
-	border-radius: 0px !important;
-}
-
-.avatar {
-	border-radius: 0px !important;
-}
-
-.size24 {
-	border-radius: 0px !important;
-}
-
-.size72 {
-	border-radius: 0px !important;
-}
-
-.prf-img {
-	border-radius: 0px !important;
-} */
-
-/* Rounded Avatars */
-
- .tweet-avatar {
-	border-radius: 100px;
-}
-
-.avatar {
-	border-radius: 100px;
-}
-
-.size24 {
-	border-radius: 100px;
-}
-
-.size72 {
-	border-radius: 100px;
-}
-
-.prf-img {
-	border-radius: 100px;
-}
-
-/* DO NOT TOUCH THIS UNLESS YOU KNOW WHAT YOU ARE DOING */
-
-.padding-al {padding: 5px !important}
-
-.js-customtimeline-description {
- 	display: none;}
-
-/* Dropdown menu fixes */
-.dropdown-menu {background-color: #141414; border-color: #141414;}
-
-/* White theme fixes */
-.btn span, .mdl-header-title, .mdl-inner .column-head-title{color: #111}
-
-/* Snowflake Minima Black for TweetDeck.
-Snowflake Minima is a TweetDeck CSS modification that's designed to look the most minimalistic possible.
-It is based upon Snowflake Classic Black by Diamant and implements some features of pixeldesu's Modern TweetDeck modification.
-You must use it with TweetDeck Dark Theme, and it is better used with Eramdam's Better TweetDeck Chrome extension.
-However, if you are to use it with Better TweetDeck, you must firstly disable the "Minimal" mode as it will conflict with the theme and look not so good.
-The creators of the themes used are Diamant (@diamantlefou), Berter (@BerterTheBoss) and pixeldesu (@pixeldesu or http://pixelde.su/) and was recompiled in a more fitting theme by me, Scimitar (@AlmtyCwrd)
 */
 
 /* Loading Screen */
@@ -861,16 +25,25 @@ body {
 
 /* Scrollbar Changes */
 
-.scroll-styled-v::-webkit-scrollbar-thumb, .scroll-styled-h::-webkit-scrollbar-thumb {border-radius: 0px; background-color: #eee;}
+.scroll-styled-v::-webkit-scrollbar-thumb, .scroll-styled-h::-webkit-scrollbar-thumb {border-radius: 0px; background-color: #eee;}.scroll-styled-v::-webkit-scrollbar-thumb,
+.scroll-styled-h::-webkit-scrollbar-thumb {
+    border-radius: 0px;
+    background-color: #eee;
+}
 
-.scroll-styled-v::-webkit-scrollbar-track, .scroll-styled-h::-webkit-scrollbar-track {border-left: 0px;}
+.scroll-styled-v::-webkit-scrollbar-track,
+.scroll-styled-h::-webkit-scrollbar-track {
+    border-left: 0px;
+}
 
 /* Fix colors in Accounts */
 div.account-summary-text.nbfc.padding-tm.account-link {
   color: #626262;
 }
-.is-inverted-dark .accordion .is-active { color: #626262;}
-  
+.is-inverted-dark .accordion .is-active {
+    color: #626262;
+}
+
 /* Applying font */
 body {
    	font-family: 'Open Sans', sans-serif;
@@ -881,7 +54,7 @@ body {
 }
 
 /* Column-Update Sprite */
-                
+
 .column-header, .column-header-temp {
 	border-bottom: 0px;
 }
@@ -913,69 +86,65 @@ body {
 		color: #626262;
  	  }
 
-#actions-modal > div > div.js-inreply.cmp-replyto.item-box.is-inverted-dark > div > header > a > div.nbfc > span
-	  {
-		color: #626262;
-  	  }
-#actions-modal > div > div.js-inreply.cmp-replyto.item-box.is-inverted-dark > div > div > p
-	  {
-		color: #626262;
-  	  }
+#actions-modal > div > div.js-inreply.cmp-replyto.item-box.is-inverted-dark > div > header > a > div.nbfc > span {
+	color: #626262;
+}
+#actions-modal > div > div.js-inreply.cmp-replyto.item-box.is-inverted-dark > div > div > p {
+	color: #626262;
+}
 
 /* Fixing "Follow" Button color */
 
-body > div.js-modals-container > div > div > div > div > div > div.prf-actions > div.prf-meta.cf > div > div > button > div.action-text.follow-text > span
-	  {
-		color: #55acee;
-		display: none;
-  	  }
+body > div.js-modals-container > div > div > div > div > div > div.prf-actions > div.prf-meta.cf > div > div > button > div.action-text.follow-text > span {
+	color: #55acee;
+	display: none;
+}
 
 /* Compose box colors and padding */
 
 .js-compose-title {
-  margin-left: 0px !important;
-  }
-.padding-bm {
-  padding-right: 22px;
-      }
-.drawer .tweet-text {
-  color: #55acee !important;
-    }
-.compose-remember-state, .character-count-compose:disabled, .txt-r-text-link {
-      color: #55acee !important;
-        }
-.compose-text-title {
-        color: #55acee;
-          }
-.compose-text
-{
-  background-color: #ffffff;
-  color: #626262;
-  border-color: #ffffff;
+	margin-left: 0px !important;
 }
-.compose-text-container
-{
-  margin-right: 0px !important;
-  margin-left: 0px !important;
-  margin-top: 5px;
-  border-color: #ffffff !important;
-  background-color: #ffffff !important;}
+.padding-bm {
+	padding-right: 22px;
+}
+.drawer .tweet-text {
+	color: #55acee !important;
+}
+.compose-remember-state, .character-count-compose:disabled, .txt-r-text-link {
+	color: #55acee !important;
+}
+.compose-text-title {
+	color: #55acee;
+}
+.compose-text {
+	background-color: #ffffff;
+	color: #626262;
+	border-color: #ffffff;
+}
+.compose-text-container {
+	margin-right: 0px !important;
+	margin-left: 0px !important;
+	margin-top: 5px;
+	border-color: #ffffff !important;
+	background-color: #ffffff !important;
+}
 
 .compose-reply-tweet {
-  margin-left: 0px !important;
-  margin-right: 0px !important;
-  margin-top: 5px;
-  }
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+	margin-top: 5px;
+}
 .compose-media-bar {
-      border: 1px solid #ffffff;
-      }
+	border: 1px solid #ffffff;
+}
 .compose-accounts {
-        padding-left: 0px !important;
-        padding-right: 0px !important;
-        }
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
 .compose-reply-tweet .tweet-body a {
-  color: #55acee !important;
-    }
+	color: #55acee !important;
+}
 
 .txt-r-white {color: #55acee;}
 
@@ -1092,7 +261,7 @@ select.js-written-in {background-color: #ffffff; color: #626262;}
 select.js-retweets {background-color: #ffffff; color: #626262;}
 select.js-tweets-from {background-color: #ffffff; color: #626262;}
 select.js-mentioning {background-color: #ffffff; color: #626262;}
-  
+
 /* Legacy code */
 
 .application, .app-content, .app-columns-container
@@ -1154,7 +323,7 @@ select.js-mentioning {background-color: #ffffff; color: #626262;}
 		background: linear-gradient( to right, #ffffff, #ffffff);
 		color: #55acee;
 	  }
-	  .compose-remember-state, .character-count-compose:disabled, .txt-r-text-link 
+	  .compose-remember-state, .character-count-compose:disabled, .txt-r-text-link
 	  {
 		color: white;
 	  }
@@ -1168,7 +337,7 @@ select.js-mentioning {background-color: #ffffff; color: #626262;}
 		z-index: 2;
 		background-color: #ffffff;
 	  }
-	  .drawer-header:after 
+	  .drawer-header:after
 	  {
 		height: 0px;
 	  }
@@ -1271,7 +440,7 @@ select.js-mentioning {background-color: #ffffff; color: #626262;}
         background-color: #ffffff
 	  }
     .mdl-column-rhs .stream-item {
-        background-color: #ffffff 
+        background-color: #ffffff
     }
 	  .mdl-dismiss-media, .is-inverted-light .mdl-dismiss-media
 	  {
@@ -1299,11 +468,11 @@ select.js-mentioning {background-color: #ffffff; color: #626262;}
 	  {
 		border-top: none;
 	  }
-	  .detail-view-inline-text, .input-group-button 
+	  .detail-view-inline-text, .input-group-button
 	  {
 		border: none;
 	  }
-	  .cmp-replyto 
+	  .cmp-replyto
 	  {
 		background-color: transparent;
 		border-top: none;
@@ -1381,7 +550,7 @@ select.js-mentioning {background-color: #ffffff; color: #626262;}
 	  {
 		border-radius: 20%;
 	  }
-	  
+
 	  .social-proof-for-tweet-title
 	  {
 		background-color: transparent;
@@ -1399,7 +568,7 @@ select.js-mentioning {background-color: #ffffff; color: #626262;}
 	  {
 		color: grey;
 	  }
-	  .column-content 
+	  .column-content
 	  {
 		padding-top: 50px;
 	  }
@@ -1415,7 +584,7 @@ select.js-mentioning {background-color: #ffffff; color: #626262;}
 	  {
 		color: #55acee;
 	  }
-	  .link-complex:hover .link-complex-target, .link-complex:focus .link-complex-target, .link-complex:active .link-complex-target 
+	  .link-complex:hover .link-complex-target, .link-complex:focus .link-complex-target, .link-complex:active .link-complex-target
 	  {
 		text-decoration: none;
 	  }
@@ -1432,19 +601,19 @@ select.js-mentioning {background-color: #ffffff; color: #626262;}
 	  {
 		background-color: rgba(85,172,238,0.1)
 	  }
-     #open-modal .tweet-body { color: white }
-    #open-modal .fullname { color: white }
-    .sprite {
-   background-image: url('http://i.imgur.com/oTExYcd.png'); 
-  }
+#open-modal .tweet-body { color: black }
+#open-modal .fullname { color: black }
+.sprite {
+   background-image: url('http://i.imgur.com/oTExYcd.png');
+}
     .lst-group .selected .fullname { color:white } .lst-group .selected .username { color:white }
 .lst-group .selected { border-radius: 0px }
-     .column-nav-flyout .column-nav-item {background-color:#ffffff} .column-nav-flyout .column-nav-item span {color:white}
+     .column-nav-flyout .column-nav-item {background-color:#ffffff}
 	.btn span, .mdl-header-title, .mdl-inner .column-head-title {color:white}
-	.compose-reply-tweet .fullname {color:#55acee} 
+	.compose-reply-tweet .fullname {color:#55acee}
     .compose-reply-tweet .icon-close:before {color:white}
     .list-account {text-shadow: none;}
-     
+
     #open-modal li:hover:not(.selected) .fullname {color:black} #open-modal li .list-account {border-radius:0px}
    #open-modal li:hover.selected .list-account {background:grey} #open-modal li:hover.selected .fullname {color:#55acee}
 
@@ -1474,7 +643,7 @@ select.js-mentioning {background-color: #ffffff; color: #626262;}
 .column-content {
 	top: 30px;
 }
-  
+
 .column-title-back .icon {
 	top: 50%;
 }
@@ -1499,11 +668,11 @@ select.js-mentioning {background-color: #ffffff; color: #626262;}
 .app-columns {
   	padding: 1px 0 1px 1px;
 }
-  
+
 .js-column {
   	margin: 0 1px 0 0;
 }
-    
+
 .is-narrow-columns .column {
 	margin-right: 1px;
 }
@@ -1515,53 +684,53 @@ select.js-mentioning {background-color: #ffffff; color: #626262;}
 
 .compose-accounts {
 	padding-left: 10px;
-	padding-right: 10px;    
+	padding-right: 10px;
 }
-  
+
 .compose-text-container {
 	margin-left: 10px;
-	margin-right: 10px;    
+	margin-right: 10px;
 }
 
 .js-compose-hint {
 	margin-left: 10px;
-	margin-right: 10px;    
+	margin-right: 10px;
 }
 
 .js-compose-title {
-	margin-left: 10px;    
+	margin-left: 10px;
 }
 
 .js-media-added {
   	padding-left: 10px;
 	padding-right: 10px;
 }
-    
+
 .compose-reply-tweet {
 	margin-left: 10px;
-	margin-right: 10px;    
+	margin-right: 10px;
 }
-      
+
 .js-send-tweet-button {
-	margin-right: 10px;    
+	margin-right: 10px;
 }
-        
+
 .js-add-image-button {
 	width: 92%;
 	margin-left: 10px;
-	margin-right: 10px;    
+	margin-right: 10px;
 }
 
 .js-schedule-button {
 	width: 92%;
 	margin-left: 10px;
-	margin-right: 10px;    
+	margin-right: 10px;
 }
-  
+
 .js-dm-button {
 	width: 92%;
 	margin-left: 10px;
-	margin-right: 10px;    
+	margin-right: 10px;
 }
 
 .js-tweet-button {
@@ -1569,7 +738,7 @@ select.js-mentioning {background-color: #ffffff; color: #626262;}
 	margin-left: 10px;
 	margin-right: 10px;
 }
-  
+
 .js-compose-message-recipient > p {
 	width: 92%;
 	margin-left: 10px;
@@ -1611,15 +780,15 @@ Just add the slashes and asterisk at the two extremities of the code to deactiva
 /* Changing colors of link if the tweet is fav/RT/favRT */
 
 .is-retweet .tweet-text a {
-	color: #71b332;    
+	color: #71b332;
 }
-  
+
 .is-favorite .tweet-text a {
-	color: #ff9b00;    
+	color: #ff9b00;
 }
-    
+
 .is-retweet.is-favorite .tweet-text a {
-	color: #000;    
+	color: #000;
 }
 
 /* Squared Avatars
@@ -1674,12 +843,6 @@ Note: this is disabled because I don't like it, but if it's your kind of stuff, 
 .js-customtimeline-description {
  	display: none;}
 
-/* Updates and messages fixes */
-.column-nav-updates {color: #000000;}
-.is-unread {background: rgba(123, 183, 227, 0.67);}
-#container > div > section.js-column.column.column-type-message.will-animate.is-moving > div > div > div.js-column-content.column-content > div.js-column-scroller.js-dropdown-container.column-scroller.scroll-v.scroll-styled-v > div > article.is-unread > div > div > div > div.tweet-body.l-cell > div > p > span > a {color: #bbb;}
-.numbered-badge {border-radius: 100px !important; background-color: #55acee !important;}
-
 /* Dropdown menu fixes */
 .dropdown-menu {background-color: #141414; border-color: #141414;}
 
@@ -1688,3 +851,50 @@ Note: this is disabled because I don't like it, but if it's your kind of stuff, 
 
 /* Fix button compose shadow */
 .btn-compose {box-shadow: 1px 1px 0 rgba(255,255,255,0)}
+
+/* Fixes button drawer text */
+.column-nav-item > .column-head-title {
+	color: #55acee;
+}
+
+.column-nav-item > .attribution {
+	color: black;
+}
+/* Or both same colour */
+/*
+.column-nav-flyout .column-nav-item span {color:black}
+*/
+
+/* Beginning import of minima tweaks */
+.prf-img {
+    background: rgba(23, 23, 23, 0.4) !important;
+    box-shadow: 0 1px 10px rgba(23, 23, 23, 0.85);
+    padding: 0px;
+}
+.prf-header {
+    text-shadow: 0 3px 20px rgba( 0, 0, 0, 0.75);
+}
+.prf .username {
+    text-shadow: 0 3px 20px rgba( 0, 0, 0, 0.75);
+}
+.bg-r-faded-gray {
+    background-color: #171717;
+}
+/* quoted tweet border */
+.quoted-tweet {background: transparent; border: transparent;}
+
+/* username in column fix */
+
+.btd-ready .column-title .attribution {
+    font-size: 10px;
+}
+
+.column-message {
+    background: transparent;
+}
+
+/* neato header tweaks */
+span.column-head-title {color: #55acee;}
+
+/* DISABLE THIS IF YOU DISLIKE THE LOWERCASE AESTHETIC */
+body {text-transform: lowercase;}
