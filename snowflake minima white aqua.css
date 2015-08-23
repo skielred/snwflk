@@ -608,7 +608,7 @@ select.js-mentioning {background-color: #ffffff; color: #626262;}
 }
     .lst-group .selected .fullname { color:white } .lst-group .selected .username { color:white }
 .lst-group .selected { border-radius: 0px }
-     .column-nav-flyout .column-nav-item {background-color:#ffffff} .column-nav-flyout .column-nav-item span {color:white}
+     .column-nav-flyout .column-nav-item {background-color:#ffffff}
 	.btn span, .mdl-header-title, .mdl-inner .column-head-title {color:white}
 	.compose-reply-tweet .fullname {color:#55acee}
     .compose-reply-tweet .icon-close:before {color:white}
@@ -860,6 +860,10 @@ Note: this is disabled because I don't like it, but if it's your kind of stuff, 
 .column-nav-item > .attribution {
 	color: black;
 }
+/* Or both same colour */
+/*
+.column-nav-flyout .column-nav-item span {color:black}
+*/
 
 /* Beginning import of minima tweaks */
 .prf-img {
