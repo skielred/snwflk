@@ -852,6 +852,15 @@ Note: this is disabled because I don't like it, but if it's your kind of stuff, 
 /* Fix button compose shadow */
 .btn-compose {box-shadow: 1px 1px 0 rgba(255,255,255,0)}
 
+/* Fixes button drawer text */
+.column-nav-item > .column-head-title {
+	color: #55acee;
+}
+
+.column-nav-item > .attribution {
+	color: black;
+}
+
 /* Beginning import of minima tweaks */
 .prf-img {
     background: rgba(23, 23, 23, 0.4) !important;
