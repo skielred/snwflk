@@ -1,4 +1,4 @@
 /* DISABLE THIS IF YOU DISLIKE THE LOWERCASE AESTHETIC */
 body { text-transform: none !important; }
 
-.prf .lst-profile span { text-transform: uppercase !important; }
+.prf-stats a, .prf .lst-profile span { text-transform: uppercase !important; }
