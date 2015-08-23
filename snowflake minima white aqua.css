@@ -852,6 +852,33 @@ Note: this is disabled because I don't like it, but if it's your kind of stuff, 
 /* Fix button compose shadow */
 .btn-compose {box-shadow: 1px 1px 0 rgba(255,255,255,0)}
 
+/* Beginning import of minima tweaks */
+.prf-img {
+    background: rgba(23, 23, 23, 0.4) !important;
+    box-shadow: 0 1px 10px rgba(23, 23, 23, 0.85);
+    padding: 0px;
+}
+.prf-header {
+    text-shadow: 0 3px 20px rgba( 0, 0, 0, 0.75);
+}
+.prf .username {
+    text-shadow: 0 3px 20px rgba( 0, 0, 0, 0.75);
+}
+.bg-r-faded-gray {
+    background-color: #171717;
+}
+/* quoted tweet border */
+.quoted-tweet {background: transparent; border: transparent;}
+
+/* username in column fix */
+
+.btd-ready .column-title .attribution {
+    font-size: 10px;
+}
+
+.column-message {
+    background: transparent;
+}
 
 /* neato header tweaks */
 span.column-head-title {color: #55acee;}
