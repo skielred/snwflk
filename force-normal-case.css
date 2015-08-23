@@ -1,2 +1,4 @@
 /* DISABLE THIS IF YOU DISLIKE THE LOWERCASE AESTHETIC */
-body {text-transform: none !important;}
+body, .prf .lst-profile span {
+    text-transform: none !important;
+}
