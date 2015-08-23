@@ -1,2 +1,2 @@
 /* DISABLE THIS IF YOU DISLIKE THE LOWERCASE AESTHETIC */
-body {text-transform: none;}
+body {text-transform: none !important;}
