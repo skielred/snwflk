@@ -3,9 +3,8 @@ snowflake minima is a tweetdeck css modification that's designed to look the mos
 it is based upon snowflake classic black by diamant and implements some features of pixeldesu's modern tweetdeck modification (@pixeldesu or http://pixelde.su/).
 you must use it with tweetdeck dark theme, and it is better used with eramdam's better tweetdeck chrome extension (@eramdam).
 however, if you are to use it with better tweetdeck, you must firstly disable the "minimal" mode as it will conflict with the theme and look not so good.
-the creators of the themes used are diamant (@diamantlefou), berter (@bertertheboss) and scimitar (@wplanetary)
+the creators of the themes used are diamant (@diamantlefou), berter (@bertertheboss) and scimitar (@almtycwrd)
 */
-
 /* implement fonts */
 
 @font-face {
@@ -23,19 +22,74 @@ the creators of the themes used are diamant (@diamantlefou), berter (@bertertheb
     src: local('RobotoDraft'), local('RobotoDraft-Regular'), url(https://fonts.gstatic.com/s/robotodraft/v3/0xES5Sl_v6oyT7dAKuoni5QV2lvL5Ba9FjAYK6Lx0Qk.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
+/* cyrillic-ext */
 
-body, .fullname, .username, .prf-follow-status .s-follows, .prf-bio, .location .txt-ellipsis, .label .action-text .following-text {
+@font-face {
+    font-family: 'RobotoDraft';
+    font-style: italic;
+    font-weight: 400;
+    src: local('RobotoDraft Italic'), local('RobotoDraft-Italic'), url(http://fonts.gstatic.com/s/robotodraft/v4/er-TIW55l9KWsTS1x9bTfhNcqx07xvyppV96iFRdwiM.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+
+@font-face {
+    font-family: 'RobotoDraft';
+    font-style: italic;
+    font-weight: 400;
+    src: local('RobotoDraft Italic'), local('RobotoDraft-Italic'), url(http://fonts.gstatic.com/s/robotodraft/v4/er-TIW55l9KWsTS1x9bTfufhZE2STYI3KzBGzrJG_ik.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+
+@font-face {
+    font-family: 'RobotoDraft';
+    font-style: italic;
+    font-weight: 400;
+    src: local('RobotoDraft Italic'), local('RobotoDraft-Italic'), url(http://fonts.gstatic.com/s/robotodraft/v4/er-TIW55l9KWsTS1x9bTfm6cj8HaeL2jS4NIBPr3RFo.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF;
+}
+/* greek */
+
+@font-face {
+    font-family: 'RobotoDraft';
+    font-style: italic;
+    font-weight: 400;
+    src: local('RobotoDraft Italic'), local('RobotoDraft-Italic'), url(http://fonts.gstatic.com/s/robotodraft/v4/er-TIW55l9KWsTS1x9bTftcKKn5Xt5n-nnvkqIBMZms.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+
+@font-face {
+    font-family: 'RobotoDraft';
+    font-style: italic;
+    font-weight: 400;
+    src: local('RobotoDraft Italic'), local('RobotoDraft-Italic'), url(http://fonts.gstatic.com/s/robotodraft/v4/er-TIW55l9KWsTS1x9bTfvoTkEokFSrSpvYSpZOeZRs.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+1EA0-1EF1, U+20AB;
+}
+
+body,
+.fullname,
+.username,
+.prf-follow-status .s-follows,
+.prf-bio,
+.location .txt-ellipsis,
+.label .action-text .following-text {
     font-family: 'RobotoDraft';
 }
 
-.label .action-text .following-text, .js-social-proof .social-proof-container .txt-base-small .cf .padding-al, .prf-meta .cf, .txt-ellipsis, .pull-left, .social-proof-names .pull-right {
+.label .action-text .following-text,
+.js-social-proof .social-proof-container .txt-base-small .cf .padding-al,
+.prf-meta .cf,
+.txt-ellipsis,
+.pull-left,
+.social-proof-names .pull-right {
     font-family: 'RobotoDraft';
 }
-
 /* loading screen */
 
 body {
-    background-image: url(http://i.imgur.com/s8n1tbr.png);
+    background-image: url(https://fractalhexagon.net/rsrc/snwflk/loading-bg_aero.png);
     background-size: cover;
 }
 /* scrollbar changes */
@@ -46,10 +100,35 @@ body {
     background-color: #333;
 }
 
+.scroll-styled-v::-webkit-scrollbar-thumb:hover,
+.scroll-styled-h::-webkit-scrollbar-thumb:hover .scroll-v::-webkit-scrollbar-thumb:hover,
+.scroll-h::-webkit-scrollbar-thumb:hover {
+    background-color: #4F4F4F;
+}
+
+.scroll-styled-v::-webkit-scrollbar-thumb:active,
+.scroll-styled-h::-webkit-scrollbar-thumb:active .scroll-v::-webkit-scrollbar-thumb:active,
+.scroll-h::-webkit-scrollbar-thumb:active {
+    background-color: #4F4F4F;
+}
+
 .scroll-styled-v::-webkit-scrollbar-track,
 .scroll-styled-h::-webkit-scrollbar-track {
     border-left: 0px;
     border-radius: 0px;
+}
+
+.scroll-v::-webkit-scrollbar-thumb,
+.scroll-h::-webkit-scrollbar-thumb {
+    border-radius: 0px;
+    background-color: #333;
+}
+
+.scroll-v::-webkit-scrollbar-track,
+.scroll-h::-webkit-scrollbar-track {
+    border-left: 0px;
+    border-radius: 0px;
+    background: transparent;
 }
 /* fix colors in accounts */
 
@@ -60,7 +139,6 @@ div.account-summary-text.nbfc.padding-tm.account-link {
 .is-inverted-dark .accordion .is-active {
     color: #ccc;
 }
-
 /* column update borders sprite */
 
 .column-header,
@@ -810,9 +888,6 @@ select,
 #open-modal .fullname {
     color: white
 }
-.sprite {
-    background-image: url('http://i.imgur.com/otexycd.png');
-}
 .lst-group .selected .fullname {
     color: white
 }
@@ -1240,7 +1315,6 @@ span.column-head-title {
     color: #9370db;
 }
 /* disable this if you dislike the lowercase aesthetic */
-
 /* body {
     text-transform: lowercase !important;
 } */
@@ -1257,16 +1331,20 @@ button {
 .prf-follow-status {
     text-transform: lowercase;
 }
-
-
 /* fixed toggle switch color */
+
 .toggle-switch-input:checked+.toggle-switch-label:before {
-background-color: #9370db;
+    background-color: #9370db;
 }
-.toggle-switch-label:after {border-radius: 0px; border: none;}
-.toggle-switch-label:after {border-radius: 0px; border: none; box-shadow: inset 0px 2px 8px -3px rgba(0, 0, 0, 0.51)}
-
-
+.toggle-switch-label:after {
+    border-radius: 0px;
+    border: none;
+}
+.toggle-switch-label:after {
+    border-radius: 0px;
+    border: none;
+    box-shadow: inset 0px 2px 8px -3px rgba(0, 0, 0, 0.51)
+}
 /* changing avatar borders */
 
 .is-retweet .tweet-avatar {
@@ -1274,10 +1352,60 @@ background-color: #9370db;
     box-shadow: 1px 1px 5px #71b332;
 }
 .is-favorite .tweet-avatar {
-	border: 1px outset #ff9b00;
+    border: 1px outset #ff9b00;
     box-shadow: 1px 1px 5px #ff9b00;
 }
 .is-retweet.is-favorite .tweet-avatar {
-	border: 1px outset #fff;
+    border: 1px outset #fff;
     box-shadow: 1px 1px 5px #fff;
+}
+.is-retweet .icon-small-context {
+    color: #71b332;
+}
+.is-favorite .icon-small-context {
+    color: #ff9b00;
+}
+.is-retweet.is-favorite .icon-small-context {
+    color: #fff;
+}
+/* account area fixes */
+
+.drawer-header:after {
+    background-color: #171717;
+}
+.drawer-content .pin-all .scroll-v {
+    display: none;
+}
+.sprite {
+    background-image: url("//fractalhexagon.net/rsrc/snwflk/spritesheet.png") ;
+}
+.js-app-loading img.spinner-centered {
+    display: none;
+}
+
+.tweet-message .l-table {
+  display: none !important;
+}
+ 
+.tweet-message .tweet-avatar {
+  width: 24px;
+  height: 24px;
+}
+  
+.is-unread .tweet-message .l-table {
+  display: table !important;
+  vertical-align: middle;
+}
+  
+.tweet-message .conversation-indicator {
+  display: none;
+}
+ 
+.tweet-message .nbfc {
+  margin-left: -25px;
+  line-height: 1.6em; 	
+}
+
+.tweet-message .tweet-text {
+  margin-left: -24px;	
 }
