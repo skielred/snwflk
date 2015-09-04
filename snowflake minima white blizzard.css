@@ -6,7 +6,7 @@ snowflake minima is a tweetdeck css modification that's designed to look the mos
 it is based upon snowflake classic black by diamant and implements some features of pixeldesu's modern tweetdeck modification (@pixeldesu or http://pixelde.su/).
 you must use it with tweetdeck light theme, and it is better used with eramdam's better tweetdeck chrome extension (@eramdam).
 however, if you are to use it with better tweetdeck, you must firstly disable the "minimal" mode as it will conflict with the theme and look not so good.
-the creators of the themes used are diamant (@diamantlefou), berter (@bertertheboss) and scimitar (@almtycwrd)
+the creators of the themes used are diamant (@diamantlefou), berter (@bertertheboss) and scimitar (@wplanetary)
 */
 /* implement fonts */
 
@@ -165,7 +165,7 @@ body > div.js-modals-container > div > div > div > div > div > div.prf-actions >
     padding-right: 22px;
 }
 
-.drawer .tweet-text,.compose-remember-state,.character-count-compose:disabled,.txt-r-text-link,.compose-text-title,.compose-reply-tweet .tweet-body a,.txt-r-white,body > div.js-app.application.is-condensed.hide-detail-view-inline > div.js-app-content.app-content > div > div > div > div > div.js-account-list.margin-bm.compose-accounts.cf.is-list > a.js-account-item.compose-account.margin-bl.is-actionable.is-selected.cf > div.pull-left.compose-account-names,body > div.js-app.application.is-condensed.hide-detail-view-inline > div.js-app-content.app-content > div > div > div > div > div.js-account-list.margin-bm.compose-accounts.cf.is-list > a > div.pull-left.compose-account-names,.txt-r-dark-gray,body > div.js-modals-container > div > div > div > div > div > div.prf-actions > div.prf-meta.cf > ul:hover,body > div.js-modals-container > div > div > div > div > div > div.prf-actions > div.prf-meta.cf > div > div > div > span > button > i,body > div.js-modals-container > div > div > div > div > div > div.prf-actions > div.prf-meta.cf > div > div > button > div.label.js-action-profile.action-text.thats-you-text {
+.drawer .tweet-text,.compose-remember-state,.character-count-compose:disabled,.txt-r-text-link,.compose-text-title,.compose-reply-tweet .tweet-body a,.txt-r-white,body > div.js-app.application.is-condensed.hide-detail-view-inline > div.js-app-content.app-content > div > div > div > div > div.js-account-list.margin-bm.compose-accounts.cf.is-list > a.js-account-item.compose-account.margin-bl.is-actionable.is-selected.cf > div.pull-left.compose-account-names,body > div.js-app.application.is-condensed.hide-detail-view-inline > div.js-app-content.app-content > div > div > div > div > div.js-account-list.margin-bm.compose-accounts.cf.is-list > a > div.pull-left.compose-account-names,.txt-r-dark-gray,body > div.js-modals-container > div > div > div > div > div > div.prf-actions > div.prf-meta.cf > ul:hover,body > div.js-modals-container > div > div > div > div > div > div.prf-actions > div.prf-meta.cf > div > div > div > span > button > i,body > div.js-modals-container > div > div > div > div > div > div.prf-actions > div.prf-meta.cf > div > div > button > div.label.js-action-profile.action-text.thats-you-text,.compose-account {
     color: #55acee !important;
 }
 .compose-text {
