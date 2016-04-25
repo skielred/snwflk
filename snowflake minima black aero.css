@@ -1397,3 +1397,6 @@ button {
 .stream-item:hover {
     padding-bottom: 0px;
 }
+a[rel="viewDetails"] {
+    display: none;
+}
