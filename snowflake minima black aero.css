@@ -1388,13 +1388,10 @@ button {
     display: none;
 }
 .stream-item {
-    padding-bottom: 3px;
+    background: transparent;
 }
 .js-stream-item-content:hover .tweet-footer {
     display: block;
-}
-.stream-item:hover {
-    padding-bottom: 0px;
 }
 a[rel="viewDetails"] {
     display: none;
