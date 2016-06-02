@@ -112,4 +112,4 @@ Credits
 - [Knowzen](http://twitter.com/Knowzen) who made fixes on his own and helped quite a lot!
 - [Shookaite](http://twitter.com/Shookaite) who fixed some ugly shit on Minima White.
 - [Mathicha](https://github.com/Mathicha) who changed the switches colors.
-- Special thanks to [pixeldesu](http://twitter.com/pixeldesu) (http://pixelde.su/) for Modern TweetDeck, which features were the main additions of Snowflake Minima.
+- Special thanks to [pixeldesu](http://twitter.com/pixeldesu) (http://pixelde.su/) for the late (formerly) Modern TweetDeck/cashmere, which features were the main additions of Snowflake Minima.
