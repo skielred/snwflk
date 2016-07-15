@@ -96,3 +96,4 @@ Credits
 - [Shookaite](http://twitter.com/skielred) who fixed some ugly shit on Lucent Blizzard.
 - [Mathicha](https://github.com/Mathicha) who changed the switches colors.
 - Special thanks to [pixeldesu](http://twitter.com/pixeldesu) (http://pixelde.su/) for the late (formerly) Modern TweetDeck/cashmere, which features were the main additions of snwflk.
+- Also I totally stole [that snowflake icon](http://www.flaticon.com/free-icon/snowflake_24569) .
