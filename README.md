@@ -1,15 +1,9 @@
-[![Snowflake for TweetDeck](https://lh4.googleusercontent.com/-BWhQgIxSK3o/VEfFgg1x-LI/AAAAAAAACAU/DmN1YmAhxCM/w1200-h500-no/Snowflake_banner_blue.png)](http://fractalhexagon.net/dev/snowflake)
+[![snwflk for tweetdeck](https://a.pomf.cat/rywmav.png)](http://fractalhexagon.net/dev/snowflake)
 
 
-What is Snowflake?
+What is snwflk?
 -------------
-Snowflake is a minimalistic theme modification suite for TweetDeck. It's like real flat. [Darker than flat](http://i.imgur.com/F8RAEcw.jpg). [Flatter-than-light](http://i.imgur.com/F8RAEcw.jpg).  
-Sorry, I got carried away.  
-Plus, there various are fancy color schemes!  
-Minima is a spiritual successor to pixeldesu's Modern TweetDeck, with easier-to-read columns and stuff.  
-Also, we're sorry, if you're a dev, our code is pretty messy.  
-We're looking for a JS dev and someone that's good with Firefox extensions too!  
-[Which color scheme do you like the most?](http://strawpoll.me/2823721/)  
+snwflk is a minimalistic theme modification suite for TweetDeck; based on pixeldesu's Modern TweetDeck and cashmere themes. snwflk is based on the idea of having the less clutter and most content on one screen possible, and there are various colour changes. I recommend using it with [Better TweetDeck](https://chrome.google.com/webstore/detail/bettertweetdeck/micblkellenpbfapmcpcfhcoeohhnpob) on Chrome, though you should consider disabling its minimal mode. If you really want to look into this mess, feel free to look into that unholy piece of CSS, however please do credit the original authors. snwflk isn't actually "discontinued" but I'm very lazy, and I likely won't update it unless I need to implement something for my own use.
 
 ## Installation
 
@@ -20,12 +14,11 @@ These instructions are for Stylish on [Chromium-based browsers (like Chrome)](ht
 * Click on the Stylish icon.
 * Click on "Manage installed styles" (Chrome) or "Manage styles" (Firefox).
 * Click on "Write New Style"
-* Name it "Snowflake whatever"
 
 ### How to install this style
 
-* Name the Style anything you want, but something easy to recognise like *Snowflake* would be good.
-* Paste the text from `snowflake whatever.css` for the theme you use into the textbox.
+* Name the Style anything you want, but something easy to recognise like *snwflk* would be good.
+* Paste the text from `snwflk*.css` for the theme you use into the textbox.
 
 #### Chrome
 
@@ -33,6 +26,8 @@ These instructions are for Stylish on [Chromium-based browsers (like Chrome)](ht
 * Click on **Save** and look at TweetDeck!
 
 #### Chrome Web App (Extension)
+
+** It appears that this method doesn't work anymore, so it's discontinued. **
 
 This is a bit more work and does **NOT** require Stylish
 
@@ -45,22 +40,10 @@ This is a bit more work and does **NOT** require Stylish
 
 #### Firefox
 
-* Add the following into the textbox on a single line, before the contents of Snowflake.css: 
+* Add the following into the textbox on a single line, before the contents of snwflk*.css: 
 * `@-moz-document url-prefix("https://tweetdeck.twitter.com") {`
 * Scroll to the bottom of the textbox and add an extra line with a single `}` on it.
 * Click on **Save** and look at TweetDeck!
-
-Releases
--------------
-- Snowflake Classic White [SCW]: Unavailable (Needs re-releasing)
-- [Snowflake Classic Black](https://github.com/WinterReign/Snowflake/blob/master/snowflake%20classic%20black.css) [SCB]
-- [Snowflake Minima Black Aqua](https://github.com/WinterReign/Snowflake/blob/master/snowflake%20minima%20black%20aqua.css) [SMBW]: Black and Blue color scheme
-- [Snowflake Minima Black Pyro](https://github.com/WinterReign/Snowflake/blob/master/snowflake%20minima%20black%20pyro.css) [SMBF]: Black and Red color scheme
-- [Snowflake Minima Black Aero](https://github.com/WinterReign/Snowflake/blob/master/snowflake%20minima%20black%20aero.css) [SMBA]: Black and Purple color scheme
-- [Snowflake Minima Black Earth](https://github.com/WinterReign/Snowflake/blob/master/snowflake%20minima%20black%20earth.css) [SMBE]: Black and Pale Green color scheme
-- [Snowflake Minima Black Dust](https://github.com/WinterReign/Snowflake/blob/master/snowflake%20minima%20black%dust.css) [SMBD]: Black and Orange color scheme
-- [Snowflake Minima Black Sandstorm](https://github.com/WinterReign/Snowflake/blob/master/snowflake%20minima%20black%20sandstorm.css) [SMBS]: Black and Pale Yellow color scheme
-- [Snowflake Minima White Aqua](https://github.com/WinterReign/Snowflake/blob/master/snowflake%20minima%20white%20aqua.css) [SMWW]: Blue and white color scheme
 
 Known issues
 -------------
@@ -82,7 +65,7 @@ Known issues on color schemes variations:
 To-do list
 -------------
 
-- Reorganize the code, make it more *easy to read* and **add comments for other developers**.
+- Reorganize the code, make it more *easy to read* and **add comments for other developers**. Maybe later.
 - ~~Fix issues (nuff said)~~
 - ~~Commit a theme-wise version of Snowflake Classic Black~~
 - Commit a theme-wise version of Snowflake Classic White
@@ -105,11 +88,11 @@ Credits
 
 - [Berter](http://twitter.com/BerterTheBoss); created Snowflake Classic White.
 - [Diamant](http://twitter.com/diamantlefou); created Snowflake Classic Black.
-- [Scimitar](http://twitter.com/wplanetary); created the Snowflake Minima suite.
+- [planetary](http://twitter.com/wplanetary); created the Snowflake Minima/snwflk suite.
 - [Calv](http://twitter.com/calvcoll) who gave us useful advice and fixed a lot of issues; working on the Chrome extension.
 - [Haruto](http://twitter.com/LordHaruto) who fixed a lot of issues.
-- [Yukito](http://twitter.com/Yukito_kun_) who made a fancy logo!
+- [Yukito](http://twitter.com/Yukito_kun_) who made the first iteration of the fancy logo!
 - [Knowzen](http://twitter.com/Knowzen) who made fixes on his own and helped quite a lot!
-- [Shookaite](http://twitter.com/Shookaite) who fixed some ugly shit on Minima White.
+- [Shookaite](http://twitter.com/skielred) who fixed some ugly shit on Lucent Blizzard.
 - [Mathicha](https://github.com/Mathicha) who changed the switches colors.
-- Special thanks to [pixeldesu](http://twitter.com/pixeldesu) (http://pixelde.su/) for the late (formerly) Modern TweetDeck/cashmere, which features were the main additions of Snowflake Minima.
+- Special thanks to [pixeldesu](http://twitter.com/pixeldesu) (http://pixelde.su/) for the late (formerly) Modern TweetDeck/cashmere, which features were the main additions of snwflk.
