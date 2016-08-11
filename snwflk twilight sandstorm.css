@@ -1,130 +1,208 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600&subset=latin,cyrillic-ext,greek-ext,greek,vietnamese,latin-ext,cyrillic);
-/* Snowflake Minima Black for TweetDeck.
-Snowflake Minima is a TweetDeck CSS modification that's designed to look the most minimalistic possible.
-It is based upon Snowflake Classic Black by Diamant and implements some features of pixeldesu's Modern TweetDeck modification.
-You must use it with TweetDeck Dark Theme, and it is better used with Eramdam's Better TweetDeck Chrome extension.
-However, if you are to use it with Better TweetDeck, you must firstly disable the "Minimal" mode as it will conflict with the theme and look not so good.
-The creators of the themes used are Diamant (@diamantlefou), Berter (@BerterTheBoss) and pixeldesu (@pixeldesu or http://pixelde.su/) and was recompiled in a more fitting theme by me, Scimitar (@AlmtyCwrd)
-*/
-/* Loading Screen */
+/* snwflk twilight for tweetdeck.
+snwflk twilight is a tweetdeck css modification that's designed to look the most minimalistic possible.
+it is based upon snowflake classic black by diamant and implements some features of pixeldesu's modern tweetdeck modification (@pixeldesu or http://pixelde.su/).
+you must use it with tweetdeck dark theme, and it is better used with eramdam's better tweetdeck chrome extension (@eramdam).
+however, if you are to use it with better tweetdeck, you must firstly disable the "minimal" mode as it will conflict with the theme and look not so good.
+the creators of the themes used are diamant (@diamantlefou), berter (@bertertheboss) and scimitar (@almtycwrd)
+
+/* implement fonts */
+
+@font-face {
+    font-family: 'RobotoDraft';
+    font-style: normal;
+    font-weight: 400;
+    src: local('RobotoDraft'), local('RobotoDraft-Regular'), url(https://fonts.gstatic.com/s/robotodraft/v3/0xES5Sl_v6oyT7dAKuoni6E8kM4xWR1_1bYURRojRGc.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+    font-family: 'RobotoDraft';
+    font-style: normal;
+    font-weight: 400;
+    src: local('RobotoDraft'), local('RobotoDraft-Regular'), url(https://fonts.gstatic.com/s/robotodraft/v3/0xES5Sl_v6oyT7dAKuoni5QV2lvL5Ba9FjAYK6Lx0Qk.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+@font-face {
+    font-family: 'RobotoDraft';
+    font-style: italic;
+    font-weight: 400;
+    src: local('RobotoDraft Italic'), local('RobotoDraft-Italic'), url(http://fonts.gstatic.com/s/robotodraft/v4/er-TIW55l9KWsTS1x9bTfhNcqx07xvyppV96iFRdwiM.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+@font-face {
+    font-family: 'RobotoDraft';
+    font-style: italic;
+    font-weight: 400;
+    src: local('RobotoDraft Italic'), local('RobotoDraft-Italic'), url(http://fonts.gstatic.com/s/robotodraft/v4/er-TIW55l9KWsTS1x9bTfufhZE2STYI3KzBGzrJG_ik.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+    font-family: 'RobotoDraft';
+    font-style: italic;
+    font-weight: 400;
+    src: local('RobotoDraft Italic'), local('RobotoDraft-Italic'), url(http://fonts.gstatic.com/s/robotodraft/v4/er-TIW55l9KWsTS1x9bTfm6cj8HaeL2jS4NIBPr3RFo.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF;
+}
+@font-face {
+    font-family: 'RobotoDraft';
+    font-style: italic;
+    font-weight: 400;
+    src: local('RobotoDraft Italic'), local('RobotoDraft-Italic'), url(http://fonts.gstatic.com/s/robotodraft/v4/er-TIW55l9KWsTS1x9bTftcKKn5Xt5n-nnvkqIBMZms.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+}
+@font-face {
+    font-family: 'RobotoDraft';
+    font-style: italic;
+    font-weight: 400;
+    src: local('RobotoDraft Italic'), local('RobotoDraft-Italic'), url(http://fonts.gstatic.com/s/robotodraft/v4/er-TIW55l9KWsTS1x9bTfvoTkEokFSrSpvYSpZOeZRs.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+1EA0-1EF1, U+20AB;
+}
+
+body,
+.fullname,
+.username,
+.prf-follow-status .s-follows,
+.prf-bio,
+.location .txt-ellipsis,
+.label .action-text .following-text {
+    font-family: 'RobotoDraft';
+}
+.label .action-text .following-text,
+.js-social-proof .social-proof-container .txt-base-small .cf .padding-al,
+.prf-meta .cf,
+.txt-ellipsis,
+.pull-left,
+.social-proof-names .pull-right {
+    font-family: 'RobotoDraft';
+}
+
+
+/*
+html,
+body,
+.fullname,
+.username,
+.prf-follow-status .s-follows,
+.prf-bio,
+.location .txt-ellipsis,
+.label .action-text .following-text {
+    font-family: 'Calibri Light';
+}
+.label .action-text .following-text,
+.js-social-proof .social-proof-container .txt-base-small .cf .padding-al,
+.prf-meta .cf,
+.txt-ellipsis,
+.pull-left,
+.social-proof-names .pull-right {
+    font-family: 'Calibri Light';
+}
+/* loading screen */
 
 body {
-    background-image: url(http://i.imgur.com/s8n1tbr.png);
+    background-image: url(https://fractalhexagon.net/rsrc/snwflk/loading-bg_aero.png);
     background-size: cover;
 }
-/* Scrollbar Changes */
+/* scrollbar changes */
 
 .scroll-styled-v::-webkit-scrollbar-thumb,
 .scroll-styled-h::-webkit-scrollbar-thumb {
     border-radius: 0px;
-    background-color: #333;
+    background-color: transparent;
 }
-
+.scroll-styled-v::-webkit-scrollbar-thumb:hover,
+.scroll-styled-h::-webkit-scrollbar-thumb:hover .scroll-v::-webkit-scrollbar-thumb:hover,
+.scroll-h::-webkit-scrollbar-thumb:hover {
+    background-color: #E6E68E;
+}
+.scroll-styled-v::-webkit-scrollbar-thumb:active,
+.scroll-styled-h::-webkit-scrollbar-thumb:active .scroll-v::-webkit-scrollbar-thumb:active,
+.scroll-h::-webkit-scrollbar-thumb:active {
+    background-color: #E6E68E;
+}
 .scroll-styled-v::-webkit-scrollbar-track,
 .scroll-styled-h::-webkit-scrollbar-track {
     border-left: 0px;
+    border-radius: 0px;
 }
-/* Fix colors in Accounts */
+.scroll-v::-webkit-scrollbar-thumb,
+.scroll-h::-webkit-scrollbar-thumb {
+    border-radius: 0px;
+    background-color: transparent;
+}
+.scroll-v::-webkit-scrollbar-track,
+.scroll-h::-webkit-scrollbar-track {
+    border-left: 0px;
+    border-radius: 0px;
+    background: transparent;
+}
+/* fix colors in accounts */
 
 div.account-summary-text.nbfc.padding-tm.account-link {
     color: #ccc;
 }
-
 .is-inverted-dark .accordion .is-active {
     color: #ccc;
 }
-/* Applying font */
-
-body {
-    font-family: 'Open Sans', sans-serif;
-}
-
-.is-inverted-dark {
-    font-family: 'Open Sans', sans-serif;
-}
-/* Column-Update Sprite */
+/* column update borders sprite */
 
 .column-header,
 .column-header-temp {
     border-bottom: 0px;
 }
-
-.sprite-column-update {
-    width: 100%;
-    height: 1px;
-    border-bottom: 3px solid #ffffff;
-    margin-top: -1px;
-}
-
 .column-updates {
     margin-left: 0px;
     left: 0%;
 }
-
 .column-type-icon {
     display: none;
 }
-
-.tweet-dogear {
-    display: block;
-}
-/* Fixing RT blocks font color */
+/* fixing rt blocks font color */
 
 .js-mdl-header,
 .mdl-header {
     color: #cccccc;
 }
-
 #actions-modal > div > div.js-inreply.cmp-replyto.item-box.is-inverted-dark > div > header > a > div.nbfc > span {
     color: #cccccc;
 }
-
 #actions-modal > div > div.js-inreply.cmp-replyto.item-box.is-inverted-dark > div > div > p {
     color: #cccccc;
 }
-/* Fixing "Follow" Button color */
+/* fixing "follow" button color */
 
 body > div.js-modals-container > div > div > div > div > div > div.prf-actions > div.prf-meta.cf > div > div > button > div.action-text.follow-text > span {
     color: #E6E68E;
     display: none;
 }
-/* Compose box colors and padding */
+/* compose box colors and padding */
 
 .js-compose-title {
     margin-left: 0px !important;
 }
-
 .padding-bm {
     padding-right: 22px;
 }
-
 .drawer .tweet-text {
     color: #E6E68E !important;
 }
-
 .compose-remember-state,
 .character-count-compose:disabled,
 .txt-r-text-link {
     color: #E6E68E !important;
 }
-
 .compose-text-title {
     color: #E6E68E;
 }
-
 .compose-text {
     background-color: #171717;
     color: #ccc;
     border-color: #171717;
 }
-
 .compose-text-container {
     margin-right: 0px !important;
     margin-left: 0px !important;
     margin-top: 5px;
     border-color: #171717 !important;
     background-color: #171717 !important;
-}
 }
 .compose-reply-tweet {
     margin-left: 0px !important;
@@ -153,7 +231,7 @@ body > div.js-app.application.is-condensed.hide-detail-view-inline > div.js-app-
 body > div.js-app.application.is-condensed.hide-detail-view-inline > div.js-app-content.app-content > div > div > div > div > div.js-account-list.margin-bm.compose-accounts.cf.is-list > a > div.pull-left.compose-account-names {
     color: #E6E68E;
 }
-/* Dropdown menus tweaks */
+/* dropdown menus tweaks */
 
 body > div.js-app.application.is-condensed > header > div > div.js-search.js-overlay.app-search > div > div {
     background-color: #171717;
@@ -188,7 +266,7 @@ body > div.js-modals-container > div > div > div > div > div > div.prf-actions >
     background-color: #171717;
     border-color: #171717;
 }
-/* Keyboard shortcut fix */
+/* keyboard shortcut fix */
 
 .keyboard-shortcut-list-modal .mdl-content {
     background-color: #171717;
@@ -196,7 +274,7 @@ body > div.js-modals-container > div > div > div > div > div > div.prf-actions >
 #open-modal > div > div > div {
     color: #aaa;
 }
-/* Profile tweaks */
+/* profile tweaks */
 
 .prf-actions {
     background-color: #171717 !important;
@@ -237,29 +315,29 @@ body > div.js-modals-container > div > div > div > div > div > div.prf-actions >
 body > div.js-modals-container > div > div > div > div > div > div.prf-actions > div.prf-meta.cf > div > div > button > div.label.js-action-profile.action-text.thats-you-text {
     color: #E6E68E !important;
 }
-/* Selecting tweaks */
+/* selecting tweaks */
 
 ::selection {
     background-color: #E6E68E;
     color: #fff;
 }
-/* Fixes the bug that makes the tweet button appear when it shouldn't. */
+/* fixes the bug that makes the tweet button appear when it shouldn't. */
 
 .compose-content .pull-right .btn.is-disabled {
     color: rgba(87, 87, 87, 0.73);
 }
-/* Hides the 1px bar showing in profiles. */
+/* hides the 1px bar showing in profiles. */
 
 .js-customtimeline-description {
     display: none;
 }
-/* Selected tweet replybox color fix */
+/* selected tweet replybox color fix */
 
 .detail-view-inline-text {
     background-color: #171717;
     color: #ccc;
 }
-/* Profile tweets fix */
+/* profile tweets fix */
 
 .js-detail-content {
     padding-bottom: 0px !important;
@@ -280,11 +358,11 @@ body > div.js-modals-container > div > div > div > div > div > div.prf-actions >
 .mdl {
     border-radius: 0px;
 }
-#open-modal > div > div > div > div > div.js-left-pinned.pin-top > form > div > input {
+#open-modal > div > div > div > div:nth-child(1) > div.js-left-pinned.pin-top > form > div > input {
     background-color: #171717 !important;
     color: #ccc;
 }
-/* Settings fix */
+/* settings fix */
 
 .lst-group .js-setting-list {
     color: #ccc;
@@ -316,11 +394,11 @@ body > div.js-modals-container > div > div > div > div > div > div.prf-actions >
 .btn {
     border-color: #171717 !important;
 }
-/* Column options hotfix */
+/* column options hotfix */
 
 .column-options {
     top: 4px !important;
-    background-color: #171717;
+    background-color: transparent;
 }
 .is-options-open .column-settings-link {
     background-color: #171717;
@@ -328,7 +406,7 @@ body > div.js-modals-container > div > div > div > div > div > div.prf-actions >
 .column-message {
     background-color: #171717;
 }
-/* Search results hotfix */
+/* search results hotfix */
 
 body > div.js-app.application.is-condensed > header > div > div.js-search.js-overlay.app-search.has-overlay > div > div > div.js-popover-content.scroll-none > div.js-search-results-container > div > div.js-fhf-header.position-rel > div > div.js-search-filter.js-accordion.accordion.accordion-divider-t > div.js-accordion-item.facet-type.facet-type-content.is-expanded.is-active > div.js-accordion-toggle-view.accordion-header.is-actionable.link-clean.block.cf.txt-base-medium > div.obj-left.facet-title {
     color: #ccc;
@@ -381,7 +459,7 @@ body > div.js-app.application.is-condensed > header > div > div.js-search.js-ove
 }
 .is-inverted-dark .txt-mute {
     background-color: #171717;
-    color: #ccc;
+    color: #215C88;
 }
 select.js-containing {
     background-color: #171717;
@@ -407,7 +485,7 @@ select.js-mentioning {
     background-color: #171717;
     color: #ccc;
 }
-/* Legacy code */
+/* legacy code */
 
 .application,
 .app-content,
@@ -487,8 +565,18 @@ select.js-mentioning {
     z-index: 2;
     background-color: #171717;
 }
-.drawer-header:after {
-    height: 0px;
+.is-open .drawer:after {
+    content: ' ';
+    display: block;
+    box-shadow: 2px 0px 1px rgba(0, 0, 0, 0);
+    position: absolute;
+    z-index: 2;
+    width: 1px;
+    top: 0;
+    left: 270px;
+    height: 100%;
+    margin-right: 0;
+    margin-left: -2px;
 }
 .txt-r-dark-gray {
     color: #E6E68E;
@@ -576,7 +664,7 @@ select.js-mentioning {
     border: none;
 }
 .btn-negative {
-    color: #A00;
+    color: #a00;
 }
 .app-search-fake {
     color: #E6E68E;
@@ -612,7 +700,7 @@ select.js-mentioning {
 }
 .mdl-column-rhs {
     border-left: transparent;
-    background-color: #171717
+    background-color: rgb(23, 23, 23)
 }
 .mdl-column-rhs .stream-item {
     background-color: #171717
@@ -640,7 +728,7 @@ select.js-mentioning {
 }
 .is-inverted-light,
 .is-inverted-light .account-link {
-    color: #292F33;
+    color: #292f33;
 }
 .tweet-stats {
     border-top: none;
@@ -772,17 +860,12 @@ select,
     color: #E6E68E;
     background-color: transparent;
 }
-.is-selected-tweet {
-    background-color: rgba(206, 206, 130, 0.1)
-}
+
 #open-modal .tweet-body {
     color: white
 }
 #open-modal .fullname {
     color: white
-}
-.sprite {
-    background-image: url('http://i.imgur.com/oTExYcd.png');
 }
 .lst-group .selected .fullname {
     color: white
@@ -830,7 +913,7 @@ select,
 .mdl-inner .column-head-title {
     color: white
 }
-/* Column Header Condensing; this was originally written by pixeldesu */
+/* column header condensing; this was originally written by pixeldesu */
 
 .js-column-header {
     height: 30px;
@@ -853,7 +936,7 @@ select,
 .column-title-back .icon {
     top: 50%;
 }
-/* Column Width/Spacing; this was also written by pixeldesu */
+/* column width/spacing; this was also written by pixeldesu */
 
 .is-wide-columns .column {
     width: 350px;
@@ -935,29 +1018,7 @@ select,
     display: inline-block;
     width: 94%;
 }
-/* ==OPTIONAL==
-Just add the slashes and asterisk at the two extremities of the code to deactivate and option */
-/* Display colored bar on the side instead of orange and green Fav/RT corners */
-
-.tweet-dogear {
-    display: block;
-    width: 0.1px;
-    height: 100%;
-    background-image: none;
-}
-.is-favorite .tweet-dogear {
-    border-right: 3px solid #ff9b00;
-    box-shadow: 0px 0px 0px #ff9b00;
-}
-.is-retweet.is-favorite .tweet-dogear {
-    border-right: 3px solid #ffffff;
-    box-shadow: 0px 0px 0px #ffffff;
-}
-.is-retweet .tweet-dogear {
-    border-right: 3px solid #71b332;
-    box-shadow: 0px 0px 0px #71b332;
-}
-/* Changing colors of link if the tweet is fav/RT/favRT */
+/* changing colors of link if the tweet is fav/rt/favrt */
 
 .is-retweet .tweet-text a {
     color: #71b332;
@@ -968,26 +1029,28 @@ Just add the slashes and asterisk at the two extremities of the code to deactiva
 .is-retweet.is-favorite .tweet-text a {
     color: #ffffff;
 }
-/* Squared Avatars
-Note: this is disabled because I don't like it, but if it's your kind of stuff, you can use it. Just remove the comment beacons. NOTE: IF YOU ARE USING BETTER TWEETDECK'S ROUNDED AVATARS, THIS THEME WILL OVERRIDE THESE. */
-/*
-.tweet-avatar {
-    border-radius: 0px !important;
+/* squared avatars
+note: this is disabled because i don't like it, but if it's your kind of stuff, you can use it. just remove the comment beacons. note: if you are using better tweetdeck's rounded avatars, this theme will override these. */
+/* .tweet-avatar {
+	border-radius: 0px !important;
 }
+
 .avatar {
-    border-radius: 0px !important;
+	border-radius: 0px !important;
 }
+
 .size24 {
-    border-radius: 0px !important;
+	border-radius: 0px !important;
 }
+
 .size72 {
-    border-radius: 0px !important;
+	border-radius: 0px !important;
 }
+
 .prf-img {
-    border-radius: 0px !important;
-}
-*/
-/* Rounded Avatars */
+	border-radius: 0px !important;
+} */
+/* rounded avatars */
 
 .tweet-avatar {
     border-radius: 100px;
@@ -1004,14 +1067,14 @@ Note: this is disabled because I don't like it, but if it's your kind of stuff, 
 .prf-img {
     border-radius: 100px;
 }
-/* Implement rounded/squared avatars on retweet boxes */
+/* implement rounded/squared avatars on retweet boxes */
 
 .accs .acc-avatar {
     border-radius: 100px;
 }
-/* This one is for rounded avatars, add comment brackets to disable */
-/* .accs .acc-avatar {border-radius: 0px;} This one is for squared avatars, remove brackets to enable */
-/* DO NOT TOUCH THIS UNLESS YOU KNOW WHAT YOU ARE DOING */
+/* this one is for rounded avatars, add comment brackets to disable */
+/* .accs .acc-avatar {border-radius: 0px;} this one is for squared avatars, remove brackets to enable */
+/* do not touch this unless you know what you are doing */
 
 .padding-al {
     padding: 5px !important
@@ -1019,12 +1082,12 @@ Note: this is disabled because I don't like it, but if it's your kind of stuff, 
 .js-customtimeline-description {
     display: none;
 }
-/* Hotfixes of blue colors */
+/* hotfixes of blue colors */
 
 .icon-unread-color {
     color: #E6E68E !important;
 }
-/* Only useful to Better TweetDeck users */
+/* only useful to better tweetdeck users */
 
 .icon-center-24 {
     color: #E6E68E !important;
@@ -1060,10 +1123,10 @@ Note: this is disabled because I don't like it, but if it's your kind of stuff, 
     background-color: #E6E68E;
 }
 .column-nav-updates {
-    color: #ffffff;
+    color: #E6E68E;
 }
 .is-unread {
-    background: rgba(206, 206, 130, 0.67);
+    background: rgba(134, 109, 165, 0.63);
 }
 #container > div > section.js-column.column.column-type-message.will-animate.is-moving > div > div > div.js-column-content.column-content > div.js-column-scroller.js-dropdown-container.column-scroller.scroll-v.scroll-styled-v > div > article.is-unread > div > div > div > div.tweet-body.l-cell > div > p > span > a {
     color: #bbb;
@@ -1071,29 +1134,22 @@ Note: this is disabled because I don't like it, but if it's your kind of stuff, 
 .numbered-badge {
     border-radius: 100px !important;
     background-color: #E6E68E !important;
-    color: #171717;
 }
-.is-selected-tweet .compose-text {
-    background-color: rgba(206, 206, 130, 0.1);
-}
-.is-selected-tweet .compose-text-container {
-    border-color: rgba(206, 206, 130, 0.1) !important;
-}
+
 .follow-btn .icon {
     color: #E6E68E;
 }
-/* Fixing tweet flash color. This only applies to Better TweetDeck users, other users should not mind. */
+/* fixing tweet flash color. this only applies to better tweetdeck users, other users should not mind. */
 
 @-webkit-keyframes tweet-enter {
     from {
-        background-color: rgba(206, 206, 130, 1);
+        background-color: rgba(134, 109, 165, 1);
     }
-    
     to {
-        background-color: rgba(206, 206, 130, 0);
+        background-color: rgba(134, 109, 165, 0);
     }
 }
-/* Fixes to DM compose box */
+/* fixes to dm compose box */
 
 .rpl textarea {
     background: #171717;
@@ -1105,89 +1161,58 @@ textarea,
 select {
     background-color: #171717 !important;
     color: #ddd !important;
-    border-color: #171717;
-    !important
+    border-color: #171717 !important;
 }
-/* Dropdown menu fixes */
+/* dropdown menu fixes */
 
 .dropdown-menu {
     background-color: #171717;
     border-color: #171717;
 }
-/* Fix button compose shadow */
+/* fix button compose shadow */
 
 .btn-compose {
-    box-shadow: 1px 1px 0 rgba(255, 255, 255, 0)
+    box-shadow: 1px 1px 0 rgba(255, 255, 255, 0);
 }
-/* Recovered from Snowflake Classic; Spinner color fix */
+/* recovered from snowflake classic; spinner color fix */
 
 .spinner-button-icon-spinner {
-    background-image: url('http://i.imgur.com/8HC6epP.gif')
+    background-image: url('http://i.imgur.com/8hc6epp.gif');
 }
-/* Snowflake Classic code; Major overhaul of the image view mode. Transparency, and some backgrounds for text w/ opacity changes */
-
-#open-modal .med-fullpanel {
-    max-width: 50%;
-}
-#open-modal .med-fullpanel > .med-tweet {
-    left: 0;
-    right: 0;
-}
-#open-modal .js-mediatable .mdl {
-    background: transparent;
-}
-#open-modal .js-mediatable .mdl .med-tweet {
-    background: rgba(23, 23, 23, 0.6);
-}
-#open-modal .med-fullpanel .mdl-dismiss .icon {
-    background: rgba(23, 23, 23, 0.6);
-}
-#open-modal .js-mediatable .med-tray {
-    padding-bottom: 0px;
-}
-#open-modal .js-mediatable .med-tray > .js-media-preview-container.margin-vm {
-    margin-top: 0px !important;
-    margin-bottom: 0px !important;
-}
-#open-modal .js-mediatable .med-tray > a {
-    background: rgba(23, 23, 23, 0.6);
-    bottom: 0px;
-}
-.mdl.s-full {
-    /* Potentially not needed. */
-    
-    width: 60%;
-}
-/* Border hotfix */
+/* border hotfix */
 
 .stream-item:not(.conversation-event) {
-    border: none !important;
+    border: none
 }
-/* Selected accounts fixes */
+.ovl,
+.overlay {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+/* selected accounts fixes */
 
 .compose-account-selected {
     background-color: #E6E68E;
     border-radius: 100px;
-    box-shadow: 0px 0px 0 rgba(17, 17, 17, 0.2)
+    box-shadow: 0px 0px 0 rgba(17, 17, 17, 0.2);
 }
 .column-number {
-    display: none;
+    color: #E6E68E;
 }
 .bg-r-white {
-    background-color: #171717
+    background-color: #171717;
 }
-/* Compose drawer shadow fix */
+/* compose drawer shadow fix */
 
 .drawer {
     z-index: 2;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0) !important;
 }
-/* Loading spinner fix */
+/* loading spinner fix */
 
 .med-embeditem {
-    background: transparent url("https://i.imgur.com/hvLaZyv.gif") no-repeat 50% 50%
+    background: transparent url("https://i.imgur.com/hvlazyv.gif") no-repeat 50% 50%;
 }
-/* Fixing sensitive media background */
+/* fixing sensitive media background */
 
 .media-sensitive {
     background-color: #171717;
@@ -1197,42 +1222,216 @@ select {
 }
 .prf-img {
     background: rgba(23, 23, 23, 0.4) !important;
-    box-shadow: 0 1px 10px rgba(23, 23, 23, 0.85);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.85);
+    /* comment this out if you want a purely flat profile */
+    
     padding: 0px;
 }
 .prf-header {
-    text-shadow: 0 3px 20px rgba( 0, 0, 0, 0.75);
+    text-shadow: 0 1px 5px rgba( 0, 0, 0, 0.75);
+    border-radius: 0;
 }
 .prf .username {
-    text-shadow: 0 3px 20px rgba( 0, 0, 0, 0.75);
+    text-shadow: 0 1px 5px rgba( 0, 0, 0, 0.75);
 }
 .bg-r-faded-gray {
     background-color: #171717;
 }
 /* quoted tweet border */
-.quoted-tweet {background: transparent; border: transparent;}
 
+.quoted-tweet {
+    background: transparent;
+    border: transparent;
+}
 /* username in column fix */
 
 .btd-ready .column-title .attribution {
     font-size: 10px;
 }
-
 .column-message {
     background: transparent;
 }
-
 /* fixing the new tweets button */
-.js-more-tweets-btn-text {display: none;}
-.more-tweets-btn .icon {font-size: 1.8em; color: #fff !important; background-color: #E6E68E; border-radius: 100px;}
 
-/* neato header tweaks */
-span.column-head-title {color: #E6E68E;}
+.js-more-tweets-btn-text {
+    display: none;
+}
+.more-tweets-btn .icon {
+    font-size: 1.8em;
+    color: #fff !important;
+    background-color: #E6E68E;
+    border-radius: 100px;
+}
+span.column-head-title {
+    color: #E6E68E;
+}
+/* disable this if you dislike the lowercase aesthetic */
+/* body {
+    text-transform: lowercase !important;
+} */
 
-/* DISABLE THIS IF YOU DISLIKE THE LOWERCASE AESTHETIC */
-body {text-transform: lowercase;}
+button {
+    text-transform: lowercase;
+}
+.prf-stats {
+    text-transform: lowercase;
+}
+.prf .lst-profile span {
+    text-transform: lowercase;
+}
+.prf-follow-status {
+    text-transform: lowercase;
+    background-color: rgba(14, 30, 55, 0.4)
+    color: #fff;
+}
+/* fixed toggle switch color */
 
-/* Fixed toggle switch color */
 .toggle-switch-input:checked+.toggle-switch-label:before {
-background-color: #E6E68E;
+    background-color: #E6E68E;
+}
+.toggle-switch-label:after {
+    border-radius: 0px;
+    border: none;
+}
+.toggle-switch-label:after {
+    border-radius: 0px;
+    border: none;
+    box-shadow: inset 0px 2px 8px -3px rgba(0, 0, 0, 0.51)
+}
+/* changing avatar borders */
+
+.is-retweet .tweet-avatar {
+    border: 3px solid #71b332;
+}
+.is-favorite .tweet-avatar {
+    border: 3px solid #ff9b00;
+}
+.is-retweet.is-favorite .tweet-avatar {
+    border: 3px solid #fff;
+}
+.is-retweet .icon-small-context {
+    color: #71b332;
+}
+.is-favorite .icon-small-context {
+    color: #ff9b00;
+}
+.is-retweet.is-favorite .icon-small-context {
+    color: #fff;
+}
+/* account area fixes */
+
+.drawer-header:after {
+    background-color: #171717;
+}
+.drawer-content .pin-all .scroll-v {
+    display: none;
+}
+.sprite {
+    background-image: url("https://a.pomf.cat/kazsiw.png");
+}
+.js-app-loading img.spinner-centered {
+    display: none;
+}
+.tweet-message .l-table {
+    display: none !important;
+}
+.tweet-message .tweet-avatar {
+    width: 24px;
+    height: 24px;
+}
+.is-unread .tweet-message .l-table {
+    display: table !important;
+    vertical-align: middle;
+}
+.tweet-message .conversation-indicator {
+    display: none;
+}
+.tweet-message .nbfc {
+    margin-left: -25px;
+    line-height: 1.6em;
+}
+.tweet-message .tweet-text {
+    margin-left: -24px;
+}
+.buffer-tweetdeck .icon-buffer,
+.buffer-tweetdeck .icon.icon-buffer {
+    display: none !important;
+}
+.js-stream-item-content .tweet-footer {
+    display: none;
+}
+.stream-item {
+    background: transparent;
+}
+.js-stream-item-content:hover .tweet-footer {
+    display: block;
+}
+a[rel="viewDetails"] {
+    display: none;
+}
+.column-content {
+    top: 0px !important;
+}
+.mdl.s-full {
+    max-width: none;
+}
+.buffer-tweetdeck .btn.btn-buffer.is-disabled {
+    display: none !important;
+}
+.btd__no_bg_modal .drawer .compose .btn-on-blue {
+    background-color: transparent !important;
+}
+.btd__no_bg_modal .mdl-media-next .icon,
+.btd__no_bg_modal .mdl-media-prev .icon {
+    background-color: transparent;
+}
+.mdl-btn-media,
+.is-inverted-light .mdl-btn-media {
+    text-shadow: 1px 1px 1px #111;
+}
+.column-head-title {
+    text-transform: lowercase;
+}
+.account-inline .fullname {
+    color: #fff;
+}
+.account-inline .username {
+    color: #FFFFC8;
+}
+.media-caret {
+    display: none;
+}
+b,
+strong {
+    font-weight: normal;
+}
+
+.column-detail .is-selected-tweet, .stream-item .is-selected-tweet {background-color: rgba(0, 83, 138, 0.2);}
+
+/* moar lowercase (this should be in uppercase to denote screaming but it isn't because moar lowercase) */
+
+.js-compose-title, .compose-text-title, .dropdown-menu .typeahead-item, .dropdown-menu [data-action], .lst-group, .toggle-switch-label, .cf b, .cf strong, .btn, .control-label, .margin-t--2, .margin-txs, .fixed-width-label {text-transform: lowercase;}
+
+.popover, #calbody, #calweeks, #caldays, #caldays span {
+    background: #171717;
+    color: #eee;
+    border-radius: 0;
+}
+
+a.caldisabled {
+	background: #171717 !important;
+}
+
+.calweek a {
+    color: #aaa;
+    border-radius: 0px;
+}
+
+#calcurrent {
+    background-color: #E6E68E;
+    color: #fff;
+}
+
+.emoji-popover .emoji-category-title {
+    color: #eee;
 }
