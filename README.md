@@ -93,7 +93,7 @@ Credits
 - [Haruto](http://twitter.com/LordHaruto) who fixed a lot of issues.
 - [Yukito](http://twitter.com/Yukito_kun_) who made the first iteration of the fancy logo!
 - [Knowzen](http://twitter.com/Knowzen) who made fixes on his own and helped quite a lot!
-- [Shookaite](http://twitter.com/skielred) who fixed some ugly shit on Lucent Blizzard.
+- [Shookaite](http://twitter.com/Shookaite) who fixed some ugly shit on Lucent Blizzard.
 - [Mathicha](https://github.com/Mathicha) who changed the switches colors.
 - Special thanks to [pixeldesu](http://twitter.com/pixeldesu) (http://pixelde.su/) for the late (formerly) Modern TweetDeck/cashmere, which features were the main additions of snwflk.
 - Also I totally stole [that snowflake icon](http://www.flaticon.com/free-icon/snowflake_24569) .
